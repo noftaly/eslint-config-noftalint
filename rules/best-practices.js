@@ -28,10 +28,10 @@ module.exports = {
     'default-param-last': 'off',
 
     // Encourages use of dot notation whenever possible
-    'dot-notation': 'error',
+    'dot-notation': ['error', { allowKeywords: true }],
 
     // Enforces consistent newlines before or after dots
-    'dot-location': 'error',
+    'dot-location': ['error', 'property'],
 
     // Require the use of === and !==
     eqeqeq: ['error', 'always', { null: 'ignore' }],
@@ -189,7 +189,8 @@ module.exports = {
     'no-return-assign': ['error', 'always'],
 
     // Disallow redundant `return await`
-    'no-return-await': 'error',
+    // TODO: When possible, enable it, and disable it juste for one-line arrow functions
+    'no-return-await': 'off',
 
     // Disallow use of `javascript:` urls.
     'no-script-url': 'off',

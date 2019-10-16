@@ -18,7 +18,9 @@ module.exports = {
     }],
 
     // Require parens in arrow function arguments
-    'arrow-parens': ['error', 'always'],
+    'arrow-parens': ['error', 'as-needed', {
+      requireForBlockBody: true,
+    }],
 
     // Require space before/after arrow function's arrow
     'arrow-spacing': ['error', { before: true, after: true }],
@@ -103,12 +105,7 @@ module.exports = {
     'rest-spread-spacing': ['error', 'never'],
 
     // Import sorting
-    'sort-imports': ['error', {
-      ignoreCase: false,
-      ignoreDeclarationSort: false,
-      ignoreMemberSort: false,
-      memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-    }],
+    'sort-imports': 'off',
 
     // Require a Symbol description
     'symbol-description': 'error',

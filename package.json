@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-noftalint",
+  "version": "1.0.1",
+  "description": "Noftaly's eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "noftaly"
+  ],
+  "author": "noftaly",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^6.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^6.5.1"
+  },
+  "engines": {
+    "node": ">= 6"
+  }
+}

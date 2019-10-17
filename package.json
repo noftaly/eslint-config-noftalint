@@ -9,6 +9,9 @@
   "keywords": [
     "eslint",
     "eslintconfig",
+    "noftalint",
+    "eslint-config",
+    "eslint-config-noftalint",
     "noftaly"
   ],
   "author": "noftaly",

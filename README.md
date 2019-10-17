@@ -26,6 +26,11 @@ This config contains all of my ESLint rules, including ECMAScript 6+. It require
 
 2. Add `"extends": "noftalint"` to your `.eslintrc`.
 
+## Links
+
+Github repository : [eslint-config-noftalint](https://github.com/noftaly/eslint-config-noftalint)
+NPM package : [eslint-config-noftalint](https://www.npmjs.com/package/eslint-config-noftalint)
+
 ## Credits
 
 Inspired by the [Airbnb's config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)

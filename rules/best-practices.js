@@ -241,7 +241,7 @@ module.exports = {
     'no-with': 'error',
 
     // Require using Error objects as Promise rejection reasons
-    'prefer-promise-reject-errors': 'error',
+    'prefer-promise-reject-errors': 'off',
 
     // Suggest using named capture group in regular expression
     'prefer-named-capture-group': 'off',

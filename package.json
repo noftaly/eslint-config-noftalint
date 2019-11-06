@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noftalint",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Noftaly's eslint configuration",
   "main": "index.js",
   "scripts": {

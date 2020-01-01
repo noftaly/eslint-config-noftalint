@@ -4,7 +4,9 @@
   "description": "Noftaly's eslint configuration",
   "main": "index.js",
   "scripts": {
-    "find-rules": "eslint-find-rules --unused --plugin ./index.js"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "find-rules": "eslint-find-rules --unused ./index.js"
   },
   "keywords": [
     "eslint",
@@ -25,7 +27,8 @@
     "eslint-find-rules": "^3.4.0",
     "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-optimize-regex": "^1.1.7"
+    "eslint-plugin-optimize-regex": "^1.1.7",
+    "eslint-plugin-unicorn": "^15.0.1"
   },
   "engines": {
     "node": ">= 6"

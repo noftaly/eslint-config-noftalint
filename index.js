@@ -9,6 +9,7 @@ module.exports = {
     './rules/regex',
     './rules/strict',
     './rules/style',
+    './rules/unicorn',
     './rules/variables',
   ].map(require.resolve),
   parserOptions: {

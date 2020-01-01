@@ -36,6 +36,9 @@ module.exports = {
     // Require the use of === and !==
     eqeqeq: ['error', 'always', { null: 'ignore' }],
 
+    // Require grouped accessor pairs in object literals and classes
+    'grouped-accessor-pairs': 'error',
+
     // Make sure for-in loops have an if statement
     'guard-for-in': 'error',
 
@@ -50,6 +53,9 @@ module.exports = {
 
     // Disallow lexical declarations in case/default clauses
     'no-case-declarations': 'off',
+
+    // Disallow returning value in constructor
+    'no-constructor-return': 'error',
 
     // Disallow division operators explicitly at beginning of regular expression
     'no-div-regex': 'off',

@@ -321,6 +321,9 @@ module.exports = {
     // Require or disallow padding lines between statements
     'padding-line-between-statements': 'off',
 
+    // Disallow the use of Math.pow in favor of the ** operator
+    'prefer-exponentiation-operator': 'error',
+
     // Prefer use of an object spread over Object.assign
     'prefer-object-spread': 'error',
 

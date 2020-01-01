@@ -4,7 +4,7 @@
   "description": "Noftaly's eslint configuration",
   "main": "index.js",
   "scripts": {
-    "find-rules": "eslint-find-rules --unused ./index.js"
+    "find-rules": "eslint-find-rules --unused --plugin ./index.js"
   },
   "keywords": [
     "eslint",

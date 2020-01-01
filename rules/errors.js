@@ -33,6 +33,9 @@ module.exports = {
     // Disallow duplicate arguments in functions
     'no-dupe-args': 'error',
 
+    // Disallow duplicate conditions in if-else-if chains
+    'no-dupe-else-if': 'error',
+
     // Disallow duplicate keys when creating object literals
     'no-dupe-keys': 'error',
 
@@ -89,6 +92,9 @@ module.exports = {
 
     // Disallow multiple spaces in a regular expression literal
     'no-regex-spaces': 'error',
+
+    // Disallow returning values from setters
+    'no-setter-return': 'error',
 
     // Disallow sparse arrays
     'no-sparse-arrays': 'error',

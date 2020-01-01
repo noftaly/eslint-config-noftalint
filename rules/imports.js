@@ -6,9 +6,7 @@ module.exports = {
     ecmaVersion: 6,
     sourceType: 'module',
   },
-  plugins: [
-    'import',
-  ],
+  plugins: ['import'],
 
   settings: {
     'import/resolver': {

@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'html',
-  ],
+  plugins: ['html'],
 
   settings: {
     'html/html-extensions': ['.ejs', '.erb', '.handlebars', '.hbs', '.htm', '.html', '.mustache', '.nunjucks', '.njk', '.php'],

@@ -24,7 +24,8 @@
     "eslint": "^6.8.0",
     "eslint-find-rules": "^3.4.0",
     "eslint-plugin-html": "^6.0.0",
-    "eslint-plugin-import": "^2.19.1"
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-optimize-regex": "^1.1.7"
   },
   "engines": {
     "node": ">= 6"

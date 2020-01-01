@@ -45,7 +45,7 @@ module.exports = {
     'import/no-named-as-default-member': 'error',
 
     // Disallow use of jsdoc-marked-deprecated imports
-    'import/no-deprecated': 'warning',
+    'import/no-deprecated': 'warn',
 
     // Forbid the use of extraneous packages
     // Paths are treated both as absolute paths, and relative to process.cwd()
@@ -80,7 +80,7 @@ module.exports = {
     'import/no-mutable-exports': 'error',
 
     // Disallow require()
-    'import/no-commonjs': 'warning',
+    'import/no-commonjs': 'warn',
 
     // Disallow AMD require/define
     'import/no-amd': 'error',
@@ -109,7 +109,6 @@ module.exports = {
       groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
       alphabetize: {
         order: 'asc',
-        caseInsensitive: true,
       },
     }],
 
@@ -117,7 +116,7 @@ module.exports = {
     'import/newline-after-import': 'error',
 
     // Require modules with a single export to use a default export
-    'import/prefer-default-export': 'warning',
+    'import/prefer-default-export': 'warn',
 
     // Restrict which files can be imported in a given folder
     'import/no-restricted-paths': 'off',

@@ -1,4 +1,6 @@
 {
   "extends": "./index.js",
-  "rules": {}
+  "rules": {
+    "import/no-commonjs": "off"
+  }
 }

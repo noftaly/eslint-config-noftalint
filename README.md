@@ -4,6 +4,7 @@
 ![downloads](https://img.shields.io/npm/dt/eslint-config-noftalint)
 
 This package provides Noftaly's .eslintrc as an extensible shared config.
+All the rules are listed and documented [here](./docs/comparison.md)
 
 ## Usage
 

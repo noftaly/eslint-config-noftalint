@@ -26,6 +26,24 @@ This config contains all of my ESLint rules, including ECMAScript 6+. It require
 
 2. Add `"extends": "noftalint"` to your `.eslintrc`.
 
+## Autosort imports on VSCode
+
+If you want to autosort imports on Visual Studio code based on the "import/order" rule, you will have to do:
+1. Install the extension "[Run On Save](https://marketplace.visualstudio.com/items?itemName=pucelle.run-on-save)" by Pucelle
+2. In a terminal, run this command to install a package globally. It is used to fix with eslint only one rule: `npm i -g eslint-filtered-fix`
+3. Go in the "Extension Settings" of "Run On Save" (click on the gear), and then in the category "Run On Save: Commands", click on
+"Edit in settings.json"
+4. Add this at the end of the file:
+```json
+"runOnSave.commands": [{
+  "match": ".*\\.js$",
+  "command": "cd ${workspaceFolder} && eslint-filtered-fix . --rule import/order",
+  "runIn": "backend",
+  "runningStatusMessage": "Sorting imports...",
+  "finishStatusMessage": "Imports sorted!"
+}]
+```
+
 ## Links
 
 Github repository : [eslint-config-noftalint](https://github.com/noftaly/eslint-config-noftalint)

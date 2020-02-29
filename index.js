@@ -3,7 +3,6 @@ module.exports = {
     './rules/best-practices',
     './rules/errors',
     './rules/es6',
-    './rules/html',
     './rules/imports',
     './rules/node',
     './rules/regex',

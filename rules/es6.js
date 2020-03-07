@@ -81,7 +81,7 @@ module.exports = {
     'prefer-const': 'error',
 
     // Prefer destructuring from arrays and objects
-    'prefer-destructuring': 'off',
+    'prefer-destructuring': 'error',
 
     // Disallow parseInt() in favor of binary, octal, and hexadecimal literals
     'prefer-numeric-literals': 'error',

@@ -19,7 +19,7 @@ module.exports = {
     camelcase: ['error', { properties: 'never', ignoreDestructuring: false }],
 
     // Enforce or disallow capitalization of the first letter of a comment
-    'capitalized-comments': ['error', 'always', {
+    'capitalized-comments': ['warn', 'always', {
       ignoreConsecutiveComments: true,
       // Ignore urls :
       ignorePattern: '[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)', // eslint-disable-line no-useless-escape

@@ -10,7 +10,7 @@ module.exports = {
     'no-async-promise-executor': 'off',
 
     // Disallow await inside of loops
-    'no-await-in-loop': 'off',
+    'no-await-in-loop': 'error',
 
     // Disallow comparisons to negative zero
     'no-compare-neg-zero': 'off',
@@ -115,13 +115,13 @@ module.exports = {
     'no-unsafe-negation': 'error',
 
     // Disallow assignments that can lead to race conditions due to usage of await or yield
-    'require-atomic-updates': 'error',
+    'require-atomic-updates': 'off',
 
     // Disallow comparisons with the value NaN
     'use-isnan': 'error',
 
     // Ensure JSDoc comments are valid
-    'valid-jsdoc': 'error',
+    'valid-jsdoc': 'warn',
 
     // Ensure that the results of typeof are compared against a valid string
     'valid-typeof': 'error',

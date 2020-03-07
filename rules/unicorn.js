@@ -118,6 +118,9 @@ module.exports = {
     // Prefer Reflect.apply() over Function#apply().
     'unicorn/prefer-reflect-apply': 'error',
 
+    // Prefer String#replaceAll() over regex searches with the global flag
+    'unicorn/prefer-replace-all': 'error',
+
     // Prefer the spread operator over Array.from().
     'unicorn/prefer-spread': 'error',
 

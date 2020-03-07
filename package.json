@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "find-rules": "eslint-find-rules --unused ./index.js"
+    "find-rules": "eslint-find-rules --unused ./index.js",
+    "make-docs": "cd docs && npm run make-docs"
   },
   "keywords": [
     "eslint",

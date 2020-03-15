@@ -2,9 +2,10 @@
 
 ![npm version](https://img.shields.io/npm/v/eslint-config-noftalint?label=version)
 ![downloads](https://img.shields.io/npm/dt/eslint-config-noftalint)
+![size](https://img.shields.io/bundlephobia/min/eslint-config-noftalint?label=package%20size)
 
 This package provides Noftaly's .eslintrc as an extensible shared config.
-All the rules are listed and documented [here](./docs/comparison.md)
+All the rules are listed and documented [here](https://github.com/noftaly/eslint-config-noftalint/blob/master/docs/comparison.md)
 
 ## Usage
 
@@ -47,7 +48,7 @@ If you want to autosort imports on Visual Studio code based on the "import/order
 
 ## Links
 
-Github repository : [eslint-config-noftalint](https://github.com/noftaly/eslint-config-noftalint)
+Github repository : [eslint-config-noftalint](https://github.com/noftaly/eslint-config-noftalint)<br />
 NPM package : [eslint-config-noftalint](https://www.npmjs.com/package/eslint-config-noftalint)
 
 ## Credits

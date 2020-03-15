@@ -54,7 +54,6 @@
 | [`import/extensions`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/extensions.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
 | [`import/first`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/first.md) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`import/group-exports`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/group-exports.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/imports-first`](https://github.com/benmosher/eslint-plugin-import/blob/7b25c1cb95ee18acc1531002fd343e1e6031f9ed/docs/rules/imports-first.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
 | [`import/max-dependencies`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/max-dependencies.md) | off | off | N/A 👻 | N/A 👻 |
 | [`import/named`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/named.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
 | [`import/namespace`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/namespace.md) | off | off | N/A 👻 | N/A 👻 |
@@ -90,40 +89,6 @@
 | [`import/unambiguous`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/unambiguous.md) | off | off | N/A 👻 | N/A 👻 |
 | [`indent`](https://eslint.org/docs/rules/indent) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`init-declarations`](https://eslint.org/docs/rules/init-declarations) | off | off | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/accessible-emoji`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/accessible-emoji.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/alt-text`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/alt-text.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/anchor-has-content`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/anchor-has-content.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/anchor-is-valid`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/anchor-is-valid.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/aria-activedescendant-has-tabindex`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-activedescendant-has-tabindex.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/aria-props`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-props.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/aria-proptypes`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-proptypes.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/aria-role`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-role.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/aria-unsupported-elements`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-unsupported-elements.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/click-events-have-key-events`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/click-events-have-key-events.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/heading-has-content`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/heading-has-content.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/html-has-lang`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/html-has-lang.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/iframe-has-title`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/iframe-has-title.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/img-redundant-alt`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/img-redundant-alt.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/interactive-supports-focus`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/interactive-supports-focus.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| `jsx-a11y/label-has-associated-control` | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/label-has-for`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/label-has-for.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/lang`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/lang.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/media-has-caption`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/media-has-caption.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/mouse-events-have-key-events`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/mouse-events-have-key-events.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/no-access-key`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-access-key.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/no-autofocus`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-autofocus.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/no-distracting-elements`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-distracting-elements.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/no-interactive-element-to-noninteractive-role`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-interactive-element-to-noninteractive-role.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/no-noninteractive-element-interactions`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-noninteractive-element-interactions.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/no-noninteractive-element-to-interactive-role`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-noninteractive-element-to-interactive-role.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/no-noninteractive-tabindex`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-noninteractive-tabindex.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/no-onchange`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-onchange.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/no-redundant-roles`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-redundant-roles.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/no-static-element-interactions`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-static-element-interactions.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/role-has-required-aria-props`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/role-has-required-aria-props.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/role-supports-aria-props`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/role-supports-aria-props.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/scope`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/scope.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`jsx-a11y/tabindex-no-positive`](https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/tabindex-no-positive.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
 | [`jsx-quotes`](https://eslint.org/docs/rules/jsx-quotes) | off | error 🚨 | N/A 👻 | N/A 👻 |
 | [`key-spacing`](https://eslint.org/docs/rules/key-spacing) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`keyword-spacing`](https://eslint.org/docs/rules/keyword-spacing) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
@@ -218,9 +183,7 @@
 | [`no-multi-spaces`](https://eslint.org/docs/rules/no-multi-spaces) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`no-multi-str`](https://eslint.org/docs/rules/no-multi-str) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`no-multiple-empty-lines`](https://eslint.org/docs/rules/no-multiple-empty-lines) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
-| [`no-native-reassign`](https://eslint.org/docs/rules/no-native-reassign) | N/A 👻 | off | N/A 👻 | N/A 👻 |
 | [`no-negated-condition`](https://eslint.org/docs/rules/no-negated-condition) | off | off | N/A 👻 | N/A 👻 |
-| [`no-negated-in-lhs`](https://eslint.org/docs/rules/no-negated-in-lhs) | N/A 👻 | off | N/A 👻 | error 🚨 |
 | [`no-nested-ternary`](https://eslint.org/docs/rules/no-nested-ternary) | off | error 🚨 | N/A 👻 | N/A 👻 |
 | [`no-new`](https://eslint.org/docs/rules/no-new) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`no-new-func`](https://eslint.org/docs/rules/no-new-func) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
@@ -290,8 +253,6 @@
 | [`no-warning-comments`](https://eslint.org/docs/rules/no-warning-comments) | off | off | N/A 👻 | N/A 👻 |
 | [`no-whitespace-before-property`](https://eslint.org/docs/rules/no-whitespace-before-property) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`no-with`](https://eslint.org/docs/rules/no-with) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
-| [`node/no-deprecated-api`](https://github.com/mysticatea/eslint-plugin-node/blob/v11.0.0/docs/rules/no-deprecated-api.md) | N/A 👻 | N/A 👻 | N/A 👻 | error 🚨 |
-| [`node/process-exit-as-throw`](https://github.com/mysticatea/eslint-plugin-node/blob/v11.0.0/docs/rules/process-exit-as-throw.md) | N/A 👻 | N/A 👻 | N/A 👻 | error 🚨 |
 | [`nonblock-statement-body-position`](https://eslint.org/docs/rules/nonblock-statement-body-position) | off | error 🚨 | N/A 👻 | N/A 👻 |
 | [`object-curly-newline`](https://eslint.org/docs/rules/object-curly-newline) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
 | [`object-curly-spacing`](https://eslint.org/docs/rules/object-curly-spacing) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
@@ -317,89 +278,9 @@
 | [`prefer-rest-params`](https://eslint.org/docs/rules/prefer-rest-params) | error 🚨 | error 🚨 | error 🚨 | N/A 👻 |
 | [`prefer-spread`](https://eslint.org/docs/rules/prefer-spread) | error 🚨 | error 🚨 | error 🚨 | N/A 👻 |
 | [`prefer-template`](https://eslint.org/docs/rules/prefer-template) | off | error 🚨 | N/A 👻 | N/A 👻 |
-| [`promise/param-names`](https://github.com/xjamundx/eslint-plugin-promise/tree/v4.2.1/docs/rules/param-names.md) | N/A 👻 | N/A 👻 | N/A 👻 | error 🚨 |
 | [`quote-props`](https://eslint.org/docs/rules/quote-props) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`quotes`](https://eslint.org/docs/rules/quotes) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`radix`](https://eslint.org/docs/rules/radix) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/boolean-prop-naming`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/boolean-prop-naming.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/button-has-type`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/button-has-type.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/default-props-match-prop-types`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/default-props-match-prop-types.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/destructuring-assignment`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/destructuring-assignment.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/display-name`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/display-name.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/forbid-component-props`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/forbid-component-props.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/forbid-dom-props`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/forbid-dom-props.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/forbid-elements`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/forbid-elements.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/forbid-foreign-prop-types`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/forbid-foreign-prop-types.md) | N/A 👻 | warn ⚠️ | N/A 👻 | N/A 👻 |
-| [`react/forbid-prop-types`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/forbid-prop-types.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-boolean-value`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-boolean-value.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-child-element-spacing`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-child-element-spacing.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/jsx-closing-bracket-location`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-closing-bracket-location.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-closing-tag-location`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-closing-tag-location.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-curly-brace-presence`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-curly-brace-presence.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-curly-spacing`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-curly-spacing.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-equals-spacing`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-equals-spacing.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-filename-extension`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-filename-extension.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-first-prop-new-line`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-first-prop-new-line.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-fragments`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-fragments.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/jsx-handler-names`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-handler-names.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/jsx-indent`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-indent.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-indent-props`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-indent-props.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-key`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-key.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/jsx-max-depth`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-max-depth.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/jsx-max-props-per-line`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-max-props-per-line.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-no-bind`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-no-bind.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-no-comment-textnodes`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-no-comment-textnodes.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-no-duplicate-props`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-no-duplicate-props.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-no-literals`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-no-literals.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/jsx-no-target-blank`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-no-target-blank.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-no-undef`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-no-undef.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-one-expression-per-line`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-one-expression-per-line.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-pascal-case`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-pascal-case.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-props-no-multi-spaces`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-props-no-multi-spaces.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-sort-default-props`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-sort-default-props.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| `react/jsx-sort-prop-types` | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/jsx-sort-props`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-sort-props.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/jsx-space-before-closing`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-space-before-closing.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/jsx-tag-spacing`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-tag-spacing.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-uses-react`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-uses-react.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-uses-vars`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-uses-vars.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/jsx-wrap-multilines`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/jsx-wrap-multilines.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-access-state-in-setstate`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-access-state-in-setstate.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-array-index-key`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-array-index-key.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-children-prop`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-children-prop.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-danger`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-danger.md) | N/A 👻 | warn ⚠️ | N/A 👻 | N/A 👻 |
-| [`react/no-danger-with-children`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-danger-with-children.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-deprecated`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-deprecated.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-did-mount-set-state`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-did-mount-set-state.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/no-did-update-set-state`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-did-update-set-state.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-direct-mutation-state`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-direct-mutation-state.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/no-find-dom-node`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-find-dom-node.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-is-mounted`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-is-mounted.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-multi-comp`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-multi-comp.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/no-redundant-should-component-update`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-redundant-should-component-update.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-render-return-value`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-render-return-value.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-set-state`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-set-state.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/no-string-refs`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-string-refs.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-this-in-sfc`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-this-in-sfc.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-typos`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-typos.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-unescaped-entities`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-unescaped-entities.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-unknown-property`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-unknown-property.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-unsafe`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-unsafe.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/no-unused-prop-types`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-unused-prop-types.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-unused-state`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-unused-state.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/no-will-update-set-state`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/no-will-update-set-state.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/prefer-es6-class`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/prefer-es6-class.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/prefer-stateless-function`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/prefer-stateless-function.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/prop-types`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/prop-types.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/react-in-jsx-scope`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/react-in-jsx-scope.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/require-default-props`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/require-default-props.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/require-optimization`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/require-optimization.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/require-render-return`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/require-render-return.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/self-closing-comp`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/self-closing-comp.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/sort-comp`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/sort-comp.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/sort-prop-types`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/sort-prop-types.md) | N/A 👻 | off | N/A 👻 | N/A 👻 |
-| [`react/style-prop-object`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/style-prop-object.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`react/void-dom-elements-no-children`](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules/void-dom-elements-no-children.md) | N/A 👻 | error 🚨 | N/A 👻 | N/A 👻 |
 | [`require-atomic-updates`](https://eslint.org/docs/rules/require-atomic-updates) | off | off | N/A 👻 | N/A 👻 |
 | [`require-await`](https://eslint.org/docs/rules/require-await) | off | off | N/A 👻 | N/A 👻 |
 | [`require-jsdoc`](https://eslint.org/docs/rules/require-jsdoc) | off | off | error 🚨 | N/A 👻 |
@@ -418,7 +299,6 @@
 | [`space-infix-ops`](https://eslint.org/docs/rules/space-infix-ops) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`space-unary-ops`](https://eslint.org/docs/rules/space-unary-ops) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`spaced-comment`](https://eslint.org/docs/rules/spaced-comment) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
-| [`standard/no-callback-literal`](https://github.com/standard/eslint-plugin-standard#rules-explanations) | N/A 👻 | N/A 👻 | N/A 👻 | error 🚨 |
 | [`strict`](https://eslint.org/docs/rules/strict) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
 | [`switch-colon-spacing`](https://eslint.org/docs/rules/switch-colon-spacing) | error 🚨 | error 🚨 | error 🚨 | N/A 👻 |
 | [`symbol-description`](https://eslint.org/docs/rules/symbol-description) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |

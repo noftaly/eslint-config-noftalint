@@ -1,5 +1,5 @@
 const fs = require('fs');
-const CLIEngine = require('eslint').CLIEngine;
+const { CLIEngine } = require('eslint');
 
 function getEngineForConfiguration(configuration) {
   const engine = new CLIEngine({
@@ -23,7 +23,14 @@ const ruleNames = [
   ]),
 ].sort();
 
-function getRuleLink(ruleName, engines) {
+const engines = [
+  noftalintEngine,
+  airbnbEngine,
+  googleEngine,
+  standardEngine,
+];
+
+function getRuleLink(ruleName) {
   for (const engine of engines) {
     const subjectRule = engine.getRules().get(ruleName);
 
@@ -49,16 +56,12 @@ const getRuleConfiguration = (ruleset, ruleName) => {
   return ruleValueDescription || describeRuleValue(ruleset[ruleName][0]);
 };
 
-const engines = [
-  noftalintEngine,
-  airbnbEngine,
-  googleEngine,
-  standardEngine,
-];
-
 let docsContent = '| Rule | noftalint | Airbnb | Google | Standard |\n| ---- | --------- | ------ | ------ | -------- |\n';
 for (const ruleName of ruleNames) {
-  docsContent += '| ' + getRuleLink(ruleName, engines) + ' | ' + getRuleConfiguration(noftalintEngine.config.baseConfig.rules, ruleName) + ' | ' + getRuleConfiguration(airbnbEngine.config.baseConfig.rules, ruleName) + ' | ' + getRuleConfiguration(googleEngine.config.baseConfig.rules, ruleName) + ' | ' + getRuleConfiguration(standardEngine.config.baseConfig.rules, ruleName) + ' |\n';
+  if (!Object.keys(noftalintEngine.config.baseConfig.rules).includes(ruleName))
+    continue;
+
+  docsContent += '| ' + getRuleLink(ruleName) + ' | ' + getRuleConfiguration(noftalintEngine.config.baseConfig.rules, ruleName) + ' | ' + getRuleConfiguration(airbnbEngine.config.baseConfig.rules, ruleName) + ' | ' + getRuleConfiguration(googleEngine.config.baseConfig.rules, ruleName) + ' | ' + getRuleConfiguration(standardEngine.config.baseConfig.rules, ruleName) + ' |\n';
 }
 
 const path = `${__dirname}/comparison.md`;

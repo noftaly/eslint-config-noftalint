@@ -2,6 +2,9 @@ module.exports = {
   plugins: ['unicorn'],
 
   rules: {
+    // Improve regexes by making them shorter, consistent, and safer
+    'unicorn/better-regex': 'error',
+
     // Enforce a specific parameter name in catch clauses.
     'unicorn/catch-error-name': 'off',
 
@@ -142,6 +145,9 @@ module.exports = {
     // Prevent abbreviations.
     // TODO: enable? (and add options)
     'unicorn/prevent-abbreviations': 'off',
+
+    // Enforce better string content (replace "\'" by "’")
+    'unicorn/string-content': 'off',
 
     // Enforce the use of regex shorthands to improve readability.
     'unicorn/regex-shorthand': 'warn',

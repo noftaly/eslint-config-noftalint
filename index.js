@@ -5,7 +5,6 @@ module.exports = {
     './rules/es6',
     './rules/imports',
     './rules/node',
-    './rules/regex',
     './rules/strict',
     './rules/style',
     './rules/unicorn',

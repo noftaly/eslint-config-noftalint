@@ -113,6 +113,9 @@ module.exports = {
     // Prefer node.remove() over parentNode.removeChild(node) and parentElement.removeChild(node).
     'unicorn/prefer-node-remove': 'error',
 
+    // Prefer Number static properties over global ones. (Number.parseInt() over parseInt() etc.)
+    'unicorn/prefer-number-properties': 'off',
+
     // Prefer .querySelector() over .getElementById(), .querySelectorAll() over .getElementsByClassName()
     // and .getElementsByTagName().
     // TODO: enable?
@@ -123,6 +126,10 @@ module.exports = {
 
     // Prefer String#replaceAll() over regex searches with the global flag
     'unicorn/prefer-replace-all': 'error',
+
+    // Prefer Set#has() over Array#includes() when checking for existence or non-existence
+    // FIXME: Never used Set#has so I Put it as a "warn" to see if I like it or not. I'll have to change that later.
+    'unicorn/prefer-set-has': 'warn',
 
     // Prefer the spread operator over Array.from().
     'unicorn/prefer-spread': 'error',

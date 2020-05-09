@@ -63,6 +63,9 @@ module.exports = {
     // Enforce the use of Buffer.from() and Buffer.alloc() instead of the deprecated new Buffer().
     'unicorn/no-new-buffer': 'error',
 
+    // Disallow the use of the `null` literal.
+    'unicorn/no-null': 'off',
+
     // Disallow process.exit().
     'unicorn/no-process-exit': 'off',
 

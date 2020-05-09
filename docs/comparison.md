@@ -25,6 +25,7 @@
 | [`constructor-super`](https://eslint.org/docs/rules/constructor-super) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`curly`](https://eslint.org/docs/rules/curly) | off | error 🚨 | error 🚨 | error 🚨 |
 | [`default-case`](https://eslint.org/docs/rules/default-case) | off | error 🚨 | N/A 👻 | N/A 👻 |
+| `default-case-last` | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
 | `default-param-last` | off | N/A 👻 | N/A 👻 | N/A 👻 |
 | [`dot-location`](https://eslint.org/docs/rules/dot-location) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`dot-notation`](https://eslint.org/docs/rules/dot-notation) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
@@ -47,46 +48,46 @@
 | [`id-length`](https://eslint.org/docs/rules/id-length) | off | off | N/A 👻 | N/A 👻 |
 | [`id-match`](https://eslint.org/docs/rules/id-match) | off | off | N/A 👻 | N/A 👻 |
 | [`implicit-arrow-linebreak`](https://eslint.org/docs/rules/implicit-arrow-linebreak) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/default`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/default.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/dynamic-import-chunkname`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/dynamic-import-chunkname.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/export`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/export.md) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
-| [`import/exports-last`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/exports-last.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/extensions`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/extensions.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/first`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/first.md) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
-| [`import/group-exports`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/group-exports.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/max-dependencies`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/max-dependencies.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/named`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/named.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/namespace`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/namespace.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/newline-after-import`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/newline-after-import.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/no-absolute-path`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-absolute-path.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/no-amd`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-amd.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/no-anonymous-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-anonymous-default-export.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/no-commonjs`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-commonjs.md) | warn ⚠️ | off | N/A 👻 | N/A 👻 |
-| [`import/no-cycle`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-cycle.md) | off | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/default`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/default.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/dynamic-import-chunkname`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/dynamic-import-chunkname.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/export`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/export.md) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
+| [`import/exports-last`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/exports-last.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/extensions`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/extensions.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/first`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/first.md) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
+| [`import/group-exports`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/group-exports.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/max-dependencies`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/max-dependencies.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/named`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/named.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/namespace`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/namespace.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/newline-after-import`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/newline-after-import.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/no-absolute-path`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-absolute-path.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/no-amd`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-amd.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/no-anonymous-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-anonymous-default-export.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/no-commonjs`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-commonjs.md) | warn ⚠️ | off | N/A 👻 | N/A 👻 |
+| [`import/no-cycle`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-cycle.md) | off | error 🚨 | N/A 👻 | N/A 👻 |
 | `import/no-default-export` | off | off | N/A 👻 | N/A 👻 |
-| [`import/no-deprecated`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-deprecated.md) | warn ⚠️ | off | N/A 👻 | N/A 👻 |
-| [`import/no-duplicates`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-duplicates.md) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
-| [`import/no-dynamic-require`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-dynamic-require.md) | off | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/no-extraneous-dependencies`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-extraneous-dependencies.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/no-internal-modules`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-internal-modules.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/no-mutable-exports`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-mutable-exports.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/no-named-as-default`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-named-as-default.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/no-named-as-default-member`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-named-as-default-member.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/no-named-default`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-named-default.md) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
-| [`import/no-named-export`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-named-export.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/no-namespace`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-namespace.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/no-nodejs-modules`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-nodejs-modules.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/no-relative-parent-imports`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-relative-parent-imports.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/no-restricted-paths`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-restricted-paths.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/no-self-import`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-self-import.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/no-unassigned-import`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-unassigned-import.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/no-unresolved`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-unresolved.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/no-unused-modules`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-unused-modules.md) | off | off | N/A 👻 | N/A 👻 |
-| [`import/no-useless-path-segments`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-useless-path-segments.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/no-webpack-loader-syntax`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/no-webpack-loader-syntax.md) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
-| [`import/order`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/order.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/prefer-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/prefer-default-export.md) | warn ⚠️ | error 🚨 | N/A 👻 | N/A 👻 |
-| [`import/unambiguous`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.1/docs/rules/unambiguous.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/no-deprecated`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-deprecated.md) | warn ⚠️ | off | N/A 👻 | N/A 👻 |
+| [`import/no-duplicates`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-duplicates.md) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
+| [`import/no-dynamic-require`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-dynamic-require.md) | off | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/no-extraneous-dependencies`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-extraneous-dependencies.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/no-internal-modules`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-internal-modules.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/no-mutable-exports`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-mutable-exports.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/no-named-as-default`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-named-as-default.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/no-named-as-default-member`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-named-as-default-member.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/no-named-default`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-named-default.md) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
+| [`import/no-named-export`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-named-export.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/no-namespace`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-namespace.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/no-nodejs-modules`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-nodejs-modules.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/no-relative-parent-imports`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-relative-parent-imports.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/no-restricted-paths`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-restricted-paths.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/no-self-import`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-self-import.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/no-unassigned-import`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-unassigned-import.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/no-unresolved`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-unresolved.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/no-unused-modules`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-unused-modules.md) | off | off | N/A 👻 | N/A 👻 |
+| [`import/no-useless-path-segments`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-useless-path-segments.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/no-webpack-loader-syntax`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/no-webpack-loader-syntax.md) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
+| [`import/order`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/order.md) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/prefer-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/prefer-default-export.md) | warn ⚠️ | error 🚨 | N/A 👻 | N/A 👻 |
+| [`import/unambiguous`](https://github.com/benmosher/eslint-plugin-import/blob/v2.20.2/docs/rules/unambiguous.md) | off | off | N/A 👻 | N/A 👻 |
 | [`indent`](https://eslint.org/docs/rules/indent) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`init-declarations`](https://eslint.org/docs/rules/init-declarations) | off | off | N/A 👻 | N/A 👻 |
 | [`jsx-quotes`](https://eslint.org/docs/rules/jsx-quotes) | off | error 🚨 | N/A 👻 | N/A 👻 |
@@ -203,6 +204,7 @@
 | [`no-prototype-builtins`](https://eslint.org/docs/rules/no-prototype-builtins) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`no-redeclare`](https://eslint.org/docs/rules/no-redeclare) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`no-regex-spaces`](https://eslint.org/docs/rules/no-regex-spaces) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
+| `no-restricted-exports` | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
 | [`no-restricted-globals`](https://eslint.org/docs/rules/no-restricted-globals) | off | error 🚨 | N/A 👻 | N/A 👻 |
 | [`no-restricted-imports`](https://eslint.org/docs/rules/no-restricted-imports) | off | off | N/A 👻 | N/A 👻 |
 | [`no-restricted-modules`](https://eslint.org/docs/rules/no-restricted-modules) | off | off | N/A 👻 | N/A 👻 |
@@ -240,6 +242,7 @@
 | [`no-unused-labels`](https://eslint.org/docs/rules/no-unused-labels) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
 | [`no-unused-vars`](https://eslint.org/docs/rules/no-unused-vars) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`no-use-before-define`](https://eslint.org/docs/rules/no-use-before-define) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
+| `no-useless-backreference` | off | N/A 👻 | N/A 👻 | N/A 👻 |
 | [`no-useless-call`](https://eslint.org/docs/rules/no-useless-call) | error 🚨 | off | N/A 👻 | error 🚨 |
 | [`no-useless-catch`](https://eslint.org/docs/rules/no-useless-catch) | error 🚨 | off | N/A 👻 | error 🚨 |
 | [`no-useless-computed-key`](https://eslint.org/docs/rules/no-useless-computed-key) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
@@ -304,55 +307,58 @@
 | [`template-curly-spacing`](https://eslint.org/docs/rules/template-curly-spacing) | off | error 🚨 | N/A 👻 | error 🚨 |
 | [`template-tag-spacing`](https://eslint.org/docs/rules/template-tag-spacing) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`unicode-bom`](https://eslint.org/docs/rules/unicode-bom) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
-| [`unicorn/better-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/better-regex.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/catch-error-name`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/catch-error-name.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/consistent-function-scoping`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/consistent-function-scoping.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/custom-error-definition`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/custom-error-definition.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/error-message`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/error-message.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/escape-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/escape-case.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/expiring-todo-comments`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/expiring-todo-comments.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/explicit-length-check`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/explicit-length-check.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/filename-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/filename-case.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/import-index`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/import-index.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/new-for-builtins`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/new-for-builtins.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-abusive-eslint-disable`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-abusive-eslint-disable.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-array-instanceof`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-array-instanceof.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-console-spaces`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-console-spaces.md) | warn ⚠️ | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-fn-reference-in-iterator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-fn-reference-in-iterator.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-for-loop`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-for-loop.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-hex-escape`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-hex-escape.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-keyword-prefix`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-keyword-prefix.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-nested-ternary`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-nested-ternary.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-new-buffer`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-new-buffer.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-process-exit`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-process-exit.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-unreadable-array-destructuring`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-unreadable-array-destructuring.md) | warn ⚠️ | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-unsafe-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-unsafe-regex.md) | warn ⚠️ | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-unused-properties`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-unused-properties.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/no-zero-fractions`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/no-zero-fractions.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/number-literal-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/number-literal-case.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-add-event-listener`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-add-event-listener.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-dataset`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-dataset.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-event-key`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-event-key.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-exponentiation-operator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-exponentiation-operator.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-flat-map`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-flat-map.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-includes`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-includes.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-modern-dom-apis`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-modern-dom-apis.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-negative-index`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-negative-index.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-node-append`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-node-append.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-node-remove`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-node-remove.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-query-selector`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-query-selector.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-reflect-apply`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-reflect-apply.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-replace-all`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-replace-all.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-spread`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-spread.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-starts-ends-with`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-starts-ends-with.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-string-slice`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-string-slice.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-text-content`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-text-content.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-trim-start-end`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-trim-start-end.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prefer-type-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prefer-type-error.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/prevent-abbreviations`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/prevent-abbreviations.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/regex-shorthand`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/regex-shorthand.md) | warn ⚠️ | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/string-content`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/string-content.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`unicorn/throw-new-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v17.2.0/docs/rules/throw-new-error.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/better-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/better-regex.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/catch-error-name`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/catch-error-name.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/consistent-function-scoping`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/consistent-function-scoping.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/custom-error-definition`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/custom-error-definition.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/error-message`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/error-message.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/escape-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/escape-case.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/expiring-todo-comments`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/expiring-todo-comments.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/explicit-length-check`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/explicit-length-check.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/filename-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/filename-case.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/import-index`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/import-index.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/new-for-builtins`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/new-for-builtins.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-abusive-eslint-disable`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-abusive-eslint-disable.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-array-instanceof`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-array-instanceof.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-console-spaces`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-console-spaces.md) | warn ⚠️ | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-fn-reference-in-iterator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-fn-reference-in-iterator.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-for-loop`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-for-loop.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-hex-escape`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-hex-escape.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-keyword-prefix`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-keyword-prefix.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-nested-ternary`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-nested-ternary.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-new-buffer`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-new-buffer.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-null`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-null.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-process-exit`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-process-exit.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-unreadable-array-destructuring`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-unreadable-array-destructuring.md) | warn ⚠️ | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-unsafe-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-unsafe-regex.md) | warn ⚠️ | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-unused-properties`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-unused-properties.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/no-zero-fractions`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/no-zero-fractions.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/number-literal-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/number-literal-case.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-add-event-listener`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-add-event-listener.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-dataset`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-dataset.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-event-key`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-event-key.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-exponentiation-operator`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-exponentiation-operator.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-flat-map`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-flat-map.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-includes`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-includes.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-modern-dom-apis`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-modern-dom-apis.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-negative-index`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-negative-index.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-node-append`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-node-append.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-node-remove`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-node-remove.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-number-properties`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-number-properties.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-query-selector`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-query-selector.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-reflect-apply`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-reflect-apply.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-replace-all`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-replace-all.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-set-has`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-set-has.md) | warn ⚠️ | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-spread`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-spread.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-starts-ends-with`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-starts-ends-with.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-string-slice`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-string-slice.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-text-content`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-text-content.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-trim-start-end`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-trim-start-end.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prefer-type-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prefer-type-error.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/prevent-abbreviations`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/prevent-abbreviations.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/regex-shorthand`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/regex-shorthand.md) | warn ⚠️ | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/string-content`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/string-content.md) | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| [`unicorn/throw-new-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/v19.0.1/docs/rules/throw-new-error.md) | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
 | [`use-isnan`](https://eslint.org/docs/rules/use-isnan) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`valid-jsdoc`](https://eslint.org/docs/rules/valid-jsdoc) | warn ⚠️ | off | error 🚨 | N/A 👻 |
 | [`valid-typeof`](https://eslint.org/docs/rules/valid-typeof) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |

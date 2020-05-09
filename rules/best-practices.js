@@ -24,6 +24,9 @@ module.exports = {
     // Require default case in switch statements
     'default-case': 'off',
 
+    // Enforce default clauses in switch statements to be last
+    'default-case-last': 'error',
+
     // Putting default parameter at last allows function calls to omit optional tail arguments.
     'default-param-last': 'off',
 
@@ -221,6 +224,9 @@ module.exports = {
 
     // Disallow unused labels
     'no-unused-labels': 'error',
+
+    // Disallow useless backreferences in regular expressions
+    'no-useless-backreference': 'off',
 
     // Disallow unnecessary .call() and .apply()
     'no-useless-call': 'error',

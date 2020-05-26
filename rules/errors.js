@@ -94,7 +94,7 @@ module.exports = {
     'no-regex-spaces': 'error',
 
     // Disallow specified names in exports
-    'no-restricted-exports': ['error', { restrictedNamedExports: ['default', 'then'] } ],
+    'no-restricted-exports': ['error', { restrictedNamedExports: ['default', 'then'] }],
 
     // Disallow returning values from setters
     'no-setter-return': 'error',

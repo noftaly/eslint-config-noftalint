@@ -69,6 +69,9 @@ module.exports = {
     // Disallow process.exit().
     'unicorn/no-process-exit': 'off',
 
+    // Disallow Array#reduce() and Array#reduceRight()
+    'unicorn/no-reduce': 'off',
+
     // Disallow unreadable array destructuring.
     'unicorn/no-unreadable-array-destructuring': 'warn',
 
@@ -77,6 +80,9 @@ module.exports = {
 
     // Disallow unused object properties.
     'unicorn/no-unused-properties': 'off',
+
+    // Disallow useless undefined
+    'unicorn/no-useless-undefined': 'error',
 
     // Disallow number literals with zero fractions or dangling dots.
     'unicorn/no-zero-fractions': 'error',
@@ -118,6 +124,9 @@ module.exports = {
 
     // Prefer Number static properties over global ones. (Number.parseInt() over parseInt() etc.)
     'unicorn/prefer-number-properties': 'off',
+
+    // Prefer omitting the catch binding parameter
+    'unicorn/prefer-optional-catch-binding': 'error',
 
     // Prefer .querySelector() over .getElementById(), .querySelectorAll() over .getElementsByClassName()
     // and .getElementsByTagName().

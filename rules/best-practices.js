@@ -120,6 +120,9 @@ module.exports = {
     // Disallow creation of functions within loops
     'no-loop-func': 'off',
 
+    // Disallow number literals that lose precision
+    'no-loss-of-precision': 'warn',
+
     // Disallow magic numbers
     'no-magic-numbers': 'off',
 

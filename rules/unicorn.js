@@ -99,10 +99,6 @@ module.exports = {
     // Prefer KeyboardEvent#key over KeyboardEvent#keyCode.
     'unicorn/prefer-event-key': 'error',
 
-    // Prefer the exponentiation operator over Math.pow()
-    // Already set in style.js with vanilla eslint
-    'unicorn/prefer-exponentiation-operator': 'off',
-
     // Prefer .flatMap(…) over .map(…).flat().
     'unicorn/prefer-flat-map': 'error',
 
@@ -167,9 +163,6 @@ module.exports = {
 
     // Enforce better string content (replace "\'" by "’")
     'unicorn/string-content': 'off',
-
-    // Enforce the use of regex shorthands to improve readability.
-    'unicorn/regex-shorthand': 'warn',
 
     // Require new when throwing an error.
     'unicorn/throw-new-error': 'error',

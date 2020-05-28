@@ -135,9 +135,6 @@ module.exports = {
     // Enforces empty lines around comments
     'lines-around-comment': 'off',
 
-    // Require or disallow newlines around directives
-    'lines-around-directive': 'error',
-
     // Specify the maximum depth that blocks can be nested
     'max-depth': 'off',
 
@@ -188,12 +185,6 @@ module.exports = {
 
     // Disallow the omission of parentheses when invoking a constructor with no arguments
     'new-parens': 'error',
-
-    // Allow/disallow an empty newline after var statement
-    'newline-after-var': 'off',
-
-    // Require an empty line before return statements
-    'newline-before-return': 'off',
 
     // Enforces new line after each method call in the chain to make it
     // more readable and easy to maintain
@@ -256,9 +247,6 @@ module.exports = {
     // Disallow certain syntax forms
     'no-restricted-syntax': 'off',
 
-    // Disallow space between function identifier and application
-    'no-spaced-func': 'error',
-
     // Disallow tab characters entirely
     'no-tabs': 'error',
 
@@ -319,6 +307,7 @@ module.exports = {
     }],
 
     // Require or disallow padding lines between statements
+    // TODO: enable and configure?
     'padding-line-between-statements': 'off',
 
     // Disallow the use of Math.pow in favor of the ** operator
@@ -332,9 +321,6 @@ module.exports = {
 
     // Specify whether double or single quotes should be used
     quotes: ['error', 'single', { avoidEscape: true }],
-
-    // Do not require jsdoc
-    'require-jsdoc': 'off',
 
     // Require or disallow use of semicolons instead of ASI
     semi: ['error', 'always'],

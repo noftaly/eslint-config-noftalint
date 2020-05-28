@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "find-rules": "eslint-find-rules --unused ./index.js",
+    "find-new-rules": "eslint-find-rules --unused ./index.js",
+    "find-dep-rules": "eslint-find-rules --deprecated ./index.js",
     "make-docs": "cd docs && npm run make-docs"
   },
   "keywords": [
@@ -33,6 +34,6 @@
     "eslint-plugin-unicorn": "^20.0.0"
   },
   "engines": {
-    "node": ">= 10"
+    "node": "^10.12.0 || >=12.0.0"
   }
 }

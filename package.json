@@ -25,12 +25,14 @@
   "peerDependencies": {
     "eslint": "^7.1.0",
     "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-unicorn": "^20.0.0"
   },
   "devDependencies": {
     "eslint": "^7.1.0",
     "eslint-find-rules": "^3.5.0",
     "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-unicorn": "^20.0.0"
   },
   "engines": {

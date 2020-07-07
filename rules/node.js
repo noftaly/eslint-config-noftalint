@@ -77,7 +77,8 @@ module.exports = {
     'node/no-unsupported-features/es-builtins': 'error',
 
     // Disallow unsupported ECMAScript syntax on the specified version
-    'node/no-unsupported-features/es-syntax': 'error',
+    // Ignore ES6 modules because people might be using babel.
+    'node/no-unsupported-features/es-syntax': ['error', { ignores: ['modules'] }],
 
     // Disallow unsupported Node.js built-in APIs on the specified version
     'node/no-unsupported-features/node-builtins': 'error',

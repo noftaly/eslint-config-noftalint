@@ -1,5 +1,9 @@
 module.exports = {
   rules: {
+    // Disallow specified identifiers
+    // TODO: Enable this with a decent keyword list?
+    'id-denylist': 'off',
+
     // Enforce or disallow variable initializations at definition
     'init-declarations': 'off',
 

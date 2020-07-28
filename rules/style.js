@@ -68,9 +68,6 @@ module.exports = {
     // Enforce consistent line breaks inside function parentheses
     'function-paren-newline': ['error', 'consistent'],
 
-    // Blacklist certain identifiers to prevent them being used
-    'id-blacklist': 'off',
-
     // This option enforces minimum and maximum identifier lengths
     // (variable names, property names etc.)
     'id-length': 'off',

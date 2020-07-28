@@ -66,6 +66,9 @@ module.exports = {
     // Disallow the use of the `null` literal.
     'unicorn/no-null': 'off',
 
+    // Disallow the use of objects as default parameters
+    'unicorn/no-object-as-default-parameter': 'off',
+
     // Disallow process.exit().
     'unicorn/no-process-exit': 'off',
 
@@ -92,6 +95,9 @@ module.exports = {
 
     // Prefer .addEventListener() and .removeEventListener() over on-functions.
     'unicorn/prefer-add-event-listener': 'error',
+
+    // Prefer .find(…) over the first element from .filter(…)
+    'unicorn/prefer-array-find': 'error',
 
     // Prefer using .dataset on DOM elements over .setAttribute(…).
     'unicorn/prefer-dataset': 'error',

@@ -1,76 +1,84 @@
-const fs = require('fs');
-const { CLIEngine } = require('eslint');
+const fs = require('fs').promises;
+const { join } = require('path');
+const { ESLint } = require('eslint');
 
-function getEngineForConfiguration(configuration) {
-  const engine = new CLIEngine({
+async function getRules(configuration) {
+  const engine = new ESLint({
     baseConfig: configuration,
-    useEslintrc: false,
+    useEslintrc: false
   });
-  return engine;
-}
 
-const noftalintEngine = getEngineForConfiguration({ extends: ['../index.js'] });
-const airbnbEngine = getEngineForConfiguration({ extends: ['airbnb'] });
-const googleEngine = getEngineForConfiguration({ extends: ['google'] });
-const standardEngine = getEngineForConfiguration({ extends: ['standard'] });
-
-const ruleNames = [
-  ...new Set([
-    ...Object.keys(noftalintEngine.config.baseConfig.rules),
-    ...Object.keys(airbnbEngine.config.baseConfig.rules),
-    ...Object.keys(googleEngine.config.baseConfig.rules),
-    ...Object.keys(standardEngine.config.baseConfig.rules),
-  ]),
-].sort();
-
-const engines = [
-  noftalintEngine,
-  airbnbEngine,
-  googleEngine,
-  standardEngine,
-];
-
-function getRuleLink(ruleName) {
-  for (const engine of engines) {
-    const subjectRule = engine.getRules().get(ruleName);
-
-    if (subjectRule && subjectRule.meta && subjectRule.meta.docs && subjectRule.meta.docs.url)
-      return '[`' + ruleName + '`](' + subjectRule.meta.docs.url + ')';
-  }
-
-  return '`' + ruleName + '`';
-}
-
-function describeRuleValue(ruleValue) {
-  if (ruleValue === undefined) return 'N/A 👻';
-  if (ruleValue === 0 || ruleValue === 'off') return 'off';
-  if (ruleValue === 1 || ruleValue === 'warn') return 'warn ⚠️';
-  if (ruleValue === 2 || ruleValue === 'error') return 'error 🚨';
-
-  return false;
-}
-
-const getRuleConfiguration = (ruleset, ruleName) => {
-  const ruleValueDescription = describeRuleValue(ruleset[ruleName]);
-
-  return ruleValueDescription || describeRuleValue(ruleset[ruleName][0]);
+  return (await engine.calculateConfigForFile('./compare')).rules;
 };
 
-let docsContent = '| Rule | noftalint | Airbnb | Google | Standard |\n| ---- | --------- | ------ | ------ | -------- |\n';
-for (const ruleName of ruleNames) {
-  if (!Object.keys(noftalintEngine.config.baseConfig.rules).includes(ruleName))
-    continue;
+(async () => {
+  const noftalintRules = await getRules({ extends: ['noftalint'] });
+  const airbnbRules = await getRules({ extends: ['airbnb-base'] });
+  const googleRules = await getRules({ extends: ['google'] });
+  const standardRules = await getRules({ extends: ['standard'] });
 
-  docsContent += '| ' + getRuleLink(ruleName) + ' | ' + getRuleConfiguration(noftalintEngine.config.baseConfig.rules, ruleName) + ' | ' + getRuleConfiguration(airbnbEngine.config.baseConfig.rules, ruleName) + ' | ' + getRuleConfiguration(googleEngine.config.baseConfig.rules, ruleName) + ' | ' + getRuleConfiguration(standardEngine.config.baseConfig.rules, ruleName) + ' |\n';
-}
+  const ruleNames = [
+    ...new Set([
+      ...Object.keys(noftalintRules),
+      ...Object.keys(airbnbRules),
+      ...Object.keys(googleRules),
+      ...Object.keys(standardRules)
+    ])
+  ].sort();
 
-const path = `${__dirname}/comparison.md`;
-try {
-  fs.writeFile(path, docsContent, (err) => {
-    if (err) return console.error(err);
-    console.log('Documentation updated!');
-    process.exit(0);
-  });
-} catch (err) {
-  console.error(err);
-}
+  function getRuleLink(ruleName) {
+    if (!ruleName.includes('/'))
+      return `[\`${ruleName}\`](https://eslint.org/docs/rules/${ruleName})`;
+
+    if (ruleName.startsWith('unicorn/'))
+      return `[\`${ruleName}\`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/${ruleName.replace(/^unicorn\//, '')}.md)`;
+
+    if (ruleName.startsWith('node/'))
+      return `[\`${ruleName}\`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/${ruleName.replace(/^node\//, '')}.md)`;
+
+    if (ruleName.startsWith('standard/'))
+      return `[\`${ruleName}\`](https://github.com/standard/eslint-plugin-standard#rules-explanations)`;
+
+    if (ruleName.startsWith('import/'))
+      return `[\`${ruleName}\`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/${ruleName.replace(/^import\//, '')}.md)`;
+
+    if (ruleName.startsWith('promise/'))
+      return `[\`${ruleName}\`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/${ruleName.replace(/^promise\//, '')}.md)`;
+
+    return `\`${ruleName}\``;
+  };
+
+  function describeRuleValue(ruleValue) {
+    if (ruleValue === undefined)
+      return 'N/A 👻';
+
+    if (ruleValue === 0 || ruleValue === 'off')
+      return 'off';
+
+    if (ruleValue === 1 || ruleValue === 'warn')
+      return 'warn ⚠️';
+
+    if (ruleValue === 2 || ruleValue === 'error')
+      return 'error 🚨';
+
+    return false;
+  };
+
+  function getRuleConfiguration(ruleset, ruleName) {
+    const ruleValueDescription = describeRuleValue(ruleset[ruleName]);
+
+    if (ruleValueDescription)
+      return ruleValueDescription;
+    return describeRuleValue(ruleset[ruleName][0]);
+  };
+
+  let docsContent = '| Rule | noftalint | Airbnb | Google | Standard |\n| ---- | --------- | ------ | ------ | -------- |\n';
+  for (const ruleName of ruleNames) {
+    docsContent += `|${getRuleLink(ruleName)}|${getRuleConfiguration(noftalintRules, ruleName)}|${getRuleConfiguration(airbnbRules, ruleName)}|${getRuleConfiguration(googleRules, ruleName)}|${getRuleConfiguration(standardRules, ruleName)}|`;
+  }
+
+  const path = join(__dirname, 'comparison.md');
+  await fs.writeFile(path, docsContent).catch(console.error);
+  console.log('Documentation updated!');
+  process.exit(0);
+})();

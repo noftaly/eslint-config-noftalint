@@ -10,9 +10,12 @@ module.exports = {
     './rules/unicorn',
     './rules/variables',
   ].map(require.resolve),
+  reportUnusedDisableDirectives: true,
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
   },
-  rules: {},
+  env: {
+    node: true,
+  },
 };

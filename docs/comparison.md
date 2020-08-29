@@ -22,10 +22,10 @@
 | [`consistent-return`](https://eslint.org/docs/rules/consistent-return) | off | error 🚨 | N/A 👻 | N/A 👻 |
 | [`consistent-this`](https://eslint.org/docs/rules/consistent-this) | off | off | N/A 👻 | N/A 👻 |
 | [`constructor-super`](https://eslint.org/docs/rules/constructor-super) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
-| [`curly`](https://eslint.org/docs/rules/curly) | off | error 🚨 | error 🚨 | error 🚨 |
+| [`curly`](https://eslint.org/docs/rules/curly) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`default-case`](https://eslint.org/docs/rules/default-case) | off | error 🚨 | N/A 👻 | N/A 👻 |
 | `default-case-last` | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| `default-param-last` | off | N/A 👻 | N/A 👻 | N/A 👻 |
+| `default-param-last` | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
 | [`dot-location`](https://eslint.org/docs/rules/dot-location) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`dot-notation`](https://eslint.org/docs/rules/dot-notation) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
 | [`eol-last`](https://eslint.org/docs/rules/eol-last) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
@@ -40,7 +40,7 @@
 | [`generator-star-spacing`](https://eslint.org/docs/rules/generator-star-spacing) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`getter-return`](https://eslint.org/docs/rules/getter-return) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
 | `grouped-accessor-pairs` | error 🚨 | N/A 👻 | N/A 👻 | N/A 👻 |
-| [`guard-for-in`](https://eslint.org/docs/rules/guard-for-in) | error 🚨 | error 🚨 | error 🚨 | N/A 👻 |
+| [`guard-for-in`](https://eslint.org/docs/rules/guard-for-in) | off | error 🚨 | error 🚨 | N/A 👻 |
 | `id-denylist` | off | N/A 👻 | N/A 👻 | N/A 👻 |
 | [`id-length`](https://eslint.org/docs/rules/id-length) | off | off | N/A 👻 | N/A 👻 |
 | [`id-match`](https://eslint.org/docs/rules/id-match) | off | off | N/A 👻 | N/A 👻 |
@@ -159,7 +159,7 @@
 | [`no-inline-comments`](https://eslint.org/docs/rules/no-inline-comments) | off | off | N/A 👻 | N/A 👻 |
 | [`no-inner-declarations`](https://eslint.org/docs/rules/no-inner-declarations) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`no-invalid-regexp`](https://eslint.org/docs/rules/no-invalid-regexp) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
-| [`no-invalid-this`](https://eslint.org/docs/rules/no-invalid-this) | off | off | error 🚨 | N/A 👻 |
+| [`no-invalid-this`](https://eslint.org/docs/rules/no-invalid-this) | error 🚨 | off | error 🚨 | N/A 👻 |
 | [`no-irregular-whitespace`](https://eslint.org/docs/rules/no-irregular-whitespace) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`no-iterator`](https://eslint.org/docs/rules/no-iterator) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`no-label-var`](https://eslint.org/docs/rules/no-label-var) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
@@ -290,7 +290,7 @@
 | [`operator-assignment`](https://eslint.org/docs/rules/operator-assignment) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
 | [`operator-linebreak`](https://eslint.org/docs/rules/operator-linebreak) | error 🚨 | error 🚨 | N/A 👻 | error 🚨 |
 | [`padded-blocks`](https://eslint.org/docs/rules/padded-blocks) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
-| [`padding-line-between-statements`](https://eslint.org/docs/rules/padding-line-between-statements) | off | off | N/A 👻 | N/A 👻 |
+| [`padding-line-between-statements`](https://eslint.org/docs/rules/padding-line-between-statements) | error 🚨 | off | N/A 👻 | N/A 👻 |
 | [`prefer-arrow-callback`](https://eslint.org/docs/rules/prefer-arrow-callback) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |
 | [`prefer-const`](https://eslint.org/docs/rules/prefer-const) | error 🚨 | error 🚨 | error 🚨 | error 🚨 |
 | [`prefer-destructuring`](https://eslint.org/docs/rules/prefer-destructuring) | error 🚨 | error 🚨 | N/A 👻 | N/A 👻 |

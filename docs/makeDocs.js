@@ -74,7 +74,7 @@ async function getRules(configuration) {
 
   let docsContent = '| Rule | noftalint | Airbnb | Google | Standard |\n| ---- | --------- | ------ | ------ | -------- |\n';
   for (const ruleName of ruleNames) {
-    docsContent += `|${getRuleLink(ruleName)}|${getRuleConfiguration(noftalintRules, ruleName)}|${getRuleConfiguration(airbnbRules, ruleName)}|${getRuleConfiguration(googleRules, ruleName)}|${getRuleConfiguration(standardRules, ruleName)}|`;
+    docsContent += `|${getRuleLink(ruleName)}|${getRuleConfiguration(noftalintRules, ruleName)}|${getRuleConfiguration(airbnbRules, ruleName)}|${getRuleConfiguration(googleRules, ruleName)}|${getRuleConfiguration(standardRules, ruleName)}|\n`;
   }
 
   const path = join(__dirname, 'comparison.md');

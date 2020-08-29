@@ -304,8 +304,19 @@ module.exports = {
     }],
 
     // Require or disallow padding lines between statements
-    // TODO: enable and configure?
-    'padding-line-between-statements': 'off',
+    'padding-line-between-statements': [
+      'error',
+      { blankLine: 'always', prev: 'directive', next: '*' },
+      { blankLine: 'any', prev: 'directive', next: 'directive' },
+
+      { blankLine: 'always', prev: 'export', next: '*' },
+      { blankLine: 'always', prev: '*', next: 'export' },
+      { blankLine: 'any', prev: 'export', next: 'export' },
+
+      { blankLine: 'always', prev: 'import', next: '*' },
+      { blankLine: 'always', prev: '*', next: 'import' },
+      { blankLine: 'any', prev: 'import', next: 'import' },
+    ],
 
     // Disallow the use of Math.pow in favor of the ** operator
     'prefer-exponentiation-operator': 'error',

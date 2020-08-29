@@ -19,7 +19,7 @@ module.exports = {
     'consistent-return': 'off',
 
     // Specify curly brace conventions for all control statements
-    curly: 'off',
+    curly: ['error', 'multi-or-nest', 'consistent'],
 
     // Require default case in switch statements
     'default-case': 'off',
@@ -28,7 +28,7 @@ module.exports = {
     'default-case-last': 'error',
 
     // Putting default parameter at last allows function calls to omit optional tail arguments.
-    'default-param-last': 'off',
+    'default-param-last': 'error',
 
     // Encourages use of dot notation whenever possible
     'dot-notation': ['error', { allowKeywords: true }],
@@ -43,7 +43,7 @@ module.exports = {
     'grouped-accessor-pairs': 'error',
 
     // Make sure for-in loops have an if statement
-    'guard-for-in': 'error',
+    'guard-for-in': 'off',
 
     // Enforce a maximum number of classes per file
     'max-classes-per-file': ['error', 1],
@@ -106,12 +106,12 @@ module.exports = {
     'no-implied-eval': 'error',
 
     // Disallow this keywords outside of classes or class-like objects
-    'no-invalid-this': 'off',
+    'no-invalid-this': 'error',
 
     // Disallow usage of __iterator__ property
     'no-iterator': 'error',
 
-    // Disallow use of labels for anything other then loops and switches
+    // Disallow use of labels for anything other than loops and switches
     'no-labels': 'off',
 
     // Disallow unnecessary nested blocks

@@ -12,7 +12,7 @@ async function getRules(configuration) {
 };
 
 (async () => {
-  const noftalintRules = await getRules({ extends: ['noftalint'] });
+  const noftalintRules = await getRules({ extends: ['../index.js'] });
   const airbnbRules = await getRules({ extends: ['airbnb-base'] });
   const googleRules = await getRules({ extends: ['google'] });
   const standardRules = await getRules({ extends: ['standard'] });

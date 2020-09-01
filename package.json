@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noftalint",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Noftaly's eslint configuration",
   "main": "index.js",
   "repository": "https://github.com/noftaly/eslint-config-noftalint",

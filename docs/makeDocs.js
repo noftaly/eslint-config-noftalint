@@ -1,15 +1,15 @@
-const fs = require('fs').promises;
+const fs = require('fs');
 const { join } = require('path');
 const { ESLint } = require('eslint');
 
 async function getRules(configuration) {
   const engine = new ESLint({
     baseConfig: configuration,
-    useEslintrc: false
+    useEslintrc: false,
   });
 
   return (await engine.calculateConfigForFile('./compare')).rules;
-};
+}
 
 (async () => {
   const noftalintRules = await getRules({ extends: ['../index.js'] });
@@ -22,8 +22,8 @@ async function getRules(configuration) {
       ...Object.keys(noftalintRules),
       ...Object.keys(airbnbRules),
       ...Object.keys(googleRules),
-      ...Object.keys(standardRules)
-    ])
+      ...Object.keys(standardRules),
+    ]),
   ].sort();
 
   function getRuleLink(ruleName) {
@@ -46,7 +46,7 @@ async function getRules(configuration) {
       return `[\`${ruleName}\`](https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/${ruleName.replace(/^promise\//, '')}.md)`;
 
     return `\`${ruleName}\``;
-  };
+  }
 
   function describeRuleValue(ruleValue) {
     if (ruleValue === undefined)
@@ -62,7 +62,7 @@ async function getRules(configuration) {
       return 'error 🚨';
 
     return false;
-  };
+  }
 
   function getRuleConfiguration(ruleset, ruleName) {
     const ruleValueDescription = describeRuleValue(ruleset[ruleName]);
@@ -70,15 +70,17 @@ async function getRules(configuration) {
     if (ruleValueDescription)
       return ruleValueDescription;
     return describeRuleValue(ruleset[ruleName][0]);
-  };
-
-  let docsContent = '| Rule | noftalint | Airbnb | Google | Standard |\n| ---- | --------- | ------ | ------ | -------- |\n';
-  for (const ruleName of ruleNames) {
-    docsContent += `|${getRuleLink(ruleName)}|${getRuleConfiguration(noftalintRules, ruleName)}|${getRuleConfiguration(airbnbRules, ruleName)}|${getRuleConfiguration(googleRules, ruleName)}|${getRuleConfiguration(standardRules, ruleName)}|\n`;
   }
 
+  let docsContent = '| Rule | noftalint | Airbnb | Google | Standard |\n| ---- | --------- | ------ | ------ | -------- |\n';
+  for (const ruleName of ruleNames)
+    docsContent += `|${getRuleLink(ruleName)}|${getRuleConfiguration(noftalintRules, ruleName)}|${getRuleConfiguration(airbnbRules, ruleName)}|${getRuleConfiguration(googleRules, ruleName)}|${getRuleConfiguration(standardRules, ruleName)}|\n`;
+
   const path = join(__dirname, 'comparison.md');
-  await fs.writeFile(path, docsContent).catch(console.error);
+  // As fs.promises was added in nodejs v11 and ESLint supports node down to v10.12, we can't use promises... :/
+  // eslint-disable-next-line node/prefer-promises/fs
+  fs.writeFile(path, docsContent, (err) => {
+    if (err) throw err;
+  });
   console.log('Documentation updated!');
-  process.exit(0);
 })();

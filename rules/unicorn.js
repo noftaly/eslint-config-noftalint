@@ -32,6 +32,9 @@ module.exports = {
     // Enforce importing index files with ..
     'unicorn/import-index': 'off',
 
+    // Enforce specific import styles per module.
+    'unicorn/import-style': 'off',
+
     // Enforce the use of new for all builtins, except String, Number, Boolean, Symbol and BigInt.
     'unicorn/new-for-builtins': 'error',
 

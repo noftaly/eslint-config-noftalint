@@ -133,7 +133,7 @@ module.exports = {
     'no-multi-str': 'error',
 
     // Disallow use of new operator when not part of the assignment or comparison
-    'no-new': 'error',
+    'no-new': 'off',
 
     // Disallow use of new operator for Function object
     'no-new-func': 'error',

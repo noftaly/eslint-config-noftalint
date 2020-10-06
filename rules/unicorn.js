@@ -135,8 +135,7 @@ module.exports = {
 
     // Prefer .querySelector() over .getElementById(), .querySelectorAll() over .getElementsByClassName()
     // and .getElementsByTagName().
-    // TODO: enable?
-    'unicorn/prefer-query-selector': 'off',
+    'unicorn/prefer-query-selector': 'error',
 
     // Prefer Reflect.apply() over Function#apply().
     'unicorn/prefer-reflect-apply': 'error',
@@ -145,7 +144,6 @@ module.exports = {
     'unicorn/prefer-replace-all': 'error',
 
     // Prefer Set#has() over Array#includes() when checking for existence or non-existence
-    // FIXME: Never used Set#has so I Put it as a "warn" to see if I like it or not. I'll have to change that later.
     'unicorn/prefer-set-has': 'warn',
 
     // Prefer the spread operator over Array.from().

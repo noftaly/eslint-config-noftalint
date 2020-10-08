@@ -43,7 +43,8 @@ module.exports = {
     // Disallow duplicate class members
     'no-dupe-class-members': 'error',
 
-    // Disallow importing from the same path more than once
+    // Disallow importing from the same path more than once``
+    // Handled by import/no-duplicates
     'no-duplicate-imports': 'off',
 
     // Disallow symbol constructor
@@ -99,12 +100,13 @@ module.exports = {
     'prefer-template': 'off',
 
     // Disallow generator functions that do not have yield
-    'require-yield': 'off',
+    'require-yield': 'error',
 
     // Enforce spacing between object rest-spread
     'rest-spread-spacing': ['error', 'never'],
 
     // Import sorting
+    // Handled by import/order
     'sort-imports': 'off',
 
     // Require a Symbol description

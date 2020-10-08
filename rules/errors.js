@@ -7,13 +7,14 @@ module.exports = {
     'getter-return': 'error',
 
     // Disallow using an async function as a Promise executor
+    // TODO: Enable?
     'no-async-promise-executor': 'off',
 
     // Disallow await inside of loops
     'no-await-in-loop': 'error',
 
     // Disallow comparisons to negative zero
-    'no-compare-neg-zero': 'off',
+    'no-compare-neg-zero': 'error',
 
     // Disallow assignment in conditional expressions
     'no-cond-assign': ['error', 'always'],
@@ -70,7 +71,7 @@ module.exports = {
     'no-func-assign': 'error',
 
     // Disallow assigning to imported bindings
-    'no-import-assign': 'off',
+    'no-import-assign': 'error',
 
     // Disallow function or variable declarations in nested blocks
     'no-inner-declarations': 'error',
@@ -124,6 +125,7 @@ module.exports = {
     'no-unsafe-negation': 'error',
 
     // Disallow assignments that can lead to race conditions due to usage of await or yield
+    // TODO: Enable?
     'require-atomic-updates': 'off',
 
     // Disallow comparisons with the value NaN

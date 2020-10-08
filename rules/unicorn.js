@@ -12,6 +12,7 @@ module.exports = {
     'unicorn/consistent-function-scoping': 'error',
 
     // Enforce correct Error subclassing.
+    // TODO: Enable?
     'unicorn/custom-error-definition': 'off',
 
     // Enforce passing a message value when throwing a built-in error.
@@ -27,6 +28,7 @@ module.exports = {
     'unicorn/explicit-length-check': 'error',
 
     // Enforce a case style for filenames.
+    // TODO: Enable. Choose between camelCase and snake-case
     'unicorn/filename-case': 'off',
 
     // Enforce importing index files with ..
@@ -85,7 +87,7 @@ module.exports = {
     'unicorn/no-unsafe-regex': 'warn',
 
     // Disallow unused object properties.
-    'unicorn/no-unused-properties': 'off',
+    'unicorn/no-unused-properties': 'error',
 
     // Disallow useless undefined
     'unicorn/no-useless-undefined': 'error',
@@ -128,6 +130,7 @@ module.exports = {
     'unicorn/prefer-node-remove': 'error',
 
     // Prefer Number static properties over global ones. (Number.parseInt() over parseInt() etc.)
+    // TODO: Maybe enable?
     'unicorn/prefer-number-properties': 'off',
 
     // Prefer omitting the catch binding parameter
@@ -144,6 +147,7 @@ module.exports = {
     'unicorn/prefer-replace-all': 'error',
 
     // Prefer Set#has() over Array#includes() when checking for existence or non-existence
+    // TODO: Make it 'error'?
     'unicorn/prefer-set-has': 'warn',
 
     // Prefer the spread operator over Array.from().

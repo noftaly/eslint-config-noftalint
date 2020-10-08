@@ -29,7 +29,7 @@ module.exports = {
     'no-undef-init': 'error',
 
     // Disallow use of undefined variable
-    'no-undefined': 'off',
+    'no-undefined': 'error',
 
     // Disallow declaration of variables that are not used in the code
     'no-unused-vars': ['error', {

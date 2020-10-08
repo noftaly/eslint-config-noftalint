@@ -13,15 +13,18 @@ module.exports = {
     complexity: ['error', 25],
 
     // Enforce that class methods use "this"
+    // TODO: Enable?
     'class-methods-use-this': 'off',
 
     // Require return statements to either always or never specify values
+    // TODO: Enable?
     'consistent-return': 'off',
 
     // Specify curly brace conventions for all control statements
     curly: ['error', 'multi-or-nest', 'consistent'],
 
     // Require default case in switch statements
+    // TODO: Enable?
     'default-case': 'off',
 
     // Enforce default clauses in switch statements to be last
@@ -55,7 +58,7 @@ module.exports = {
     'no-caller': 'error',
 
     // Disallow lexical declarations in case/default clauses
-    'no-case-declarations': 'off',
+    'no-case-declarations': 'error',
 
     // Disallow returning value in constructor
     'no-constructor-return': 'error',
@@ -67,7 +70,7 @@ module.exports = {
     'no-else-return': ['error', { allowElseIf: true }],
 
     // Disallow empty functions, except for standalone funcs/arrows
-    'no-empty-function': 'off',
+    'no-empty-function': ['error', { allow: ['arrowFunctions'] }],
 
     // Disallow empty destructuring patterns
     'no-empty-pattern': 'error',
@@ -97,7 +100,8 @@ module.exports = {
     'no-global-assign': 'error',
 
     // Disallow implicit type conversions
-    'no-implicit-coercion': 'off',
+    // TODO: Disable '!!'.
+    'no-implicit-coercion': ['error', { allow: ['!!'] }],
 
     // Disallow var and named functions in global scope
     'no-implicit-globals': 'off',
@@ -160,31 +164,31 @@ module.exports = {
     'no-restricted-properties': ['error', {
       object: 'arguments',
       property: 'callee',
-      message: 'arguments.callee is deprecated',
+      message: 'arguments.callee is deprecated.',
     }, {
       object: 'global',
       property: 'isFinite',
-      message: 'Please use Number.isFinite instead',
+      message: 'Please use Number.isFinite instead.',
     }, {
       object: 'self',
       property: 'isFinite',
-      message: 'Please use Number.isFinite instead',
+      message: 'Please use Number.isFinite instead.',
     }, {
       object: 'window',
       property: 'isFinite',
-      message: 'Please use Number.isFinite instead',
+      message: 'Please use Number.isFinite instead.',
     }, {
       object: 'global',
       property: 'isNaN',
-      message: 'Please use Number.isNaN instead',
+      message: 'Please use Number.isNaN instead.',
     }, {
       object: 'self',
       property: 'isNaN',
-      message: 'Please use Number.isNaN instead',
+      message: 'Please use Number.isNaN instead.',
     }, {
       object: 'window',
       property: 'isNaN',
-      message: 'Please use Number.isNaN instead',
+      message: 'Please use Number.isNaN instead.',
     }, {
       property: '__defineGetter__',
       message: 'Please use Object.defineProperty instead.',
@@ -205,7 +209,7 @@ module.exports = {
     'no-return-await': 'off',
 
     // Disallow use of `javascript:` urls.
-    'no-script-url': 'off',
+    'no-script-url': 'error',
 
     // Disallow self assignment
     'no-self-assign': 'error',
@@ -259,16 +263,17 @@ module.exports = {
     'prefer-promise-reject-errors': 'off',
 
     // Suggest using named capture group in regular expression
+    // TODO: Enable ?
     'prefer-named-capture-group': 'off',
 
     // Disallow use of the RegExp constructor in favor of regular expression literals
-    'prefer-regex-literals': 'off',
+    'prefer-regex-literals': 'error',
 
     // Require use of the second argument for parseInt()
     radix: 'error',
 
     // Require `await` in `async function`
-    'require-await': 'off',
+    'require-await': 'error',
 
     // Enforce the use of u flag on RegExp
     'require-unicode-regexp': 'off',

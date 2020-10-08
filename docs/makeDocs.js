@@ -49,7 +49,7 @@ async function getRules(configuration) {
   }
 
   function describeRuleValue(ruleValue) {
-    if (ruleValue === undefined)
+    if (typeof ruleValue === 'undefined')
       return 'N/A 👻';
 
     if (ruleValue === 0 || ruleValue === 'off')

@@ -22,7 +22,7 @@ module.exports = {
     'capitalized-comments': ['warn', 'always', {
       ignoreConsecutiveComments: true,
       // Ignore urls :
-      ignorePattern: '[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)', // eslint-disable-line no-useless-escape
+      ignorePattern: '[\w#%+.:=@~-]{1,256}\.[\d()A-Za-z]{1,6}\b([\w#%&()+./:=?@~-]*)', // eslint-disable-line no-useless-escape
     }],
 
     // Require trailing commas in multiline object literals
@@ -55,8 +55,7 @@ module.exports = {
     // Enforce spacing between functions and their invocations
     'func-call-spacing': 'error',
 
-    // Requires function names to match the name of the variable or property to which they are
-    // assigned
+    // Requires function names to match the name of the variable or property to which they are assigned
     'func-name-matching': 'off',
 
     // Require function expressions to have a name
@@ -155,7 +154,7 @@ module.exports = {
     'max-lines-per-function': 'off',
 
     // Specify the maximum depth callbacks can be nested
-    'max-nested-callbacks': 'off',
+    'max-nested-callbacks': ['error', 3],
 
     // Limits the number of parameters that can be used in the function declaration.
     'max-params': ['warn', 5],
@@ -164,6 +163,7 @@ module.exports = {
     'max-statements': 'off',
 
     // Restrict the number of statements per line
+    // TODO: Enable?
     'max-statements-per-line': 'off',
 
     // Enforce a particular style for multiline comments
@@ -224,12 +224,13 @@ module.exports = {
     'no-mixed-spaces-and-tabs': 'error',
 
     // Disallow use of chained assignment expressions
-    'no-multi-assign': 'off',
+    'no-multi-assign': 'error',
 
     // Disallow multiple empty lines, only one newline at the end, and no new lines at the beginning
     'no-multiple-empty-lines': ['error', { max: 2, maxBOF: 1, maxEOF: 0 }],
 
     // Disallow negated conditions
+    // TODO: Enable?
     'no-negated-condition': 'off',
 
     // Disallow nested ternary expressions
@@ -286,6 +287,7 @@ module.exports = {
     'one-var': ['error', 'never'],
 
     // Require a newline around variable declaration
+    // TODO: Enable?
     'one-var-declaration-per-line': 'off',
 
     // Require assignment operator shorthand where possible or prohibit it entirely

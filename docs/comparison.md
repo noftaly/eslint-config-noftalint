@@ -105,7 +105,7 @@
 |[`max-len`](https://eslint.org/docs/rules/max-len)|error 🚨|error 🚨|error 🚨|N/A 👻|
 |[`max-lines`](https://eslint.org/docs/rules/max-lines)|warn ⚠️|off|N/A 👻|N/A 👻|
 |[`max-lines-per-function`](https://eslint.org/docs/rules/max-lines-per-function)|off|off|N/A 👻|N/A 👻|
-|[`max-nested-callbacks`](https://eslint.org/docs/rules/max-nested-callbacks)|off|off|N/A 👻|N/A 👻|
+|[`max-nested-callbacks`](https://eslint.org/docs/rules/max-nested-callbacks)|error 🚨|off|N/A 👻|N/A 👻|
 |[`max-params`](https://eslint.org/docs/rules/max-params)|warn ⚠️|off|N/A 👻|N/A 👻|
 |[`max-statements`](https://eslint.org/docs/rules/max-statements)|off|off|N/A 👻|N/A 👻|
 |[`max-statements-per-line`](https://eslint.org/docs/rules/max-statements-per-line)|off|off|N/A 👻|N/A 👻|
@@ -123,10 +123,10 @@
 |[`no-bitwise`](https://eslint.org/docs/rules/no-bitwise)|off|error 🚨|N/A 👻|N/A 👻|
 |[`no-buffer-constructor`](https://eslint.org/docs/rules/no-buffer-constructor)|N/A 👻|error 🚨|N/A 👻|N/A 👻|
 |[`no-caller`](https://eslint.org/docs/rules/no-caller)|error 🚨|error 🚨|error 🚨|error 🚨|
-|[`no-case-declarations`](https://eslint.org/docs/rules/no-case-declarations)|off|error 🚨|N/A 👻|error 🚨|
+|[`no-case-declarations`](https://eslint.org/docs/rules/no-case-declarations)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-catch-shadow`](https://eslint.org/docs/rules/no-catch-shadow)|N/A 👻|off|N/A 👻|N/A 👻|
 |[`no-class-assign`](https://eslint.org/docs/rules/no-class-assign)|error 🚨|error 🚨|N/A 👻|error 🚨|
-|[`no-compare-neg-zero`](https://eslint.org/docs/rules/no-compare-neg-zero)|off|error 🚨|N/A 👻|error 🚨|
+|[`no-compare-neg-zero`](https://eslint.org/docs/rules/no-compare-neg-zero)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-cond-assign`](https://eslint.org/docs/rules/no-cond-assign)|error 🚨|error 🚨|off|error 🚨|
 |[`no-confusing-arrow`](https://eslint.org/docs/rules/no-confusing-arrow)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-console`](https://eslint.org/docs/rules/no-console)|off|warn ⚠️|N/A 👻|N/A 👻|
@@ -147,7 +147,7 @@
 |[`no-else-return`](https://eslint.org/docs/rules/no-else-return)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-empty`](https://eslint.org/docs/rules/no-empty)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-empty-character-class`](https://eslint.org/docs/rules/no-empty-character-class)|error 🚨|error 🚨|N/A 👻|error 🚨|
-|[`no-empty-function`](https://eslint.org/docs/rules/no-empty-function)|off|error 🚨|N/A 👻|N/A 👻|
+|[`no-empty-function`](https://eslint.org/docs/rules/no-empty-function)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-empty-pattern`](https://eslint.org/docs/rules/no-empty-pattern)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-eq-null`](https://eslint.org/docs/rules/no-eq-null)|off|off|N/A 👻|N/A 👻|
 |[`no-eval`](https://eslint.org/docs/rules/no-eval)|error 🚨|error 🚨|N/A 👻|error 🚨|
@@ -162,10 +162,10 @@
 |[`no-floating-decimal`](https://eslint.org/docs/rules/no-floating-decimal)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-func-assign`](https://eslint.org/docs/rules/no-func-assign)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-global-assign`](https://eslint.org/docs/rules/no-global-assign)|error 🚨|error 🚨|N/A 👻|error 🚨|
-|[`no-implicit-coercion`](https://eslint.org/docs/rules/no-implicit-coercion)|off|off|N/A 👻|N/A 👻|
+|[`no-implicit-coercion`](https://eslint.org/docs/rules/no-implicit-coercion)|error 🚨|off|N/A 👻|N/A 👻|
 |[`no-implicit-globals`](https://eslint.org/docs/rules/no-implicit-globals)|off|off|N/A 👻|N/A 👻|
 |[`no-implied-eval`](https://eslint.org/docs/rules/no-implied-eval)|error 🚨|error 🚨|N/A 👻|error 🚨|
-|[`no-import-assign`](https://eslint.org/docs/rules/no-import-assign)|off|off|N/A 👻|N/A 👻|
+|[`no-import-assign`](https://eslint.org/docs/rules/no-import-assign)|error 🚨|off|N/A 👻|N/A 👻|
 |[`no-inline-comments`](https://eslint.org/docs/rules/no-inline-comments)|off|off|N/A 👻|N/A 👻|
 |[`no-inner-declarations`](https://eslint.org/docs/rules/no-inner-declarations)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-invalid-regexp`](https://eslint.org/docs/rules/no-invalid-regexp)|error 🚨|error 🚨|N/A 👻|error 🚨|
@@ -183,7 +183,7 @@
 |[`no-mixed-operators`](https://eslint.org/docs/rules/no-mixed-operators)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-mixed-requires`](https://eslint.org/docs/rules/no-mixed-requires)|N/A 👻|off|N/A 👻|N/A 👻|
 |[`no-mixed-spaces-and-tabs`](https://eslint.org/docs/rules/no-mixed-spaces-and-tabs)|error 🚨|error 🚨|error 🚨|error 🚨|
-|[`no-multi-assign`](https://eslint.org/docs/rules/no-multi-assign)|off|error 🚨|N/A 👻|N/A 👻|
+|[`no-multi-assign`](https://eslint.org/docs/rules/no-multi-assign)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-multi-spaces`](https://eslint.org/docs/rules/no-multi-spaces)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`no-multi-str`](https://eslint.org/docs/rules/no-multi-str)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`no-multiple-empty-lines`](https://eslint.org/docs/rules/no-multiple-empty-lines)|error 🚨|error 🚨|error 🚨|error 🚨|
@@ -218,7 +218,7 @@
 |[`no-restricted-syntax`](https://eslint.org/docs/rules/no-restricted-syntax)|off|error 🚨|N/A 👻|N/A 👻|
 |[`no-return-assign`](https://eslint.org/docs/rules/no-return-assign)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-return-await`](https://eslint.org/docs/rules/no-return-await)|off|error 🚨|N/A 👻|N/A 👻|
-|[`no-script-url`](https://eslint.org/docs/rules/no-script-url)|off|error 🚨|N/A 👻|N/A 👻|
+|[`no-script-url`](https://eslint.org/docs/rules/no-script-url)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-self-assign`](https://eslint.org/docs/rules/no-self-assign)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-self-compare`](https://eslint.org/docs/rules/no-self-compare)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-sequences`](https://eslint.org/docs/rules/no-sequences)|error 🚨|error 🚨|N/A 👻|error 🚨|
@@ -236,7 +236,7 @@
 |[`no-trailing-spaces`](https://eslint.org/docs/rules/no-trailing-spaces)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`no-undef`](https://eslint.org/docs/rules/no-undef)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-undef-init`](https://eslint.org/docs/rules/no-undef-init)|error 🚨|error 🚨|N/A 👻|error 🚨|
-|[`no-undefined`](https://eslint.org/docs/rules/no-undefined)|off|off|N/A 👻|N/A 👻|
+|[`no-undefined`](https://eslint.org/docs/rules/no-undefined)|error 🚨|off|N/A 👻|N/A 👻|
 |[`no-underscore-dangle`](https://eslint.org/docs/rules/no-underscore-dangle)|off|error 🚨|N/A 👻|N/A 👻|
 |[`no-unexpected-multiline`](https://eslint.org/docs/rules/no-unexpected-multiline)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`no-unmodified-loop-condition`](https://eslint.org/docs/rules/no-unmodified-loop-condition)|off|off|N/A 👻|error 🚨|
@@ -320,7 +320,7 @@
 |[`prefer-object-spread`](https://eslint.org/docs/rules/prefer-object-spread)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`prefer-promise-reject-errors`](https://eslint.org/docs/rules/prefer-promise-reject-errors)|off|error 🚨|error 🚨|error 🚨|
 |[`prefer-reflect`](https://eslint.org/docs/rules/prefer-reflect)|N/A 👻|off|N/A 👻|N/A 👻|
-|[`prefer-regex-literals`](https://eslint.org/docs/rules/prefer-regex-literals)|off|off|N/A 👻|N/A 👻|
+|[`prefer-regex-literals`](https://eslint.org/docs/rules/prefer-regex-literals)|error 🚨|off|N/A 👻|N/A 👻|
 |[`prefer-rest-params`](https://eslint.org/docs/rules/prefer-rest-params)|error 🚨|error 🚨|error 🚨|N/A 👻|
 |[`prefer-spread`](https://eslint.org/docs/rules/prefer-spread)|error 🚨|error 🚨|error 🚨|N/A 👻|
 |[`prefer-template`](https://eslint.org/docs/rules/prefer-template)|off|error 🚨|N/A 👻|N/A 👻|
@@ -329,10 +329,10 @@
 |[`quotes`](https://eslint.org/docs/rules/quotes)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`radix`](https://eslint.org/docs/rules/radix)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`require-atomic-updates`](https://eslint.org/docs/rules/require-atomic-updates)|off|off|N/A 👻|N/A 👻|
-|[`require-await`](https://eslint.org/docs/rules/require-await)|off|off|N/A 👻|N/A 👻|
+|[`require-await`](https://eslint.org/docs/rules/require-await)|error 🚨|off|N/A 👻|N/A 👻|
 |[`require-jsdoc`](https://eslint.org/docs/rules/require-jsdoc)|N/A 👻|off|error 🚨|N/A 👻|
 |[`require-unicode-regexp`](https://eslint.org/docs/rules/require-unicode-regexp)|off|off|N/A 👻|N/A 👻|
-|[`require-yield`](https://eslint.org/docs/rules/require-yield)|off|error 🚨|N/A 👻|N/A 👻|
+|[`require-yield`](https://eslint.org/docs/rules/require-yield)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`rest-spread-spacing`](https://eslint.org/docs/rules/rest-spread-spacing)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`semi`](https://eslint.org/docs/rules/semi)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`semi-spacing`](https://eslint.org/docs/rules/semi-spacing)|error 🚨|error 🚨|error 🚨|error 🚨|
@@ -380,7 +380,7 @@
 |[`unicorn/no-reduce`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-reduce.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-unreadable-array-destructuring`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unreadable-array-destructuring.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-unsafe-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unsafe-regex.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
-|[`unicorn/no-unused-properties`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/no-unused-properties`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-useless-undefined`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-undefined.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-zero-fractions`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-zero-fractions.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/number-literal-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/number-literal-case.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|

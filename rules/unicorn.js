@@ -98,6 +98,9 @@ module.exports = {
     // Enforce lowercase identifier and uppercase value for number literals.
     'unicorn/number-literal-case': 'error',
 
+    // Enforce the style of numeric separators by correctly grouping digits.
+    'unicorn/numeric-separators-style': 'error',
+
     // Prefer .addEventListener() and .removeEventListener() over on-functions.
     'unicorn/prefer-add-event-listener': 'error',
 
@@ -115,6 +118,9 @@ module.exports = {
 
     // Prefer .includes() over .indexOf() when checking for existence or non-existence.
     'unicorn/prefer-includes': 'error',
+
+    // Enforce the use of Math.trunc instead of bitwise operators
+    'unicorn/prefer-math-trunc': 'error',
 
     // Prefer .before() over .insertBefore(), .replaceWith() over .replaceChild(), prefer one of .before(),
     // .after(), .append() or .prepend() over insertAdjacentText() and insertAdjacentElement().
@@ -158,6 +164,9 @@ module.exports = {
 
     // Prefer String#slice() over String#substr() and String#substring().
     'unicorn/prefer-string-slice': 'error',
+
+    // Prefer ternary expressions over simple if-else statements
+    'unicorn/prefer-ternary': 'error',
 
     // Prefer .textContent over .innerText.
     'unicorn/prefer-text-content': 'error',

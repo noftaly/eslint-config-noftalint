@@ -69,7 +69,7 @@ module.exports = {
     // Disallow else after a return in an if
     'no-else-return': ['error', { allowElseIf: true }],
 
-    // Disallow empty functions, except for standalone funcs/arrows
+    // Disallow empty functions, except for arrow functions
     'no-empty-function': ['error', { allow: ['arrowFunctions'] }],
 
     // Disallow empty destructuring patterns

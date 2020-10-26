@@ -126,7 +126,9 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
 
     // Require or disallow an empty line between class members
-    'lines-between-class-members': 'error',
+    'lines-between-class-members': ['error', 'always', {
+      exceptAfterSingleLine: false,
+    }],
 
     // Enforces empty lines around comments
     'lines-around-comment': 'off',

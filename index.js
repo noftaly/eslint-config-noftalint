@@ -18,4 +18,8 @@ module.exports = {
   env: {
     node: true,
   },
+  overrides: [{
+    files: ['.eslintrc.js'],
+    rules: { 'import/no-commonjs': 'off' },
+  }],
 };

@@ -7,22 +7,71 @@
 This package provides Noftaly's .eslintrc as an extensible shared config.
 [See the comparison with airbnb, google and standard's config here](https://github.com/noftaly/eslint-config-noftalint/blob/master/docs/comparison.md)
 
+## Table of Content
+
+- [Usage](#usage)
+- [Use with TypeScript](#use-with-typescript)
+- [Links](#links)
+- [Credits](#credits)
+
 ## Usage
 
-This config contains all of my ESLint rules. It requires `eslint`.
-
-1. Install this package, with
+- Install this package, with
 ```shell
 $ npm i -D eslint eslint-config-noftalint eslint-plugin-import eslint-plugin-node eslint-plugin-unicorn
 ```
-2. Add `"extends": "noftalint"` to your `.eslintrc.js`.
+- Add `noftalint` to your `.eslintrc.js`:
+```
+extends: ['noftalint']
+```
+
+## Use with TypeScript
+
+`noftalint` also contains typescript rules, from `@typescript-eslint/eslint-plugin`! They are not included by default, so you need to configure some things first.
+1. Run the following command to install the required dependencies
+```shell
+$ npm i -D typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
+2. Add `noftalint/typescript` to the `extends` array:
+```
+extends: ['noftalint', 'noftalint/typescript']
+```
+3. Create a file named `tsconfig.eslint.json`, at the same level as your `tsconfig.json`.
+4. Add this inside your `tsconfig.eslint.json`. The `includes` property must be all the files you want to lint, including JS files.
+```json
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*.ts",
+    ".eslintrc.js",
+    "**/*.js"
+  ]
+}
+```
+
+If you use the shebang notation inside your project, you will need to modify the `node/shebang` rule in your `.eslintrc.js`:
+```js
+module.exports = {
+  ...
+  rules: {
+    'node/shebang': ['error', {
+      convertPath: {
+        // Change your main file and your destination file to what you want
+        'src/main.ts': ['^src/main.ts$', 'build/main.js'],
+      },
+    }],
+  }
+}
+```
 
 ## Links
 
-Github repository : [eslint-config-noftalint](https://github.com/noftaly/eslint-config-noftalint)<br />
-NPM package : [eslint-config-noftalint](https://www.npmjs.com/package/eslint-config-noftalint)
+Github repository: [eslint-config-noftalint](https://github.com/noftaly/eslint-config-noftalint)
+
+NPM package: [eslint-config-noftalint](https://www.npmjs.com/package/eslint-config-noftalint)
 
 ## Credits
 
 Inspired by the [Airbnb's config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
+
 Generator adapted from [Canonical's generator](https://github.com/gajus/eslint-config-canonical/)

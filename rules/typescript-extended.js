@@ -189,9 +189,7 @@ module.exports = {
     '@typescript-eslint/space-before-function-paren': style['space-before-function-paren'],
 
     // This rule is aimed at ensuring there are spaces around infix operators.
-    // TODO: Change. For some reason this rule does not work:
-    // error  Definition for rule '@typescript-eslint/space-infix-ops' was not found  @typescript-eslint/space-infix-ops
     'space-infix-ops': 'off',
-    '@typescript-eslint/space-infix-ops': 'off',
+    '@typescript-eslint/space-infix-ops': style['space-infix-ops'],
   },
 };

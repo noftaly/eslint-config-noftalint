@@ -310,6 +310,9 @@ module.exports = {
     // Warns if a type assertion does not change the type of an expression
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
 
+    // Disallows unnecessary constraints on generic types
+    '@typescript-eslint/no-unnecessary-type-constraint': 'error',
+
     // Disallows assigning any to variables and properties
     '@typescript-eslint/no-unsafe-assignment': 'error',
 

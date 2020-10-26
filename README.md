@@ -27,6 +27,8 @@ extends: ['noftalint']
 
 ## Use with TypeScript
 
+⚠️ The typescript ruleset is not yet available in the stable release. To use it, install noftalint with the `beta` tag: `npm i -D eslint-config-noftalint@beta`.
+
 `noftalint` also contains typescript rules, from `@typescript-eslint/eslint-plugin`! They are not included by default, so you need to configure some things first.
 1. Run the following command to install the required dependencies
 ```shell

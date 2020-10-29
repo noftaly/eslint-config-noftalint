@@ -1,0 +1,24 @@
+name: Check Rules
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Check Rules
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install Node 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Find new rules
+        run: npm run find-new-rules
+
+      - name: Find deprecated rules
+        run: npm run find-dep-rules

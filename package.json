@@ -7,8 +7,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "find-new-rules": "eslint-find-rules --unused ./index.js",
-    "find-dep-rules": "eslint-find-rules --deprecated ./index.js",
+    "find-new-rules": "npx eslint-find-rules --unused ./index.js",
+    "find-dep-rules": "npx eslint-find-rules --deprecated ./index.js",
     "make-docs": "cd docs && npm run make-docs"
   },
   "keywords": [

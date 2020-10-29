@@ -16,6 +16,7 @@ module.exports = {
     sourceType: 'module',
   },
   env: {
+    es6: true,
     node: true,
   },
   overrides: [{

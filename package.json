@@ -5,8 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/noftaly/eslint-config-noftalint",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint . --fix",
     "find-new-rules": "npx eslint-find-rules --unused ./index.js",
     "find-dep-rules": "npx eslint-find-rules --deprecated ./index.js",
     "make-docs": "cd docs && npm run make-docs"

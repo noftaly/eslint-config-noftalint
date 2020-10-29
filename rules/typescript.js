@@ -314,16 +314,20 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-type-constraint': 'error',
 
     // Disallows assigning any to variables and properties
-    '@typescript-eslint/no-unsafe-assignment': 'error',
+    // TODO: Change? It seems to currently have many false positive.
+    '@typescript-eslint/no-unsafe-assignment': 'off',
 
     // Disallows calling an any type value
-    '@typescript-eslint/no-unsafe-call': 'error',
+    // TODO: Change? It seems to currently have many false positive.
+    '@typescript-eslint/no-unsafe-call': 'off',
 
     // Disallows member access on any typed variables
-    '@typescript-eslint/no-unsafe-member-access': 'error',
+    // TODO: Change? It seems to currently have many false positive.
+    '@typescript-eslint/no-unsafe-member-access': 'off',
 
     // Disallows returning any from a function
-    '@typescript-eslint/no-unsafe-return': 'error',
+    // TODO: Change? It seems to currently have many false positive.
+    '@typescript-eslint/no-unsafe-return': 'off',
 
     // Disallows the use of require statements except in import statements
     // Already set with import/no-commonjs + We don't want `import x = require()`

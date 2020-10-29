@@ -34,9 +34,14 @@ extends: ['noftalint']
 ```shell
 $ npm i -D typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
-2. Add `noftalint/typescript` to the `extends` array:
-```
-extends: ['noftalint', 'noftalint/typescript']
+2. Update your `.eslintrc.js configuration with the following values:
+```js
+module.exports = {
+  extends: ['noftalint', 'noftalint/typescript'],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
+  ...
+};
 ```
 3. Create a file named `tsconfig.eslint.json`, at the same level as your `tsconfig.json`.
 4. Add this inside your `tsconfig.eslint.json`. The `includes` property must be all the files you want to lint, including JS files.
@@ -50,6 +55,7 @@ extends: ['noftalint', 'noftalint/typescript']
   ]
 }
 ```
+
 
 If you use the shebang notation inside your project, you will need to modify the `node/shebang` rule in your `.eslintrc.js`:
 ```js

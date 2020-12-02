@@ -145,6 +145,9 @@ module.exports = {
     // Disallows creating new instances of String, Number, and Boolean
     'no-new-wrappers': 'error',
 
+    // Disallow `\8` and `\9` escape sequences in string literals
+    'no-nonoctal-decimal-escape': 'error',
+
     // Disallow use of (old style) octal literals
     'no-octal': 'error',
 

@@ -124,6 +124,9 @@ module.exports = {
     // Disallow negating the left operand of relational operators
     'no-unsafe-negation': 'error',
 
+    // Disallow use of optional chaining in contexts where the undefined value is not allowed
+    'no-unsafe-optional-chaining': 'error',
+
     // Disallow assignments that can lead to race conditions due to usage of await or yield
     // TODO: Enable?
     'require-atomic-updates': 'off',

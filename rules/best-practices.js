@@ -116,7 +116,7 @@ module.exports = {
     'no-iterator': 'error',
 
     // Disallow use of labels for anything other than loops and switches
-    'no-labels': 'off',
+    'no-labels': 'error',
 
     // Disallow unnecessary nested blocks
     'no-lone-blocks': 'error',

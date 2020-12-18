@@ -25,14 +25,14 @@
     "eslint": ">=7.0.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^23.0.0"
+    "eslint-plugin-unicorn": "^24.0.0"
   },
   "devDependencies": {
     "eslint": "^7.15.0",
     "eslint-find-rules": "^3.6.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^23.0.0"
+    "eslint-plugin-unicorn": "^24.0.0"
   },
   "engines": {
     "node": "^10.12.0 || >=12.0.0"

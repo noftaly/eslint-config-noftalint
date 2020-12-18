@@ -15,6 +15,9 @@ module.exports = {
     // TODO: Enable?
     'unicorn/custom-error-definition': 'off',
 
+    // Enforce no spaces between braces
+    'unicorn/empty-brace-spaces': 'error',
+
     // Enforce passing a message value when throwing a built-in error.
     'unicorn/error-message': 'error',
 
@@ -61,6 +64,9 @@ module.exports = {
     // Disallow identifiers starting with new or class.
     'unicorn/no-keyword-prefix': 'off',
 
+    // Disallow if statements as the only statement in if blocks without else
+    'unicorn/no-lonely-if': 'error',
+
     // Disallow nested ternary expressions.
     // Already set in style.js with vanilla eslint
     'unicorn/no-nested-ternary': 'off',
@@ -68,7 +74,7 @@ module.exports = {
     // Enforce the use of Buffer.from() and Buffer.alloc() instead of the deprecated new Buffer().
     'unicorn/no-new-buffer': 'error',
 
-    // Disallow the use of the `null` literal.
+    // Disallow the use of the null literal.
     'unicorn/no-null': 'off',
 
     // Disallow the use of objects as default parameters
@@ -109,6 +115,9 @@ module.exports = {
 
     // Prefer using .dataset on DOM elements over .setAttribute(…).
     'unicorn/prefer-dataset': 'error',
+
+    // Prefer Date.now() to get the number of milliseconds since the Unix Epoch
+    'unicorn/prefer-date-now': 'error',
 
     // Prefer KeyboardEvent#key over KeyboardEvent#keyCode.
     'unicorn/prefer-event-key': 'error',

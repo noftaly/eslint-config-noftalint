@@ -7,8 +7,7 @@ module.exports = {
     'getter-return': 'error',
 
     // Disallow using an async function as a Promise executor
-    // TODO: Enable?
-    'no-async-promise-executor': 'off',
+    'no-async-promise-executor': 'error',
 
     // Disallow await inside of loops
     'no-await-in-loop': 'error',

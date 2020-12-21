@@ -29,7 +29,7 @@ module.exports = {
     'constructor-super': 'error',
 
     // Enforce the spacing around the * in generator functions
-    'generator-star-spacing': ['error', { before: false, after: true }],
+    'generator-star-spacing': ['error', { before: true, after: true }],
 
     // Disallow modifying variables of class declarations
     'no-class-assign': 'error',

@@ -211,6 +211,9 @@ module.exports = {
     // Disallow non-null assertion in locations that may be confusing
     '@typescript-eslint/no-confusing-non-null-assertion': 'error',
 
+    // Requires expressions of type void to appear in statement position
+    '@typescript-eslint/no-confusing-void-expression': 'error',
+
     // Disallow the delete operator with computed key expressions
     '@typescript-eslint/no-dynamic-delete': 'error',
 
@@ -332,6 +335,9 @@ module.exports = {
     // Disallows the use of require statements except in import statements
     // Already set with import/no-commonjs + We don't want `import x = require()`
     '@typescript-eslint/no-var-requires': 'off',
+
+    // Prefers a non-null assertion over explicit type cast when possible
+    '@typescript-eslint/non-nullable-type-assertion-style': 'error',
 
     // Prefer usage of as const over literal type
     '@typescript-eslint/prefer-as-const': 'error',

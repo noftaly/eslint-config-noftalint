@@ -12,8 +12,7 @@ module.exports = {
     'unicorn/consistent-function-scoping': 'error',
 
     // Enforce correct Error subclassing.
-    // TODO: Enable?
-    'unicorn/custom-error-definition': 'off',
+    'unicorn/custom-error-definition': 'error',
 
     // Enforce no spaces between braces
     'unicorn/empty-brace-spaces': 'error',
@@ -145,8 +144,7 @@ module.exports = {
     'unicorn/prefer-node-remove': 'error',
 
     // Prefer Number static properties over global ones. (Number.parseInt() over parseInt() etc.)
-    // TODO: Maybe enable?
-    'unicorn/prefer-number-properties': 'off',
+    'unicorn/prefer-number-properties': 'error',
 
     // Prefer omitting the catch binding parameter
     'unicorn/prefer-optional-catch-binding': 'error',
@@ -187,7 +185,6 @@ module.exports = {
     'unicorn/prefer-type-error': 'error',
 
     // Prevent abbreviations.
-    // TODO: Enable? (and add options)
     'unicorn/prevent-abbreviations': 'off',
 
     // Enforce better string content (replace "\'" by "’")

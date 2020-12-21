@@ -266,8 +266,7 @@ module.exports = {
     'prefer-promise-reject-errors': 'off',
 
     // Suggest using named capture group in regular expression
-    // TODO: Enable ?
-    'prefer-named-capture-group': 'off',
+    'prefer-named-capture-group': 'error',
 
     // Disallow use of the RegExp constructor in favor of regular expression literals
     'prefer-regex-literals': 'error',

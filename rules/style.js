@@ -165,8 +165,7 @@ module.exports = {
     'max-statements': 'off',
 
     // Restrict the number of statements per line
-    // TODO: Enable?
-    'max-statements-per-line': 'off',
+    'max-statements-per-line': 'error',
 
     // Enforce a particular style for multiline comments
     'multiline-comment-style': 'off',
@@ -232,8 +231,7 @@ module.exports = {
     'no-multiple-empty-lines': ['error', { max: 2, maxBOF: 1, maxEOF: 0 }],
 
     // Disallow negated conditions
-    // TODO: Enable?
-    'no-negated-condition': 'off',
+    'no-negated-condition': 'error',
 
     // Disallow nested ternary expressions
     'no-nested-ternary': 'off',

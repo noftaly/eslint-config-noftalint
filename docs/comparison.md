@@ -108,7 +108,7 @@
 |[`max-nested-callbacks`](https://eslint.org/docs/rules/max-nested-callbacks)|error 🚨|off|N/A 👻|N/A 👻|
 |[`max-params`](https://eslint.org/docs/rules/max-params)|warn ⚠️|off|N/A 👻|N/A 👻|
 |[`max-statements`](https://eslint.org/docs/rules/max-statements)|off|off|N/A 👻|N/A 👻|
-|[`max-statements-per-line`](https://eslint.org/docs/rules/max-statements-per-line)|off|off|N/A 👻|N/A 👻|
+|[`max-statements-per-line`](https://eslint.org/docs/rules/max-statements-per-line)|error 🚨|off|N/A 👻|N/A 👻|
 |[`multiline-comment-style`](https://eslint.org/docs/rules/multiline-comment-style)|off|off|N/A 👻|N/A 👻|
 |[`multiline-ternary`](https://eslint.org/docs/rules/multiline-ternary)|off|off|N/A 👻|N/A 👻|
 |[`new-cap`](https://eslint.org/docs/rules/new-cap)|error 🚨|error 🚨|error 🚨|error 🚨|
@@ -118,7 +118,7 @@
 |[`newline-per-chained-call`](https://eslint.org/docs/rules/newline-per-chained-call)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-alert`](https://eslint.org/docs/rules/no-alert)|off|warn ⚠️|N/A 👻|N/A 👻|
 |[`no-array-constructor`](https://eslint.org/docs/rules/no-array-constructor)|error 🚨|error 🚨|error 🚨|error 🚨|
-|[`no-async-promise-executor`](https://eslint.org/docs/rules/no-async-promise-executor)|off|error 🚨|N/A 👻|error 🚨|
+|[`no-async-promise-executor`](https://eslint.org/docs/rules/no-async-promise-executor)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-await-in-loop`](https://eslint.org/docs/rules/no-await-in-loop)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-bitwise`](https://eslint.org/docs/rules/no-bitwise)|off|error 🚨|N/A 👻|N/A 👻|
 |[`no-buffer-constructor`](https://eslint.org/docs/rules/no-buffer-constructor)|N/A 👻|error 🚨|N/A 👻|N/A 👻|
@@ -188,7 +188,7 @@
 |[`no-multi-str`](https://eslint.org/docs/rules/no-multi-str)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`no-multiple-empty-lines`](https://eslint.org/docs/rules/no-multiple-empty-lines)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`no-native-reassign`](https://eslint.org/docs/rules/no-native-reassign)|N/A 👻|off|N/A 👻|N/A 👻|
-|[`no-negated-condition`](https://eslint.org/docs/rules/no-negated-condition)|off|off|N/A 👻|N/A 👻|
+|[`no-negated-condition`](https://eslint.org/docs/rules/no-negated-condition)|error 🚨|off|N/A 👻|N/A 👻|
 |[`no-negated-in-lhs`](https://eslint.org/docs/rules/no-negated-in-lhs)|N/A 👻|off|N/A 👻|error 🚨|
 |[`no-nested-ternary`](https://eslint.org/docs/rules/no-nested-ternary)|off|error 🚨|N/A 👻|N/A 👻|
 |[`no-new`](https://eslint.org/docs/rules/no-new)|off|error 🚨|N/A 👻|error 🚨|
@@ -317,7 +317,7 @@
 |[`prefer-const`](https://eslint.org/docs/rules/prefer-const)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`prefer-destructuring`](https://eslint.org/docs/rules/prefer-destructuring)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`prefer-exponentiation-operator`](https://eslint.org/docs/rules/prefer-exponentiation-operator)|error 🚨|off|N/A 👻|N/A 👻|
-|[`prefer-named-capture-group`](https://eslint.org/docs/rules/prefer-named-capture-group)|off|off|N/A 👻|N/A 👻|
+|[`prefer-named-capture-group`](https://eslint.org/docs/rules/prefer-named-capture-group)|error 🚨|off|N/A 👻|N/A 👻|
 |[`prefer-numeric-literals`](https://eslint.org/docs/rules/prefer-numeric-literals)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`prefer-object-spread`](https://eslint.org/docs/rules/prefer-object-spread)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`prefer-promise-reject-errors`](https://eslint.org/docs/rules/prefer-promise-reject-errors)|off|error 🚨|error 🚨|error 🚨|
@@ -358,7 +358,7 @@
 |[`unicorn/better-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/better-regex.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/catch-error-name`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/catch-error-name.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/consistent-function-scoping`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-function-scoping.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|[`unicorn/custom-error-definition`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/custom-error-definition.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/custom-error-definition`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/custom-error-definition.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/empty-brace-spaces`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/empty-brace-spaces.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/error-message`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/error-message.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/escape-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/escape-case.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
@@ -401,7 +401,7 @@
 |[`unicorn/prefer-negative-index`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-node-append`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-append.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-node-remove`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-remove.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|[`unicorn/prefer-number-properties`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/prefer-number-properties`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-optional-catch-binding`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-query-selector`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-reflect-apply`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-reflect-apply.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|

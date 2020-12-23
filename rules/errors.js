@@ -10,7 +10,7 @@ module.exports = {
     'no-async-promise-executor': 'error',
 
     // Disallow await inside of loops
-    'no-await-in-loop': 'error',
+    'no-await-in-loop': 'warn',
 
     // Disallow comparisons to negative zero
     'no-compare-neg-zero': 'error',

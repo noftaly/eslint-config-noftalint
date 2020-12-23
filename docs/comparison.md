@@ -119,7 +119,7 @@
 |[`no-alert`](https://eslint.org/docs/rules/no-alert)|off|warn ⚠️|N/A 👻|N/A 👻|
 |[`no-array-constructor`](https://eslint.org/docs/rules/no-array-constructor)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`no-async-promise-executor`](https://eslint.org/docs/rules/no-async-promise-executor)|error 🚨|error 🚨|N/A 👻|error 🚨|
-|[`no-await-in-loop`](https://eslint.org/docs/rules/no-await-in-loop)|error 🚨|error 🚨|N/A 👻|N/A 👻|
+|[`no-await-in-loop`](https://eslint.org/docs/rules/no-await-in-loop)|warn ⚠️|error 🚨|N/A 👻|N/A 👻|
 |[`no-bitwise`](https://eslint.org/docs/rules/no-bitwise)|off|error 🚨|N/A 👻|N/A 👻|
 |[`no-buffer-constructor`](https://eslint.org/docs/rules/no-buffer-constructor)|N/A 👻|error 🚨|N/A 👻|N/A 👻|
 |[`no-caller`](https://eslint.org/docs/rules/no-caller)|error 🚨|error 🚨|error 🚨|error 🚨|

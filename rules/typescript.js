@@ -156,7 +156,7 @@ module.exports = {
     }],
 
     // Enforces using a particular method signature syntax
-    '@typescript-eslint/method-signature-style': ['error', 'property'],
+    '@typescript-eslint/method-signature-style': 'off',
 
     // Enforces naming conventions for everything across a codebase
     '@typescript-eslint/naming-convention': [
@@ -169,6 +169,12 @@ module.exports = {
       },
       {
         selector: 'variable',
+        format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
+        leadingUnderscore: 'allow',
+        trailingUnderscore: 'allow',
+      },
+      {
+        selector: 'objectLiteralProperty',
         format: ['camelCase', 'UPPER_CASE'],
         leadingUnderscore: 'allow',
         trailingUnderscore: 'allow',

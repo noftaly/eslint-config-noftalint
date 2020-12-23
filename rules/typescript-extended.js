@@ -23,6 +23,9 @@ function buildOptionsFromOriginal(rule, newOptions) {
 
 module.exports = {
   rules: {
+    // Disable these one as TypeScript already take care of it
+    'getter-return': 'off',
+
     // Enforce consistent brace style for blocks
     'brace-style': 'off',
     '@typescript-eslint/brace-style': style['brace-style'],

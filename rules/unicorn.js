@@ -45,20 +45,23 @@ module.exports = {
     // Enforce specifying rules to disable in eslint-disable comments.
     'unicorn/no-abusive-eslint-disable': 'error',
 
-    // Require Array.isArray() instead of instanceof Array.
-    'unicorn/no-array-instanceof': 'error',
+    // Prevent passing a function reference directly to iterator methods.
+    'unicorn/no-array-callback-reference': 'off',
+
+    // Disallow Array#reduce() and Array#reduceRight()
+    'unicorn/no-array-reduce': 'off',
 
     // Do not use leading/trailing space between console.log parameters.
     'unicorn/no-console-spaces': 'warn',
-
-    // Prevent passing a function reference directly to iterator methods.
-    'unicorn/no-fn-reference-in-iterator': 'off',
 
     // Do not use a for loop that can be replaced with a for-of loop.
     'unicorn/no-for-loop': 'error',
 
     // Enforce the use of Unicode escapes instead of hexadecimal escapes.
     'unicorn/no-hex-escape': 'error',
+
+    // Require Array.isArray() instead of instanceof Array.
+    'unicorn/no-instanceof-array': 'error',
 
     // Disallow identifiers starting with new or class.
     'unicorn/no-keyword-prefix': 'off',
@@ -81,9 +84,6 @@ module.exports = {
 
     // Disallow process.exit().
     'unicorn/no-process-exit': 'off',
-
-    // Disallow Array#reduce() and Array#reduceRight()
-    'unicorn/no-reduce': 'off',
 
     // Disallow unreadable array destructuring.
     'unicorn/no-unreadable-array-destructuring': 'warn',
@@ -112,20 +112,35 @@ module.exports = {
     // Prefer .find(…) over the first element from .filter(…)
     'unicorn/prefer-array-find': 'error',
 
-    // Prefer using .dataset on DOM elements over .setAttribute(…).
-    'unicorn/prefer-dataset': 'error',
+    // Prefer .flatMap(…) over .map(…).flat().
+    'unicorn/prefer-array-flat-map': 'error',
+
+    // Prefer .some(…) over .find(…).
+    'unicorn/prefer-array-some': 'error',
 
     // Prefer Date.now() to get the number of milliseconds since the Unix Epoch
     'unicorn/prefer-date-now': 'error',
 
-    // Prefer KeyboardEvent#key over KeyboardEvent#keyCode.
-    'unicorn/prefer-event-key': 'error',
+    // Prefer default parameters over reassignment
+    'unicorn/prefer-default-parameters': 'error',
 
-    // Prefer .flatMap(…) over .map(…).flat().
-    'unicorn/prefer-flat-map': 'error',
+    // Prefer Node#append() over Node#appendChild().
+    'unicorn/prefer-dom-node-append': 'error',
+
+    // Prefer node.remove() over parentNode.removeChild(node) and parentElement.removeChild(node).
+    'unicorn/prefer-dom-node-remove': 'error',
+
+    // Prefer .textContent over .innerText.
+    'unicorn/prefer-dom-node-text-content': 'error',
+
+    // Prefer using .dataset on DOM elements over .setAttribute(…).
+    'unicorn/prefer-dom-node-dataset': 'error',
 
     // Prefer .includes() over .indexOf() when checking for existence or non-existence.
     'unicorn/prefer-includes': 'error',
+
+    // Prefer KeyboardEvent#key over KeyboardEvent#keyCode.
+    'unicorn/prefer-keyboard-event-key': 'error',
 
     // Enforce the use of Math.trunc instead of bitwise operators
     'unicorn/prefer-math-trunc': 'error',
@@ -136,12 +151,6 @@ module.exports = {
 
     // Prefer negative index over .length, index for {String,Array,TypedArray}#slice() and Array#splice().
     'unicorn/prefer-negative-index': 'error',
-
-    // Prefer Node#append() over Node#appendChild().
-    'unicorn/prefer-node-append': 'error',
-
-    // Prefer node.remove() over parentNode.removeChild(node) and parentElement.removeChild(node).
-    'unicorn/prefer-node-remove': 'error',
 
     // Prefer Number static properties over global ones. (Number.parseInt() over parseInt() etc.)
     'unicorn/prefer-number-properties': 'error',
@@ -156,9 +165,6 @@ module.exports = {
     // Prefer Reflect.apply() over Function#apply().
     'unicorn/prefer-reflect-apply': 'error',
 
-    // Prefer String#replaceAll() over regex searches with the global flag
-    'unicorn/prefer-replace-all': 'error',
-
     // Prefer Set#has() over Array#includes() when checking for existence or non-existence
     // TODO: Make it 'error'?
     'unicorn/prefer-set-has': 'warn',
@@ -166,20 +172,21 @@ module.exports = {
     // Prefer the spread operator over Array.from().
     'unicorn/prefer-spread': 'error',
 
-    // Prefer String#startsWith() & String#endsWith() over more complex alternatives.
-    'unicorn/prefer-starts-ends-with': 'error',
+    // Prefer String#replaceAll() over regex searches with the global flag
+    // TODO: Enable when either babel or the LTS version of Node.js supports it.
+    'unicorn/prefer-string-replace-all': 'off',
 
     // Prefer String#slice() over String#substr() and String#substring().
     'unicorn/prefer-string-slice': 'error',
 
-    // Prefer ternary expressions over simple if-else statements
-    'unicorn/prefer-ternary': 'error',
-
-    // Prefer .textContent over .innerText.
-    'unicorn/prefer-text-content': 'error',
+    // Prefer String#startsWith() & String#endsWith() over more complex alternatives.
+    'unicorn/prefer-string-starts-ends-with': 'error',
 
     // Prefer String#trimStart() / String#trimEnd() over String#trimLeft() / String#trimRight().
-    'unicorn/prefer-trim-start-end': 'error',
+    'unicorn/prefer-string-trim-start-end': 'error',
+
+    // Prefer ternary expressions over simple if-else statements
+    'unicorn/prefer-ternary': 'error',
 
     // Enforce throwing TypeError in type checking conditions.
     'unicorn/prefer-type-error': 'error',

@@ -14,6 +14,13 @@ module.exports = {
     settings: {
       node: { tryExtensions: ['.ts', '.d.ts', '.js'] },
     },
+  }, {
+    files: ['.eslintrc.js'],
+    rules: {
+      'import/no-commonjs': 'off',
+      '@typescript-eslint/naming-convention': 'off',
+    },
   }],
+  global: { NodeJS: true },
   rules: {},
 };

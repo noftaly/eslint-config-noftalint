@@ -26,6 +26,15 @@ module.exports = {
     // Disable these one as TypeScript already take care of it
     'getter-return': 'off',
 
+    // Enforce named tuples
+    'no-restricted-syntax': [
+      'error',
+      {
+        selector: 'TSTupleType > :not(TSNamedTupleMember)',
+        message: 'All tuples should have labels',
+      },
+    ],
+
     // Enforce consistent brace style for blocks
     'brace-style': 'off',
     '@typescript-eslint/brace-style': style['brace-style'],

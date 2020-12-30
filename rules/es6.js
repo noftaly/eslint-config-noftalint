@@ -113,7 +113,12 @@ module.exports = {
 
     // Import sorting
     // Handled by import/order
-    'sort-imports': 'off',
+    'sort-imports': ['error', {
+      // TODO: ignore the case? (https://eslint.org/docs/rules/sort-imports#ignorecase)
+      ignoreCase: true,
+      // Ignored because it is being taken care of with "import/order"
+      ignoreDeclarationSort: true,
+    }],
 
     // Require a Symbol description
     'symbol-description': 'error',

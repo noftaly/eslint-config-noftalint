@@ -339,7 +339,7 @@
 |[`semi`](https://eslint.org/docs/rules/semi)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`semi-spacing`](https://eslint.org/docs/rules/semi-spacing)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`semi-style`](https://eslint.org/docs/rules/semi-style)|error 🚨|error 🚨|N/A 👻|N/A 👻|
-|[`sort-imports`](https://eslint.org/docs/rules/sort-imports)|off|off|N/A 👻|N/A 👻|
+|[`sort-imports`](https://eslint.org/docs/rules/sort-imports)|error 🚨|off|N/A 👻|N/A 👻|
 |[`sort-keys`](https://eslint.org/docs/rules/sort-keys)|off|off|N/A 👻|N/A 👻|
 |[`sort-vars`](https://eslint.org/docs/rules/sort-vars)|off|off|N/A 👻|N/A 👻|
 |[`space-before-blocks`](https://eslint.org/docs/rules/space-before-blocks)|error 🚨|error 🚨|error 🚨|error 🚨|
@@ -410,7 +410,7 @@
 |[`unicorn/prefer-reflect-apply`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-reflect-apply.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-set-has`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-set-has.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-spread`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|[`unicorn/prefer-string-replace-all`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-replace-all.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/prefer-string-replace-all`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-replace-all.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-string-slice`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-string-starts-ends-with`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-starts-ends-with.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-string-trim-start-end`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-trim-start-end.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|

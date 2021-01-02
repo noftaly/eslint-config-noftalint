@@ -21,6 +21,6 @@ module.exports = {
       '@typescript-eslint/naming-convention': 'off',
     },
   }],
-  global: { NodeJS: true },
+  globals: { NodeJS: true },
   rules: {},
 };

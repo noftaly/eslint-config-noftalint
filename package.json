@@ -36,9 +36,15 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-unicorn": "^26.0.1",
+    "husky": "^4.3.7",
     "typescript": "^4.1.3"
   },
   "engines": {
     "node": "^10.12.0 || >=12.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test && npm run make-docs"
+    }
   }
 }

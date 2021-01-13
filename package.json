@@ -7,8 +7,9 @@
   "scripts": {
     "lint": "npx eslint .",
     "lint:fix": "npx eslint . --fix",
-    "find-new-rules": "npx eslint-find-rules --unused ./index.js",
-    "find-dep-rules": "npx eslint-find-rules --deprecated ./index.js",
+    "find-new-rules": "npx eslint-find-rules --unused ./typescript.js",
+    "find-dep-rules": "npx eslint-find-rules --deprecated ./typescript.js",
+    "test": "npm run test && npm run find-new-rules && npm run find-dep-rules",
     "make-docs": "cd docs && npm run make-docs"
   },
   "keywords": [
@@ -28,11 +29,14 @@
     "eslint-plugin-unicorn": "^26.0.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
     "eslint": "^7.17.0",
     "eslint-find-rules": "^3.6.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^26.0.0"
+    "eslint-plugin-unicorn": "^26.0.1",
+    "typescript": "^4.1.3"
   },
   "engines": {
     "node": "^10.12.0 || >=12.0.0"

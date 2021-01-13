@@ -1,4 +1,6 @@
 module.exports = {
+  plugins: ['@typescript-eslint/eslint-plugin'],
+
   rules: {
     // Require that member overloads be consecutive
     '@typescript-eslint/adjacent-overload-signatures': 'error',

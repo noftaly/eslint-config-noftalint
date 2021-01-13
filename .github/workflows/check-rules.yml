@@ -2,14 +2,14 @@ name: Check Rules
 on: [push, pull_request]
 
 jobs:
-  build:
+  check-rules:
     name: Check Rules
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install Node 14
+      - name: Install Node v14
         uses: actions/setup-node@v1
         with:
           node-version: 14

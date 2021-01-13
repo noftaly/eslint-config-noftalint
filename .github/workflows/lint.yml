@@ -3,7 +3,7 @@ on: [push, pull_request]
 
 jobs:
   lint:
-    name: ESLint
+    name: Lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -14,11 +14,8 @@ jobs:
         with:
           node-version: 14
 
-      - name: Install ESLint v7
-        run: npm install eslint@7
-
-      - name: Install ESLint Configs and Plugins
-        run: npm install -D eslint-plugin-import eslint-plugin-node eslint-plugin-unicorn
+      - name: Install Dependencies
+        run: npm install
 
       - name: Run ESLint
         run: npm run lint

@@ -405,6 +405,9 @@ module.exports = {
     // Enforce template literal expressions to be of string type
     '@typescript-eslint/restrict-template-expressions': 'off',
 
+    // Enforces that members of a type union/intersection are sorted alphabetically
+    '@typescript-eslint/sort-type-union-intersection-members': 'error',
+
     // Restricts the types allowed in boolean expressions
     // TODO: Change?
     '@typescript-eslint/strict-boolean-expressions': 'off',

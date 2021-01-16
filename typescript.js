@@ -1,9 +1,9 @@
 module.exports = {
   extends: [
+    './index.js',
     'plugin:import/typescript',
     './rules/typescript',
     './rules/typescript-extended',
-    './index.js',
   ],
   parserOptions: {
     ecmaVersion: 2020,

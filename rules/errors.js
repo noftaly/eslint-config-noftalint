@@ -130,6 +130,9 @@ module.exports = {
     // TODO: Enable?
     'require-atomic-updates': 'off',
 
+    // Babel inserts `'use strict';` for us
+    strict: ['error', 'never'],
+
     // Disallow comparisons with the value NaN
     'use-isnan': 'error',
 

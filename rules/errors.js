@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     // Enforce “for” loop update clause moving the counter in the right direction
-    'for-direction': 'off',
+    'for-direction': 'error',
 
     // Enforces that a return statement is present in property getters
     'getter-return': 'error',

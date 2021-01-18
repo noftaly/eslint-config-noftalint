@@ -14,7 +14,7 @@
 |[`callback-return`](https://eslint.org/docs/rules/callback-return)|N/A 👻|off|N/A 👻|N/A 👻|
 |[`camelcase`](https://eslint.org/docs/rules/camelcase)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`capitalized-comments`](https://eslint.org/docs/rules/capitalized-comments)|warn ⚠️|off|N/A 👻|N/A 👻|
-|[`class-methods-use-this`](https://eslint.org/docs/rules/class-methods-use-this)|off|error 🚨|N/A 👻|N/A 👻|
+|[`class-methods-use-this`](https://eslint.org/docs/rules/class-methods-use-this)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`comma-dangle`](https://eslint.org/docs/rules/comma-dangle)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`comma-spacing`](https://eslint.org/docs/rules/comma-spacing)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`comma-style`](https://eslint.org/docs/rules/comma-style)|error 🚨|error 🚨|error 🚨|error 🚨|
@@ -31,7 +31,7 @@
 |[`dot-notation`](https://eslint.org/docs/rules/dot-notation)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`eol-last`](https://eslint.org/docs/rules/eol-last)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`eqeqeq`](https://eslint.org/docs/rules/eqeqeq)|error 🚨|error 🚨|N/A 👻|error 🚨|
-|[`for-direction`](https://eslint.org/docs/rules/for-direction)|off|error 🚨|N/A 👻|N/A 👻|
+|[`for-direction`](https://eslint.org/docs/rules/for-direction)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`func-call-spacing`](https://eslint.org/docs/rules/func-call-spacing)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`func-name-matching`](https://eslint.org/docs/rules/func-name-matching)|off|off|N/A 👻|N/A 👻|
 |[`func-names`](https://eslint.org/docs/rules/func-names)|off|warn ⚠️|N/A 👻|N/A 👻|
@@ -65,7 +65,7 @@
 |[`import/no-amd`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`import/no-anonymous-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md)|off|off|N/A 👻|N/A 👻|
 |[`import/no-commonjs`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md)|warn ⚠️|off|N/A 👻|N/A 👻|
-|[`import/no-cycle`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md)|off|error 🚨|N/A 👻|N/A 👻|
+|[`import/no-cycle`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`import/no-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-default-export.md)|off|off|N/A 👻|N/A 👻|
 |[`import/no-deprecated`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md)|warn ⚠️|off|N/A 👻|N/A 👻|
 |[`import/no-duplicates`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md)|error 🚨|error 🚨|N/A 👻|error 🚨|

@@ -13,8 +13,7 @@ module.exports = {
     complexity: ['error', 25],
 
     // Enforce that class methods use "this"
-    // TODO: Enable?
-    'class-methods-use-this': 'off',
+    'class-methods-use-this': 'error',
 
     // Require return statements to either always or never specify values
     // TODO: Enable?
@@ -46,6 +45,7 @@ module.exports = {
     'grouped-accessor-pairs': 'error',
 
     // Make sure for-in loops have an if statement
+    // TODO: Enable?
     'guard-for-in': 'off',
 
     // Enforce a maximum number of classes per file

@@ -2,12 +2,6 @@ module.exports = {
   plugins: ['node'],
 
   rules: {
-    // Require error handling in callbacks
-    'node/handle-callback-err': 'error',
-
-    // Ensure Node.js-style error-first callback pattern is followed
-    'node/no-callback-literal': 'error',
-
     // Require return statements after callbacks
     // We warn as it has many false positives and negatives.
     // TODO: change?
@@ -21,6 +15,12 @@ module.exports = {
 
     // Require require() calls to be placed at top-level module scope
     'node/global-require': 'off',
+
+    // Require error handling in callbacks
+    'node/handle-callback-err': 'error',
+
+    // Ensure Node.js-style error-first callback pattern is followed
+    'node/no-callback-literal': 'error',
 
     // Disallow the assignment to exports
     'node/no-exports-assign': 'error',

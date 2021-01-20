@@ -33,7 +33,7 @@ module.exports = {
     'unicorn/explicit-length-check': 'error',
 
     // Enforce a case style for filenames.
-    // TODO: Enable. Choose between camelCase and hyphen-case
+    // TODO: Enable. Choose between camelCase and hyphen-case.
     'unicorn/filename-case': 'off',
 
     // Enforce importing index files with ..

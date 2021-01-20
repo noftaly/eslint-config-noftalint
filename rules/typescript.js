@@ -12,8 +12,13 @@ module.exports = {
     '@typescript-eslint/await-thenable': 'error',
 
     // Bans @ts-<directive> comments from being used or requires descriptions after directive
-    // TODO: Change? I don't have enough experience with typescript yet to know if I should enable/disable it.
-    '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/ban-ts-comment': ['error', {
+      'ts-expect-error': 'allow-with-description',
+      'ts-ignore': true,
+      'ts-nocheck': true,
+      'ts-check': false,
+      minimumDescriptionLength: 5,
+    }],
 
     // Bans // tslint:<rule-flag> comments from being used
     '@typescript-eslint/ban-tslint-comment': 'error',

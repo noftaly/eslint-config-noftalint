@@ -9,7 +9,7 @@ module.exports = {
     'unicorn/catch-error-name': 'off',
 
     // Use destructured variables over properties
-    'unicorn/consistent-destructuring': 'error',
+    'unicorn/consistent-destructuring': 'off',
 
     // Move function definitions to the highest possible scope.
     'unicorn/consistent-function-scoping': 'error',

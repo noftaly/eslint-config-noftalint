@@ -179,6 +179,10 @@ module.exports = {
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': es6['no-useless-constructor'],
 
+    // Enforce consistent spacing inside braces
+    'object-curly-spacing': 'off',
+    '@typescript-eslint/object-curly-spacing': style['object-curly-spacing'],
+
     // Enforce the consistent use of either backticks, double, or single quotes
     quotes: 'off',
     '@typescript-eslint/quotes': style.quotes,

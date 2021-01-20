@@ -357,7 +357,7 @@
 |[`unicode-bom`](https://eslint.org/docs/rules/unicode-bom)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`unicorn/better-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/better-regex.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/catch-error-name`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/catch-error-name.md)|off|N/A 👻|N/A 👻|N/A 👻|
-|[`unicorn/consistent-destructuring`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-destructuring.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/consistent-destructuring`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-destructuring.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/consistent-function-scoping`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-function-scoping.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/custom-error-definition`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/custom-error-definition.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/empty-brace-spaces`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/empty-brace-spaces.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|

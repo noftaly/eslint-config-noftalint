@@ -288,7 +288,7 @@ module.exports = {
     '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
 
     // Disallows non-null assertions using the ! postfix operator
-    '@typescript-eslint/no-non-null-assertion': 'error',
+    '@typescript-eslint/no-non-null-assertion': 'off',
 
     // Disallow the use of parameter properties in class constructors
     '@typescript-eslint/no-parameter-properties': 'off',

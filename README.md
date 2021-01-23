@@ -59,10 +59,36 @@ module.exports = {
   "extends": "./tsconfig.json",
   "include": [
     "src/**/*.ts",
-    ".eslintrc.js",
-    "**/*.js"
+    ".eslintrc.js"
   ]
 }
+```
+
+If you want to use custom TypeScript's path aliases, you will have to follow these steps:
+
+```shell
+$ npm install --save-dev eslint-import-resolver-typescript
+```
+
+Update your `.eslintrc.js` by disabling `node/no-missing-import` as it does not support TypeScript's path aliases ; and by updating the settings for `import/resolver`.
+
+```js
+module.exports = {
+  ...
+  rules: {
+    ...
+    // It cannot resolve TypeScript's path aliases. See https://github.com/mysticatea/eslint-plugin-node/issues/233
+    'node/no-missing-import': 'off',
+  },
+  settings: {
+    ...
+    'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true,
+      },
+    },
+  },
+};
 ```
 
 If you use the shebang notation inside your project, you will need to modify the `node/shebang` rule in your `.eslintrc.js`:
@@ -71,6 +97,7 @@ If you use the shebang notation inside your project, you will need to modify the
 module.exports = {
   ...
   rules: {
+    ...
     'node/shebang': ['error', {
       convertPath: {
         // Change your main file and your destination file to what you want

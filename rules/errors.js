@@ -22,7 +22,7 @@ module.exports = {
     'no-console': 'off',
 
     // Disallow use of constant expressions in conditions
-    'no-constant-condition': 'warn',
+    'no-constant-condition': ['error', { checkLoops: false }],
 
     // Disallow control characters in regular expressions
     'no-control-regex': 'error',

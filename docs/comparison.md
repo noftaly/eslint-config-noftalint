@@ -131,7 +131,7 @@
 |[`no-confusing-arrow`](https://eslint.org/docs/rules/no-confusing-arrow)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-console`](https://eslint.org/docs/rules/no-console)|off|warn ⚠️|N/A 👻|N/A 👻|
 |[`no-const-assign`](https://eslint.org/docs/rules/no-const-assign)|error 🚨|error 🚨|N/A 👻|error 🚨|
-|[`no-constant-condition`](https://eslint.org/docs/rules/no-constant-condition)|warn ⚠️|warn ⚠️|N/A 👻|error 🚨|
+|[`no-constant-condition`](https://eslint.org/docs/rules/no-constant-condition)|error 🚨|warn ⚠️|N/A 👻|error 🚨|
 |[`no-constructor-return`](https://eslint.org/docs/rules/no-constructor-return)|error 🚨|off|N/A 👻|N/A 👻|
 |[`no-continue`](https://eslint.org/docs/rules/no-continue)|off|error 🚨|N/A 👻|N/A 👻|
 |[`no-control-regex`](https://eslint.org/docs/rules/no-control-regex)|error 🚨|error 🚨|N/A 👻|error 🚨|

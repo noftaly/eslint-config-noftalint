@@ -51,6 +51,12 @@ module.exports = {
     // Prevent passing a function reference directly to iterator methods.
     'unicorn/no-array-callback-reference': 'off',
 
+    // Prefer for…of over Array#forEach(…)
+    'unicorn/no-array-for-each': 'error',
+
+    // Enforce combining multiple Array#push() into one call
+    'unicorn/no-array-push-push': 'off',
+
     // Disallow Array#reduce() and Array#reduceRight()
     'unicorn/no-array-reduce': 'off',
 
@@ -90,6 +96,9 @@ module.exports = {
 
     // Disallow process.exit().
     'unicorn/no-process-exit': 'off',
+
+    // Disallow assigning this to a variable
+    'unicorn/no-this-assignment': 'error',
 
     // Disallow unreadable array destructuring.
     'unicorn/no-unreadable-array-destructuring': 'warn',
@@ -198,7 +207,7 @@ module.exports = {
     'unicorn/prefer-string-trim-start-end': 'error',
 
     // Prefer ternary expressions over simple if-else statements
-    'unicorn/prefer-ternary': 'error',
+    'unicorn/prefer-ternary': ['error', 'only-single-line'],
 
     // Enforce throwing TypeError in type checking conditions.
     'unicorn/prefer-type-error': 'error',

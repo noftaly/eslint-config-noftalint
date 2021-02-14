@@ -23,5 +23,9 @@ module.exports = {
     },
   }],
   globals: { NodeJS: true },
-  rules: {},
+  rules: {
+    // `node/file-extension-in-import` has too many false positives with `.json`.
+    'node/file-extension-in-import': 'off',
+    'import/extensions': ['error', 'never', { ts: 'never', json: 'always' }],
+  },
 };

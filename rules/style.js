@@ -76,7 +76,7 @@ module.exports = {
     'id-match': 'off',
 
     // Enforce the location of arrow function bodies with implicit returns
-    'implicit-arrow-linebreak': ['error', 'beside'],
+    'implicit-arrow-linebreak': 'off',
 
     // This option sets a specific tab width for your code
     indent: ['error', 2, {

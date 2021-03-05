@@ -40,7 +40,7 @@ $ npm i -D typescript         \
     @typescript-eslint/eslint-plugin
 ```
 
-2. Update your `.eslintrc.js configuration with the following values:
+2. Update your `.eslintrc.js` configuration with the following values:
 
 ```js
 module.exports = {
@@ -70,7 +70,7 @@ If you want to use custom TypeScript's path aliases, you will have to follow the
 $ npm install --save-dev eslint-import-resolver-typescript
 ```
 
-Update your `.eslintrc.js` by disabling `node/no-missing-import` as it does not support TypeScript's path aliases ; and by updating the settings for `import/resolver`.
+Update your `.eslintrc.js` by disabling `node/no-missing-import` as it does not support TypeScript's path aliases; and by updating the settings for `import/resolver`.
 
 ```js
 module.exports = {

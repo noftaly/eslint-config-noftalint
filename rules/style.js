@@ -287,7 +287,6 @@ module.exports = {
     'one-var': ['error', 'never'],
 
     // Require a newline around variable declaration
-    // TODO: Enable?
     'one-var-declaration-per-line': 'off',
 
     // Require assignment operator shorthand where possible or prohibit it entirely

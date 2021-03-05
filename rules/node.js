@@ -4,7 +4,6 @@ module.exports = {
   rules: {
     // Require return statements after callbacks
     // We warn as it has many false positives and negatives.
-    // TODO: change?
     'node/callback-return': 'warn',
 
     // Enforce either module.exports or exports

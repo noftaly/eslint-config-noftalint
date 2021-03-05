@@ -192,7 +192,6 @@ module.exports = {
     '@typescript-eslint/require-await': bestPractices['require-await'],
 
     // Enforces consistent returning of awaited values
-    // TODO: Change?
     'no-return-await': 'off',
     '@typescript-eslint/return-await': bestPractices['no-return-await'],
 

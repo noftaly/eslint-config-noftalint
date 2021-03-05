@@ -208,7 +208,6 @@ module.exports = {
     'no-return-assign': ['error', 'always'],
 
     // Disallow redundant `return await`
-    // TODO: When possible, enable it, and disable it just for one-line arrow functions
     'no-return-await': 'off',
 
     // Disallow use of `javascript:` urls.

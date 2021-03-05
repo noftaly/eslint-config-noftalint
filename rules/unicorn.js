@@ -187,8 +187,7 @@ module.exports = {
     'unicorn/prefer-regexp-test': 'error',
 
     // Prefer Set#has() over Array#includes() when checking for existence or non-existence
-    // TODO: Make it 'error'?
-    'unicorn/prefer-set-has': 'warn',
+    'unicorn/prefer-set-has': 'error',
 
     // Prefer the spread operator over Array.from().
     'unicorn/prefer-spread': 'error',

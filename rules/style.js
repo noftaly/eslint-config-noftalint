@@ -1,13 +1,14 @@
 module.exports = {
   rules: {
     // Enforce line breaks after opening and before closing array brackets
-    'array-bracket-newline': ['off', 'consistent'],
+    'array-bracket-newline': ['error', 'consistent'],
 
     // Enforce line breaks between array elements
-    'array-element-newline': ['off', { multiline: true, minItems: 3 }],
+    // TODO: Change?
+    'array-element-newline': ['off', { multiline: true, minItems: 4 }],
 
     // Enforce spacing inside array brackets
-    'array-bracket-spacing': 'error',
+    'array-bracket-spacing': ['error', 'never'],
 
     // Enforce spacing inside single-line blocks
     'block-spacing': 'error',
@@ -265,7 +266,7 @@ module.exports = {
     'no-whitespace-before-property': 'error',
 
     // Enforce the location of single-line statements
-    'nonblock-statement-body-position': 'off',
+    'nonblock-statement-body-position': ['error', 'below'],
 
     // Require padding inside curly braces
     'object-curly-spacing': ['error', 'always'],

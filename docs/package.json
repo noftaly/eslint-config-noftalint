@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "make-docs": "node ./makeDocs"
+    "generate-comparison": "node ./generate-comparison"
   },
   "dependencies": {
     "eslint": "^7.21.0",

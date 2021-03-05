@@ -10,7 +10,7 @@
     "find-new-rules": "npx eslint-find-rules --unused ./typescript.js",
     "find-dep-rules": "npx eslint-find-rules --deprecated ./typescript.js",
     "test": "npm run lint && npm run find-new-rules && npm run find-dep-rules",
-    "make-docs": "cd docs && npm run make-docs"
+    "gen": "cd docs && npm run generate-comparison"
   },
   "keywords": [
     "eslint",

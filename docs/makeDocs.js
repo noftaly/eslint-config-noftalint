@@ -80,7 +80,8 @@ async function getRules(configuration) {
   // As fs.promises was added in nodejs v11 and ESLint supports node down to v10.12, we can't use promises... :/
   // eslint-disable-next-line node/prefer-promises/fs
   fs.writeFile(path, docsContent, (err) => {
-    if (err) throw err;
+    if (err)
+      throw err;
   });
   console.log('Documentation updated!');
 })();

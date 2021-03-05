@@ -3,7 +3,7 @@
     "make-docs": "node ./makeDocs"
   },
   "dependencies": {
-    "eslint": "^7.20.0",
+    "eslint": "^7.21.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-google": "^0.14.0",
     "eslint-config-standard": "^16.0.2",

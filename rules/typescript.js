@@ -275,7 +275,7 @@ module.exports = {
     // Avoid using promises in places not designed to handle them
     '@typescript-eslint/no-misused-promises': ['error', {
       checksConditionals: true,
-      checksVoidReturn: true,
+      checksVoidReturn: false,
     }],
 
     // Disallow the use of custom TypeScript modules and namespaces

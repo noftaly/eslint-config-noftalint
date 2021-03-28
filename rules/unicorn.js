@@ -97,6 +97,9 @@ module.exports = {
     // Disallow process.exit().
     'unicorn/no-process-exit': 'off',
 
+    // Forbid classes that only have static members
+    'unicorn/no-static-only-class': 'error',
+
     // Disallow assigning this to a variable
     'unicorn/no-this-assignment': 'error',
 
@@ -126,6 +129,9 @@ module.exports = {
 
     // Prefer .find(…) over the first element from .filter(…)
     'unicorn/prefer-array-find': 'error',
+
+    // Prefer Array#flat() over legacy techniques to flatten arrays
+    'unicorn/prefer-array-flat': 'error',
 
     // Prefer .flatMap(…) over .map(…).flat().
     'unicorn/prefer-array-flat-map': 'error',

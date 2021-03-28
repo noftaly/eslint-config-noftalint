@@ -385,6 +385,7 @@
 |[`unicorn/no-null`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-null.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-object-as-default-parameter`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-object-as-default-parameter.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-process-exit`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-process-exit.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/no-static-only-class`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-static-only-class.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-this-assignment`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-unreadable-array-destructuring`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-array-destructuring.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-unsafe-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unsafe-regex.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
@@ -395,6 +396,7 @@
 |[`unicorn/numeric-separators-style`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/numeric-separators-style.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-add-event-listener`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-add-event-listener.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-array-find`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-find.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/prefer-array-flat`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-array-flat-map`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat-map.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-array-index-of`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-index-of.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-array-some`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-some.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|

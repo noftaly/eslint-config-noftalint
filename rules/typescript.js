@@ -244,7 +244,7 @@ module.exports = {
       allowConstructorOnly: false,
       allowEmpty: false,
       allowStaticOnly: false,
-      allowWithDecorator: false,
+      allowWithDecorator: true,
     }],
 
     // Requires Promise-like values to be handled appropriately
@@ -328,6 +328,9 @@ module.exports = {
 
     // Disallows unnecessary constraints on generic types
     '@typescript-eslint/no-unnecessary-type-constraint': 'error',
+
+    // Disallows calling an function with an any type value
+    '@typescript-eslint/no-unsafe-argument': 'error',
 
     // Disallows assigning any to variables and properties
     // TODO: Change? It seems to currently have many false positive.

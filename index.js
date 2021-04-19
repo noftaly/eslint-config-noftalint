@@ -18,8 +18,22 @@ module.exports = {
     es6: true,
     node: true,
   },
-  overrides: [{
-    files: ['.eslintrc.js'],
-    rules: { 'import/no-commonjs': 'off' },
-  }],
+  overrides: [
+    {
+      files: ['./test/**/*.ts', './src/**/*.spec.ts'],
+      rules: {
+        'node/no-unpublished-import': 'off',
+        'import/no-extraneous-dependencies': 'off',
+        'max-nested-callbacks': 'off',
+      },
+    }, {
+      files: ['*.config.ts', '*.config.js', '.*rc.js'],
+      rules: {
+        'import/no-commonjs': 'off',
+        'node/no-unpublished-import': 'off',
+        'node/no-unpublished-require': 'off',
+        'import/no-extraneous-dependencies': 'off',
+      },
+    },
+  ],
 };

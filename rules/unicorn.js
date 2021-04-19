@@ -107,7 +107,7 @@ module.exports = {
     'unicorn/no-unreadable-array-destructuring': 'warn',
 
     // Disallow unsafe regular expressions.
-    'unicorn/no-unsafe-regex': 'warn',
+    'unicorn/no-unsafe-regex': 'off',
 
     // Disallow unused object properties.
     'unicorn/no-unused-properties': 'error',
@@ -210,6 +210,9 @@ module.exports = {
 
     // Prefer String#trimStart() / String#trimEnd() over String#trimLeft() / String#trimRight().
     'unicorn/prefer-string-trim-start-end': 'error',
+
+    // Prefer switch over multiple else-if.
+    'unicorn/prefer-switch': ['error', { emptyDefaultCase: 'no-default-case' }],
 
     // Prefer ternary expressions over simple if-else statements
     'unicorn/prefer-ternary': ['error', 'only-single-line'],

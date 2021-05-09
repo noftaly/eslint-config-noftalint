@@ -1,6 +1,7 @@
 module.exports = {
   rules: {
     // Enforces getter/setter pairs in objects
+    // TODO: Enable?
     'accessor-pairs': 'off',
 
     // Enforces return statements in callbacks of array's methods

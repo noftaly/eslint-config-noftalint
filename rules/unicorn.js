@@ -63,6 +63,9 @@ module.exports = {
     // Do not use leading/trailing space between console.log parameters.
     'unicorn/no-console-spaces': 'warn',
 
+    // Do not use document.cookie directly.
+    'unicorn/no-document-cookie': 'error',
+
     // Do not use a for loop that can be replaced with a for-of loop.
     'unicorn/no-for-loop': 'error',
 
@@ -173,8 +176,15 @@ module.exports = {
     // .after(), .append() or .prepend() over insertAdjacentText() and insertAdjacentElement().
     'unicorn/prefer-modern-dom-apis': 'error',
 
+    // Prefer JavaScript modules (ESM) over CommonJS
+    'unicorn/prefer-module': 'off',
+
     // Prefer negative index over .length, index for {String,Array,TypedArray}#slice() and Array#splice().
     'unicorn/prefer-negative-index': 'error',
+
+    // Prefer using the node: protocol when importing Node.js builtin modules.
+    // TODO: Enable?
+    'unicorn/prefer-node-protocol': 'off',
 
     // Prefer Number static properties over global ones. (Number.parseInt() over parseInt() etc.)
     'unicorn/prefer-number-properties': 'error',

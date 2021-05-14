@@ -120,6 +120,9 @@ module.exports = {
     // Prevent importing the submodules of other modules
     'import/no-internal-modules': 'off',
 
+    // Reports the use of import declarations with CommonJS exports in any module except for the main module.
+    'import/no-import-module-exports': 'error',
+
     // Forbid mutable exports
     'import/no-mutable-exports': 'error',
 
@@ -140,6 +143,9 @@ module.exports = {
 
     // No Node.js builtin modules
     'import/no-nodejs-modules': 'off',
+
+    // Use this rule to prevent importing packages through relative paths.
+    'import/no-relative-packages': 'off',
 
     // Use this rule to prevent imports to folders in relative parent paths.
     'import/no-relative-parent-imports': 'off',
@@ -168,7 +174,7 @@ module.exports = {
 
     // Ensure absolute imports are above relative imports and that unassigned imports are ignored
     'import/order': ['error', {
-      groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+      groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'type'],
       alphabetize: {
         order: 'asc',
       },

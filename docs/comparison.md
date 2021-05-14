@@ -71,7 +71,7 @@
 |[`import/no-duplicates`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`import/no-dynamic-require`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md)|off|error 🚨|N/A 👻|N/A 👻|
 |[`import/no-extraneous-dependencies`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md)|error 🚨|error 🚨|N/A 👻|N/A 👻|
-|[`import/no-import-module-exports`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-import-module-exports.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`import/no-import-module-exports`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-import-module-exports.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`import/no-internal-modules`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md)|off|off|N/A 👻|N/A 👻|
 |[`import/no-mutable-exports`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`import/no-named-as-default`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md)|error 🚨|error 🚨|N/A 👻|N/A 👻|

@@ -121,7 +121,8 @@ module.exports = {
     'import/no-internal-modules': 'off',
 
     // Reports the use of import declarations with CommonJS exports in any module except for the main module.
-    'import/no-import-module-exports': 'error',
+    // TODO: Enable when it doesn't crash on this repo
+    'import/no-import-module-exports': 'off',
 
     // Forbid mutable exports
     'import/no-mutable-exports': 'error',

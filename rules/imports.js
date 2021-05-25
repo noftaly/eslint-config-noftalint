@@ -121,8 +121,8 @@ module.exports = {
     'import/no-internal-modules': 'off',
 
     // Reports the use of import declarations with CommonJS exports in any module except for the main module.
-    // TODO: Enable when it doesn't crash on this repo
-    'import/no-import-module-exports': 'off',
+    // TODO(eslint-plugin-import>=23): un-comment
+    // 'import/no-import-module-exports': 'error',
 
     // Forbid mutable exports
     'import/no-mutable-exports': 'error',
@@ -146,7 +146,8 @@ module.exports = {
     'import/no-nodejs-modules': 'off',
 
     // Use this rule to prevent importing packages through relative paths.
-    'import/no-relative-packages': 'off',
+    // TODO(eslint-plugin-import>=23): un-comment
+    // 'import/no-relative-packages': 'off',
 
     // Use this rule to prevent imports to folders in relative parent paths.
     'import/no-relative-parent-imports': 'off',
@@ -175,7 +176,9 @@ module.exports = {
 
     // Ensure absolute imports are above relative imports and that unassigned imports are ignored
     'import/order': ['error', {
-      groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'type'],
+      // TODO(eslint-plugin-import>=23): un-comment
+      // groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'type'],
+      groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
       alphabetize: {
         order: 'asc',
       },

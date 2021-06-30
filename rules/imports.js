@@ -121,8 +121,7 @@ module.exports = {
     'import/no-internal-modules': 'off',
 
     // Reports the use of import declarations with CommonJS exports in any module except for the main module.
-    // TODO(eslint-plugin-import>=23): un-comment
-    // 'import/no-import-module-exports': 'error',
+    'import/no-import-module-exports': 'error',
 
     // Forbid mutable exports
     'import/no-mutable-exports': 'error',
@@ -146,8 +145,7 @@ module.exports = {
     'import/no-nodejs-modules': 'off',
 
     // Use this rule to prevent importing packages through relative paths.
-    // TODO(eslint-plugin-import>=23): un-comment
-    // 'import/no-relative-packages': 'off',
+    'import/no-relative-packages': 'off',
 
     // Use this rule to prevent imports to folders in relative parent paths.
     'import/no-relative-parent-imports': 'off',

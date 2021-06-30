@@ -371,7 +371,7 @@ module.exports = {
     '@typescript-eslint/prefer-includes': 'error',
 
     // Require that all enum members be literal values to prevent unintended enum member name shadow issues
-    '@typescript-eslint/prefer-literal-enum-member': 'error',
+    '@typescript-eslint/prefer-literal-enum-member': ['error', { allowBitwiseExpressions: true }],
 
     // Require the use of the namespace keyword instead of the module keyword to declare custom TypeScript modules
     '@typescript-eslint/prefer-namespace-keyword': 'error',

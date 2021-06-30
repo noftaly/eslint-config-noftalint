@@ -60,6 +60,9 @@ module.exports = {
     // Disallow Array#reduce() and Array#reduceRight()
     'unicorn/no-array-reduce': 'off',
 
+    // Disallow using the this argument in array methods
+    'unicorn/no-array-method-this-argument': 'error',
+
     // Do not use leading/trailing space between console.log parameters.
     'unicorn/no-console-spaces': 'warn',
 
@@ -145,6 +148,10 @@ module.exports = {
     // Prefer .some(…) over .find(…).
     'unicorn/prefer-array-some': 'error',
 
+    // Prefer .at() method for index access and String#charAt()
+    // TODO(node>=18): Enable
+    'unicorn/prefer-at': 'off',
+
     // Prefer Date.now() to get the number of milliseconds since the Unix Epoch
     'unicorn/prefer-date-now': 'error',
 
@@ -189,8 +196,14 @@ module.exports = {
     // Prefer Number static properties over global ones. (Number.parseInt() over parseInt() etc.)
     'unicorn/prefer-number-properties': 'error',
 
+    // Prefer Object.hasOwn(…) over Object.prototype.hasOwnProperty.call(…)
+    'unicorn/prefer-object-has-own': 'error',
+
     // Prefer omitting the catch binding parameter
     'unicorn/prefer-optional-catch-binding': 'error',
+
+    // Prefer borrowing methods from the prototype instead of methods from an instance
+    'unicorn/prefer-prototype-methods': 'error',
 
     // Prefer .querySelector() over .getElementById(), .querySelectorAll() over .getElementsByClassName()
     // and .getElementsByTagName().
@@ -227,11 +240,24 @@ module.exports = {
     // Prefer ternary expressions over simple if-else statements
     'unicorn/prefer-ternary': ['error', 'only-single-line'],
 
+    // Prefer top-level await over top-level promises and async function calls
+    // TODO(node>=16): Enable.
+    'unicorn/prefer-top-level-await': 'off',
+
     // Enforce throwing TypeError in type checking conditions.
     'unicorn/prefer-type-error': 'error',
 
     // Prevent abbreviations.
     'unicorn/prevent-abbreviations': 'off',
+
+    // Enforce using the separator argument with Array#join()
+    'unicorn/require-array-join-separator': 'error',
+
+    // Enforce using the digits argument with Number#toFixed()
+    'unicorn/require-number-to-fixed-digits-argument': 'error',
+
+    // Enforce using the targetOrigin argument with window.postMessage()
+    'unicorn/require-post-message-target-origin': 'error',
 
     // Enforce better string content (replace "\'" by "’")
     'unicorn/string-content': 'off',

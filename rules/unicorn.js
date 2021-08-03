@@ -118,6 +118,12 @@ module.exports = {
     // Disallow unused object properties.
     'unicorn/no-unused-properties': 'error',
 
+    // Disallow useless array length check
+    'unicorn/no-useless-length-check': 'error',
+
+    // Disallow useless spread
+    'unicorn/no-useless-spread': 'error',
+
     // Disallow useless undefined
     'unicorn/no-useless-undefined': 'error',
 
@@ -195,6 +201,9 @@ module.exports = {
 
     // Prefer Number static properties over global ones. (Number.parseInt() over parseInt() etc.)
     'unicorn/prefer-number-properties': 'error',
+
+    // Prefer using Object.fromEntries(…) to transform a list of key-value pairs into an object
+    'unicorn/prefer-object-from-entries': 'error',
 
     // Prefer Object.hasOwn(…) over Object.prototype.hasOwnProperty.call(…)
     'unicorn/prefer-object-has-own': 'error',

@@ -4,7 +4,7 @@
 ![downloads](https://img.shields.io/npm/dt/eslint-config-noftalint)
 ![size](https://img.shields.io/bundlephobia/min/eslint-config-noftalint?label=package%20size)
 
-This package provides Noftaly's .eslintrc as an extensible shared config.
+This package provides noftaly's .eslintrc as an extensible shared config.
 [See the comparison with airbnb, google and standard's config here](https://github.com/noftaly/eslint-config-noftalint/blob/master/docs/comparison.md)
 
 ## Table of Content
@@ -30,7 +30,7 @@ $ npm i -D eslint           \
 
 ## Use with TypeScript
 
-`noftalint` also contains typescript rules, from `@typescript-eslint/eslint-plugin`! They are not included by default, so you need to configure some things first.
+`noftalint` also contains TypeScript rules, from `@typescript-eslint/eslint-plugin`! They are not included by default, so you need to configure some things first.
 
 1. Run the following command to install the required dependencies
 

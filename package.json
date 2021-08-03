@@ -10,7 +10,7 @@
     "find-new-rules": "npx eslint-find-rules --unused ./typescript.js",
     "find-dep-rules": "npx eslint-find-rules --deprecated ./typescript.js",
     "test": "npm run lint && npm run find-new-rules && npm run find-dep-rules",
-    "gen": "cd docs && npm run generate-comparison"
+    "docs": "cd docs && npm run generate-comparison"
   },
   "keywords": [
     "eslint",
@@ -26,17 +26,17 @@
     "eslint": ">=7.0.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^34.0.1"
+    "eslint-plugin-unicorn": "^35.0.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.28.1",
-    "@typescript-eslint/parser": "^4.28.1",
-    "eslint": "^7.29.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
     "eslint-find-rules": "^3.6.1",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^34.0.1",
-    "typescript": "^4.3.4"
+    "eslint-plugin-unicorn": "^35.0.0",
+    "typescript": "^4.3.5"
   },
   "engines": {
     "node": ">=12.0.0"

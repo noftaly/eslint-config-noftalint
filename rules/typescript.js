@@ -194,6 +194,13 @@ module.exports = {
         trailingUnderscore: 'allow',
       },
       {
+        selector: 'memberLike',
+        modifiers: ['static'],
+        format: ['camelCase', 'UPPER_CASE'],
+        leadingUnderscore: 'forbid',
+        trailingUnderscore: 'allow',
+      },
+      {
         selector: 'enumMember',
         format: ['PascalCase'],
         leadingUnderscore: 'forbid',

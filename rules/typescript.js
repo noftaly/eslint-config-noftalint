@@ -394,6 +394,9 @@ module.exports = {
     // Enforce that RegExp#exec is used instead of String#match if no global flag is provided
     '@typescript-eslint/prefer-regexp-exec': 'error',
 
+    // Enforce that this is used when only this type is returned
+    '@typescript-eslint/prefer-return-this-type': 'error',
+
     // Enforce the use of String#startsWith and String#endsWith instead of other equivalent
     // methods of checking substrings
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',

@@ -138,9 +138,12 @@ module.exports = {
     'max-depth': 'off',
 
     // Specify the maximum length of a line in your program
-    'max-len': ['error', 120, 2, {
+    'max-len': ['error', {
+      code: 120,
+      tabWidth: 2,
       ignoreUrls: true,
       ignoreComments: false,
+      ignoreTrailingComments: false,
       ignoreRegExpLiterals: true,
       ignoreStrings: true,
       ignoreTemplateLiterals: true,

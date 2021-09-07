@@ -183,6 +183,10 @@ module.exports = {
     'object-curly-spacing': 'off',
     '@typescript-eslint/object-curly-spacing': style['object-curly-spacing'],
 
+    // Require or disallow padding lines between statements
+    'padding-line-between-statements': 'off',
+    '@typescript-eslint/padding-line-between-statements': style['padding-line-between-statements'],
+
     // Enforce the consistent use of either backticks, double, or single quotes
     quotes: 'off',
     '@typescript-eslint/quotes': style.quotes,

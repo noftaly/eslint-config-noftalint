@@ -78,6 +78,9 @@ module.exports = {
     // Require Array.isArray() instead of instanceof Array.
     'unicorn/no-instanceof-array': 'error',
 
+    // Prevent calling EventTarget#removeEventListener() with the result of an expression
+    'unicorn/no-invalid-remove-event-listener': 'error',
+
     // Disallow identifiers starting with new or class.
     'unicorn/no-keyword-prefix': 'off',
 
@@ -117,6 +120,9 @@ module.exports = {
 
     // Disallow unused object properties.
     'unicorn/no-unused-properties': 'error',
+
+    // Forbid useless fallback when spreading in object literals
+    'unicorn/no-useless-fallback-in-spread': 'error',
 
     // Disallow useless array length check
     'unicorn/no-useless-length-check': 'error',

@@ -146,6 +146,10 @@ module.exports = {
       { ignoreDeclarationMerge: false },
     ),
 
+    // Disallow specified modules when loaded by import
+    'no-restricted-imports': 'off',
+    '@typescript-eslint/no-restricted-imports': es6['no-restricted-imports'],
+
     // Disallow variable declarations from shadowing variables declared in the outer scope
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': buildOptionsFromOriginal(

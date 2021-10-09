@@ -295,6 +295,9 @@ module.exports = {
     }],
 
     // Disallows using a non-null assertion after an optional chain expression
+    '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
+
+    // Disallows using a non-null assertion after an optional chain expression
     '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
 
     // Disallows non-null assertions using the ! postfix operator

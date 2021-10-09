@@ -20,7 +20,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['./test/**/*.ts', './src/**/*.spec.ts'],
+      files: ['./test/', './src/**/*.(spec|test).(j|t)s'],
       rules: {
         'node/no-unpublished-import': 'off',
         'import/no-extraneous-dependencies': 'off',

@@ -174,9 +174,9 @@ module.exports = {
 
     // Ensure absolute imports are above relative imports and that unassigned imports are ignored
     'import/order': ['error', {
-      // TODO(eslint-plugin-import>=23): un-comment
-      // groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'type'],
-      groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+      groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'type'],
+      // NOTE: Kept here in case the previous one doesn't work.
+      // groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
       alphabetize: {
         order: 'asc',
       },

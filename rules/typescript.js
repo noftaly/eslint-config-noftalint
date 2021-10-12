@@ -433,7 +433,8 @@ module.exports = {
     '@typescript-eslint/sort-type-union-intersection-members': 'error',
 
     // Restricts the types allowed in boolean expressions
-    '@typescript-eslint/strict-boolean-expressions': 'error',
+    // Requires `strictNullChecks` to work.
+    '@typescript-eslint/strict-boolean-expressions': 'off',
 
     // Exhaustiveness checking in switch with union type
     '@typescript-eslint/switch-exhaustiveness-check': 'error',

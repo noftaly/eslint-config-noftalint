@@ -161,7 +161,7 @@ module.exports = {
     'unicorn/prefer-array-some': 'error',
 
     // Prefer .at() method for index access and String#charAt()
-    // TODO(node>=18): Enable
+    // TODO(node>=18): Enable.
     'unicorn/prefer-at': 'off',
 
     // Prefer Date.now() to get the number of milliseconds since the Unix Epoch
@@ -202,8 +202,7 @@ module.exports = {
     'unicorn/prefer-negative-index': 'error',
 
     // Prefer using the node: protocol when importing Node.js builtin modules.
-    // TODO: Enable?
-    'unicorn/prefer-node-protocol': 'off',
+    'unicorn/prefer-node-protocol': 'error',
 
     // Prefer Number static properties over global ones. (Number.parseInt() over parseInt() etc.)
     'unicorn/prefer-number-properties': 'error',
@@ -237,8 +236,7 @@ module.exports = {
     'unicorn/prefer-spread': 'error',
 
     // Prefer String#replaceAll() over regex searches with the global flag
-    // TODO: Enable when either babel or the LTS version of Node.js supports it.
-    'unicorn/prefer-string-replace-all': 'off',
+    'unicorn/prefer-string-replace-all': 'error',
 
     // Prefer String#slice() over String#substr() and String#substring().
     'unicorn/prefer-string-slice': 'error',
@@ -256,7 +254,7 @@ module.exports = {
     'unicorn/prefer-ternary': ['error', 'only-single-line'],
 
     // Prefer top-level await over top-level promises and async function calls
-    // TODO(node>=16): Enable.
+    // TODO(node>=16): Enable?
     'unicorn/prefer-top-level-await': 'off',
 
     // Enforce throwing TypeError in type checking conditions.
@@ -276,6 +274,21 @@ module.exports = {
 
     // Enforce better string content (replace "\'" by "’")
     'unicorn/string-content': 'off',
+
+    // Fix whitespace-insensitive template indentation
+    'unicorn/template-indent': ['error', {
+      tags: [
+        'outdent',
+        'dedent',
+        'gql',
+        'sql',
+        'html',
+        'styled',
+      ],
+      functions: ['dedent', 'stripIndent'],
+      selectors: [],
+      comments: ['HTML', 'indent'],
+    }],
 
     // Require new when throwing an error.
     'unicorn/throw-new-error': 'error',

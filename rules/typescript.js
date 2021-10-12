@@ -346,19 +346,19 @@ module.exports = {
     '@typescript-eslint/no-unsafe-argument': 'error',
 
     // Disallows assigning any to variables and properties
-    // TODO: Change? It seems to currently have many false positive.
+    // TODO: Change?
     '@typescript-eslint/no-unsafe-assignment': 'off',
 
     // Disallows calling an any type value
-    // TODO: Change? It seems to currently have many false positive.
+    // TODO: Change?
     '@typescript-eslint/no-unsafe-call': 'off',
 
     // Disallows member access on any typed variables
-    // TODO: Change? It seems to currently have many false positive.
+    // TODO: Change?
     '@typescript-eslint/no-unsafe-member-access': 'off',
 
     // Disallows returning any from a function
-    // TODO: Change? It seems to currently have many false positive.
+    // TODO: Change?
     '@typescript-eslint/no-unsafe-return': 'off',
 
     // Disallows the use of require statements except in import statements
@@ -433,8 +433,7 @@ module.exports = {
     '@typescript-eslint/sort-type-union-intersection-members': 'error',
 
     // Restricts the types allowed in boolean expressions
-    // TODO: Change?
-    '@typescript-eslint/strict-boolean-expressions': 'off',
+    '@typescript-eslint/strict-boolean-expressions': 'error',
 
     // Exhaustiveness checking in switch with union type
     '@typescript-eslint/switch-exhaustiveness-check': 'error',

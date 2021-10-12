@@ -17,14 +17,12 @@ module.exports = {
     'class-methods-use-this': 'error',
 
     // Require return statements to either always or never specify values
-    // TODO: Enable?
     'consistent-return': 'off',
 
     // Specify curly brace conventions for all control statements
     curly: ['error', 'multi-or-nest', 'consistent'],
 
     // Require default case in switch statements
-    // TODO: Enable?
     'default-case': 'off',
 
     // Enforce default clauses in switch statements to be last
@@ -46,8 +44,7 @@ module.exports = {
     'grouped-accessor-pairs': 'error',
 
     // Make sure for-in loops have an if statement
-    // TODO: Enable?
-    'guard-for-in': 'off',
+    'guard-for-in': 'error',
 
     // Enforce a maximum number of classes per file
     'max-classes-per-file': ['error', 1],
@@ -101,8 +98,7 @@ module.exports = {
     'no-global-assign': 'error',
 
     // Disallow implicit type conversions
-    // TODO: Disable '!!'.
-    'no-implicit-coercion': ['error', { allow: ['!!'] }],
+    'no-implicit-coercion': 'error',
 
     // Disallow var and named functions in global scope
     'no-implicit-globals': 'off',

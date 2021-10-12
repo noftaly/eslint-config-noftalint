@@ -42,7 +42,7 @@
 |[`getter-return`](https://eslint.org/docs/rules/getter-return)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`global-require`](https://eslint.org/docs/rules/global-require)|N/A 👻|error 🚨|N/A 👻|N/A 👻|
 |[`grouped-accessor-pairs`](https://eslint.org/docs/rules/grouped-accessor-pairs)|error 🚨|off|N/A 👻|N/A 👻|
-|[`guard-for-in`](https://eslint.org/docs/rules/guard-for-in)|off|error 🚨|error 🚨|N/A 👻|
+|[`guard-for-in`](https://eslint.org/docs/rules/guard-for-in)|error 🚨|error 🚨|error 🚨|N/A 👻|
 |[`handle-callback-err`](https://eslint.org/docs/rules/handle-callback-err)|N/A 👻|off|N/A 👻|N/A 👻|
 |[`id-blacklist`](https://eslint.org/docs/rules/id-blacklist)|N/A 👻|off|N/A 👻|N/A 👻|
 |[`id-denylist`](https://eslint.org/docs/rules/id-denylist)|off|off|N/A 👻|N/A 👻|
@@ -332,7 +332,7 @@
 |[`quote-props`](https://eslint.org/docs/rules/quote-props)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`quotes`](https://eslint.org/docs/rules/quotes)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`radix`](https://eslint.org/docs/rules/radix)|error 🚨|error 🚨|N/A 👻|N/A 👻|
-|[`require-atomic-updates`](https://eslint.org/docs/rules/require-atomic-updates)|off|off|N/A 👻|N/A 👻|
+|[`require-atomic-updates`](https://eslint.org/docs/rules/require-atomic-updates)|error 🚨|off|N/A 👻|N/A 👻|
 |[`require-await`](https://eslint.org/docs/rules/require-await)|error 🚨|off|N/A 👻|N/A 👻|
 |[`require-jsdoc`](https://eslint.org/docs/rules/require-jsdoc)|N/A 👻|off|error 🚨|N/A 👻|
 |[`require-unicode-regexp`](https://eslint.org/docs/rules/require-unicode-regexp)|off|off|N/A 👻|N/A 👻|
@@ -421,7 +421,7 @@
 |[`unicorn/prefer-modern-dom-apis`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-modern-dom-apis.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-module`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-negative-index`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-negative-index.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|[`unicorn/prefer-node-protocol`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/prefer-node-protocol`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-number-properties`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-number-properties.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-object-from-entries`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-object-has-own`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-has-own.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
@@ -432,7 +432,7 @@
 |[`unicorn/prefer-regexp-test`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-regexp-test.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-set-has`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-has.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-spread`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-spread.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|[`unicorn/prefer-string-replace-all`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-replace-all.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/prefer-string-replace-all`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-replace-all.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-string-slice`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-slice.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-string-starts-ends-with`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-starts-ends-with.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/prefer-string-trim-start-end`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-string-trim-start-end.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
@@ -445,6 +445,7 @@
 |[`unicorn/require-number-to-fixed-digits-argument`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/require-post-message-target-origin`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/string-content`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/string-content.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/template-indent`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/throw-new-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`use-isnan`](https://eslint.org/docs/rules/use-isnan)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`valid-jsdoc`](https://eslint.org/docs/rules/valid-jsdoc)|N/A 👻|off|error 🚨|N/A 👻|

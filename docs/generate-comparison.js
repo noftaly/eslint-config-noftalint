@@ -67,7 +67,11 @@ function getRuleConfiguration(ruleset, ruleName) {
       ...Object.keys(googleRules),
       ...Object.keys(standardRules),
     ]),
-  ].sort();
+  ].sort((a, b) => {
+    const valueA = a[0] === '@' ? a.slice(1) : a;
+    const valueB = b[0] === '@' ? b.slice(1) : b;
+    return valueA.localeCompare(valueB);
+  });
 
   let docsContent = '| Rule | noftalint | Airbnb | Google | Standard |\n| ---- | --------- | ------ | ------ | -------- |\n';
   for (const ruleName of ruleNames) {

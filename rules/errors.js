@@ -127,7 +127,7 @@ module.exports = {
     'no-unsafe-optional-chaining': 'error',
 
     // Disallow assignments that can lead to race conditions due to usage of await or yield
-    'require-atomic-updates': 'error',
+    'require-atomic-updates': 'off',
 
     // Babel inserts `'use strict';` for us
     strict: ['error', 'never'],

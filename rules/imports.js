@@ -1,3 +1,5 @@
+// NOTE: We have to keep eslint-plugin-imports @2.23.4 because of https://github.com/import-js/eslint-plugin-import/issues/2249
+
 module.exports = {
   env: {
     es6: true,
@@ -174,9 +176,9 @@ module.exports = {
 
     // Ensure absolute imports are above relative imports and that unassigned imports are ignored
     'import/order': ['error', {
-      groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'type'],
-      // NOTE: Kept here in case the previous one doesn't work.
-      // groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+      // TODO(eslint-plugin-import): Uncomment when https://github.com/import-js/eslint-plugin-import/issues/2249 is fixed
+      // groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'type'],
+      groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
       alphabetize: {
         order: 'asc',
       },

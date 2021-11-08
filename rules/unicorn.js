@@ -69,6 +69,9 @@ module.exports = {
     // Do not use document.cookie directly.
     'unicorn/no-document-cookie': 'error',
 
+    // Disallow empty files
+    'unicorn/no-empty-file': 'error',
+
     // Do not use a for loop that can be replaced with a for-of loop.
     'unicorn/no-for-loop': 'error',
 
@@ -181,6 +184,9 @@ module.exports = {
 
     // Prefer using .dataset on DOM elements over .setAttribute(…).
     'unicorn/prefer-dom-node-dataset': 'error',
+
+    // Prefer export…from when re-exporting
+    'unicorn/prefer-export-from': 'error',
 
     // Prefer .includes() over .indexOf() when checking for existence or non-existence.
     'unicorn/prefer-includes': 'error',

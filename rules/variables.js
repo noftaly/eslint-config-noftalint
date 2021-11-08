@@ -3,38 +3,38 @@ module.exports = {
     // Disallow specified identifiers
     'id-denylist': 'off',
 
-    // Enforce or disallow variable initializations at definition
+    // Require or disallow initialization in variable declarations
     'init-declarations': 'off',
 
-    // Disallow deletion of variables
+    // Disallow deleting variables
     'no-delete-var': 'error',
 
-    // Disallow labels that share a name with a variable
+    // Disallow Labels That Are Variables Names
     'no-label-var': 'error',
 
-    // Disallow specific globals
+    // Disallow specific global variables
     'no-restricted-globals': 'off',
 
-    // Disallow declaration of variables already declared in the outer scope
+    // Disallow variable declarations from shadowing variables declared in the outer scope
     'no-shadow': ['error', {
       builtinGlobals: false,
       hoist: 'functions',
       allow: [],
     }],
 
-    // Disallow shadowing of names such as arguments
+    // Disallow Shadowing of Restricted Names
     'no-shadow-restricted-names': 'error',
 
-    // Disallow use of undeclared variables unless mentioned in a /*global */ block
+    // Disallow Undeclared Variables
     'no-undef': 'error',
 
-    // Disallow use of undefined when initializing variables
+    // Disallow Initializing to undefined
     'no-undef-init': 'error',
 
-    // Disallow use of undefined variable
+    // Disallow Use of undefined Variable
     'no-undefined': 'error',
 
-    // Disallow declaration of variables that are not used in the code
+    // Disallow Unused Variables
     'no-unused-vars': ['error', {
       vars: 'all',
       args: 'after-used',
@@ -42,7 +42,7 @@ module.exports = {
       ignoreRestSiblings: true,
     }],
 
-    // Disallow use of variables before they are defined
+    // Disallow Early Use
     'no-use-before-define': ['error', { functions: true, classes: true, variables: true }],
   },
 };

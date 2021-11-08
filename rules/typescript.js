@@ -41,6 +41,9 @@ module.exports = {
     // Consistent with type definition either interface or type
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
 
+    // Enforces consistent usage of type exports
+    '@typescript-eslint/consistent-type-exports': 'error',
+
     // Enforces consistent usage of type imports
     '@typescript-eslint/consistent-type-imports': ['error', {
       prefer: 'type-imports',

@@ -4,7 +4,6 @@ module.exports = {
     'array-bracket-newline': ['error', 'consistent'],
 
     // Enforce line breaks between array elements
-    // TODO: Change?
     'array-element-newline': ['off', { multiline: true, minItems: 4 }],
 
     // Enforce spacing inside array brackets

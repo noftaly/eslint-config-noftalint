@@ -266,7 +266,7 @@ module.exports = {
     'unicorn/prefer-ternary': ['error', 'only-single-line'],
 
     // Prefer top-level await over top-level promises and async function calls
-    // TODO(node>=16): Enable?
+    // TODO(node>=18): Enable.
     'unicorn/prefer-top-level-await': 'off',
 
     // Enforce throwing TypeError in type checking conditions.

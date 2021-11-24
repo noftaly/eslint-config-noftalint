@@ -139,7 +139,6 @@ module.exports = {
     '@typescript-eslint/no-magic-numbers': bestPractices['no-magic-numbers'],
 
     // Disallow variable redeclaration
-    // TODO: Change?
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': buildOptionsFromOriginal(
       bestPractices['no-redeclare'],

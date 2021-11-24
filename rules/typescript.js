@@ -226,7 +226,6 @@ module.exports = {
     ],
 
     // Requires that .toString() is only called on objects which provide useful information when stringified
-    // TODO: Change?
     '@typescript-eslint/no-base-to-string': ['error', {
       ignoredTypeNames: ['RegExp'],
     }],

@@ -63,6 +63,9 @@ module.exports = {
     // Disallow using the this argument in array methods
     'unicorn/no-array-method-this-argument': 'error',
 
+    // Forbid member access from await expression
+    'unicorn/no-await-expression-member': 'error',
+
     // Do not use leading/trailing space between console.log parameters.
     'unicorn/no-console-spaces': 'warn',
 
@@ -166,6 +169,9 @@ module.exports = {
     // Prefer .at() method for index access and String#charAt()
     // TODO(node>=18): Enable.
     'unicorn/prefer-at': 'off',
+
+    // Prefer String#codePointAt(…) over String#charCodeAt(…) and String.fromCodePoint(…) over String.fromCharCode(…)
+    'unicorn/prefer-code-point': 'error',
 
     // Prefer Date.now() to get the number of milliseconds since the Unix Epoch
     'unicorn/prefer-date-now': 'error',

@@ -231,6 +231,9 @@ module.exports = {
     // Disallow unused labels
     'no-unused-labels': 'error',
 
+    // Disallow Unused Private Class Members
+    'no-unused-private-class-members': 'error',
+
     // Disallow useless backreferences in regular expressions
     'no-useless-backreference': 'off',
 

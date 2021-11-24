@@ -8,7 +8,8 @@ async function getRules(configuration) {
     useEslintrc: false,
   });
 
-  return (await engine.calculateConfigForFile('./compare')).rules;
+  const config = await engine.calculateConfigForFile('./compare');
+  return config.rules;
 }
 
 function getRuleLink(ruleName) {

@@ -321,6 +321,7 @@
 |[`prefer-exponentiation-operator`](https://eslint.org/docs/rules/prefer-exponentiation-operator)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`prefer-named-capture-group`](https://eslint.org/docs/rules/prefer-named-capture-group)|error 🚨|off|N/A 👻|N/A 👻|
 |[`prefer-numeric-literals`](https://eslint.org/docs/rules/prefer-numeric-literals)|error 🚨|error 🚨|N/A 👻|N/A 👻|
+|[`prefer-object-has-own`](https://eslint.org/docs/rules/prefer-object-has-own)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`prefer-object-spread`](https://eslint.org/docs/rules/prefer-object-spread)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`prefer-promise-reject-errors`](https://eslint.org/docs/rules/prefer-promise-reject-errors)|off|error 🚨|error 🚨|error 🚨|
 |[`prefer-reflect`](https://eslint.org/docs/rules/prefer-reflect)|N/A 👻|off|N/A 👻|N/A 👻|

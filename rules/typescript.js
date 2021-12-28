@@ -265,9 +265,6 @@ module.exports = {
     // Disallow iterating over an array with a for-in loop
     '@typescript-eslint/no-for-in-array': 'error',
 
-    // Disallow usage of the implicit any type in catch clauses
-    '@typescript-eslint/no-implicit-any-catch': 'error',
-
     // Disallow the use of eval()-like methods
     'no-implied-eval': 'off',
     '@typescript-eslint/no-implied-eval': 'error',

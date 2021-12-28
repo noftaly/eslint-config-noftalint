@@ -96,6 +96,9 @@ module.exports = {
     // Disallow parseInt() in favor of binary, octal, and hexadecimal literals
     'prefer-numeric-literals': 'error',
 
+    // Disallow use of `Object.prototype.hasOwnProperty.call()` and prefer use of `Object.hasOwn()`
+    'prefer-object-has-own': 'error',
+
     // Use rest parameters instead of arguments
     'prefer-rest-params': 'error',
 

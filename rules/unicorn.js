@@ -115,6 +115,9 @@ module.exports = {
     // Forbid classes that only have static members
     'unicorn/no-static-only-class': 'error',
 
+    // Disallow then property
+    'unicorn/no-thenable': 'error',
+
     // Disallow assigning this to a variable
     'unicorn/no-this-assignment': 'error',
 
@@ -132,6 +135,9 @@ module.exports = {
 
     // Disallow useless array length check
     'unicorn/no-useless-length-check': 'error',
+
+    // Disallow returning/yielding Promise.resolve/reject() in async functions or promise callbacks
+    'unicorn/no-useless-promise-resolve-reject': 'error',
 
     // Disallow useless spread
     'unicorn/no-useless-spread': 'error',
@@ -197,6 +203,9 @@ module.exports = {
     // Prefer .includes() over .indexOf() when checking for existence or non-existence.
     'unicorn/prefer-includes': 'error',
 
+    // Prefer reading a JSON file as a buffer
+    'unicorn/prefer-json-parse-buffer': 'error',
+
     // Prefer KeyboardEvent#key over KeyboardEvent#keyCode.
     'unicorn/prefer-keyboard-event-key': 'error',
 
@@ -221,9 +230,6 @@ module.exports = {
 
     // Prefer using Object.fromEntries(…) to transform a list of key-value pairs into an object
     'unicorn/prefer-object-from-entries': 'error',
-
-    // Prefer Object.hasOwn(…) over Object.prototype.hasOwnProperty.call(…)
-    'unicorn/prefer-object-has-own': 'error',
 
     // Prefer omitting the catch binding parameter
     'unicorn/prefer-optional-catch-binding': 'error',
@@ -274,6 +280,9 @@ module.exports = {
 
     // Prevent abbreviations.
     'unicorn/prevent-abbreviations': 'off',
+
+    // Enforce consistent relative URL style
+    'unicorn/relative-url-style': ['error', 'always'],
 
     // Enforce using the separator argument with Array#join()
     'unicorn/require-array-join-separator': 'error',

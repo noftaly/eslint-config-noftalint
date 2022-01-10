@@ -7,8 +7,6 @@
 This package provides noftaly's .eslintrc as an extensible shared config.\
 [See the comparison with airbnb, google and standard's config here](https://github.com/noftaly/eslint-config-noftalint/blob/master/docs/comparison.md)
 
-:warning: **Important:** I've ran into many issues with the latests versions of `eslint-plugin-import`, especially on a TypeScript codebase. That's why it is recommended to use version `2.23.4` only.
-
 ## Table of Content
 
 - [Usage](#usage)

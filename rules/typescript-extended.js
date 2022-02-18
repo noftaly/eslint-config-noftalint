@@ -111,7 +111,7 @@ module.exports = {
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': buildOptionsFromOriginal(
       bestPractices['no-empty-function'],
-      { allow: [] },
+      { allow: ['decoratedFunctions'] },
     ),
 
     // Disallow unnecessary parentheses

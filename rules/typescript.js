@@ -273,7 +273,10 @@ module.exports = {
     '@typescript-eslint/no-inferrable-types': 'error',
 
     // Disallows usage of void type outside of generic or return types
-    '@typescript-eslint/no-invalid-void-type': 'error',
+    '@typescript-eslint/no-invalid-void-type': ['error', {
+      allowInGenericTypeArguments: true,
+      allowAsThisParameter: true,
+    }],
 
     // Disallow the void operator except when used to discard a value
     '@typescript-eslint/no-meaningless-void-operator': 'error',

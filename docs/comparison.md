@@ -454,6 +454,7 @@
 |[`unicorn/require-post-message-target-origin`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/string-content`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/string-content.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/template-indent`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/text-encoding-identifier-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/text-encoding-identifier-case.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/throw-new-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`use-isnan`](https://eslint.org/docs/rules/use-isnan)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`valid-jsdoc`](https://eslint.org/docs/rules/valid-jsdoc)|N/A 👻|off|error 🚨|N/A 👻|

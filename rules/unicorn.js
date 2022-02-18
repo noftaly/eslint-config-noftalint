@@ -311,6 +311,9 @@ module.exports = {
       comments: ['HTML', 'indent'],
     }],
 
+    // Enforce consistent case for text encoding identifiers
+    'unicorn/text-encoding-identifier-case': 'error',
+
     // Require new when throwing an error.
     'unicorn/throw-new-error': 'error',
   },

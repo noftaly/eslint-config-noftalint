@@ -124,6 +124,9 @@ module.exports = {
     // Disallow unreadable array destructuring.
     'unicorn/no-unreadable-array-destructuring': 'warn',
 
+    // Disallow unreadable IIFEs
+    'unicorn/no-unreadable-iife': 'error',
+
     // Disallow unsafe regular expressions.
     'unicorn/no-unsafe-regex': 'off',
 
@@ -141,6 +144,9 @@ module.exports = {
 
     // Disallow useless spread
     'unicorn/no-useless-spread': 'error',
+
+    // Disallow useless case in switch statements
+    'unicorn/no-useless-switch-case': 'error',
 
     // Disallow useless undefined
     'unicorn/no-useless-undefined': 'error',
@@ -216,8 +222,14 @@ module.exports = {
     // .after(), .append() or .prepend() over insertAdjacentText() and insertAdjacentElement().
     'unicorn/prefer-modern-dom-apis': 'error',
 
+    // Prefer modern Math APIs over legacy patterns
+    'unicorn/prefer-modern-math-apis': 'error',
+
     // Prefer JavaScript modules (ESM) over CommonJS
     'unicorn/prefer-module': 'off',
+
+    // Prefer using String, Number, BigInt, Boolean, and Symbol directly
+    'unicorn/prefer-native-coercion-functions': 'error',
 
     // Prefer negative index over .length, index for {String,Array,TypedArray}#slice() and Array#splice().
     'unicorn/prefer-negative-index': 'error',

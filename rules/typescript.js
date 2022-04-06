@@ -308,6 +308,9 @@ module.exports = {
     // Disallow the use of parameter properties in class constructors
     '@typescript-eslint/no-parameter-properties': 'off',
 
+    // Disallow members of unions and intersections that do nothing or override type information.
+    '@typescript-eslint/no-redundant-type-constituents': 'error',
+
     // Disallows invocation of require()
     // Already set with import/no-commonjs
     '@typescript-eslint/no-require-imports': 'off',
@@ -362,6 +365,9 @@ module.exports = {
     // Disallows returning any from a function
     // TODO: Change?
     '@typescript-eslint/no-unsafe-return': 'off',
+
+    // Disallow empty exports that don't change anything in a module file.
+    '@typescript-eslint/no-useless-empty-export': 'error',
 
     // Disallows the use of require statements except in import statements
     // Already set with import/no-commonjs + We don't want `import x = require()`

@@ -206,6 +206,10 @@ module.exports = {
     semi: 'off',
     '@typescript-eslint/semi': style.semi,
 
+    // Enforces consistent spacing before blocks.
+    'space-before-blocks': 'off',
+    '@typescript-eslint/space-before-blocks': style['space-before-blocks'],
+
     // Enforces consistent spacing before function parenthesis
     'space-before-function-paren': 'off',
     '@typescript-eslint/space-before-function-paren': style['space-before-function-paren'],

@@ -305,9 +305,6 @@ module.exports = {
     // Disallows non-null assertions using the ! postfix operator
     '@typescript-eslint/no-non-null-assertion': 'off',
 
-    // Disallow the use of parameter properties in class constructors
-    '@typescript-eslint/no-parameter-properties': 'off',
-
     // Disallow members of unions and intersections that do nothing or override type information.
     '@typescript-eslint/no-redundant-type-constituents': 'error',
 
@@ -375,6 +372,9 @@ module.exports = {
 
     // Prefers a non-null assertion over explicit type cast when possible
     '@typescript-eslint/non-nullable-type-assertion-style': 'error',
+
+    // Require or disallow the use of parameter properties in class constructors.
+    '@typescript-eslint/parameter-properties': 'off',
 
     // Prefer usage of as const over literal type
     '@typescript-eslint/prefer-as-const': 'error',

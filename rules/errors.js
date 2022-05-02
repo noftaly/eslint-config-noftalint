@@ -21,6 +21,9 @@ module.exports = {
     // Disallow the use of console
     'no-console': 'off',
 
+    // Disallows expressions where the operation doesn't affect the value
+    'no-constant-binary-expression': 'error',
+
     // Disallow constant expressions in conditions
     'no-constant-condition': ['error', { checkLoops: false }],
 

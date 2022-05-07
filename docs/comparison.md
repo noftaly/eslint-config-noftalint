@@ -112,6 +112,13 @@
 |[`max-statements-per-line`](https://eslint.org/docs/rules/max-statements-per-line)|error 🚨|off|N/A 👻|N/A 👻|
 |[`multiline-comment-style`](https://eslint.org/docs/rules/multiline-comment-style)|off|off|N/A 👻|N/A 👻|
 |[`multiline-ternary`](https://eslint.org/docs/rules/multiline-ternary)|off|off|N/A 👻|error 🚨|
+|`n/handle-callback-err`|N/A 👻|N/A 👻|N/A 👻|error 🚨|
+|`n/no-callback-literal`|N/A 👻|N/A 👻|N/A 👻|error 🚨|
+|`n/no-deprecated-api`|N/A 👻|N/A 👻|N/A 👻|error 🚨|
+|`n/no-exports-assign`|N/A 👻|N/A 👻|N/A 👻|error 🚨|
+|`n/no-new-require`|N/A 👻|N/A 👻|N/A 👻|error 🚨|
+|`n/no-path-concat`|N/A 👻|N/A 👻|N/A 👻|error 🚨|
+|`n/process-exit-as-throw`|N/A 👻|N/A 👻|N/A 👻|error 🚨|
 |[`new-cap`](https://eslint.org/docs/rules/new-cap)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`new-parens`](https://eslint.org/docs/rules/new-parens)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`newline-after-var`](https://eslint.org/docs/rules/newline-after-var)|N/A 👻|off|N/A 👻|N/A 👻|
@@ -272,17 +279,17 @@
 |[`node/exports-style`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/exports-style.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`node/file-extension-in-import`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/file-extension-in-import.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`node/global-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/global-require.md)|off|N/A 👻|N/A 👻|N/A 👻|
-|[`node/handle-callback-err`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/handle-callback-err.md)|error 🚨|N/A 👻|N/A 👻|error 🚨|
-|[`node/no-callback-literal`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-callback-literal.md)|error 🚨|N/A 👻|N/A 👻|error 🚨|
-|[`node/no-deprecated-api`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-deprecated-api.md)|error 🚨|N/A 👻|N/A 👻|error 🚨|
-|[`node/no-exports-assign`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-exports-assign.md)|error 🚨|N/A 👻|N/A 👻|error 🚨|
+|[`node/handle-callback-err`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/handle-callback-err.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`node/no-callback-literal`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-callback-literal.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`node/no-deprecated-api`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-deprecated-api.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`node/no-exports-assign`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-exports-assign.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`node/no-extraneous-import`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-extraneous-import.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
 |[`node/no-extraneous-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-extraneous-require.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`node/no-missing-import`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-missing-import.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`node/no-missing-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-missing-require.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`node/no-mixed-requires`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-mixed-requires.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|[`node/no-new-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-new-require.md)|error 🚨|N/A 👻|N/A 👻|error 🚨|
-|[`node/no-path-concat`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-path-concat.md)|error 🚨|N/A 👻|N/A 👻|error 🚨|
+|[`node/no-new-require`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-new-require.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`node/no-path-concat`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-path-concat.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`node/no-process-env`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-process-env.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`node/no-process-exit`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-process-exit.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`node/no-restricted-import`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-restricted-import.md)|off|N/A 👻|N/A 👻|N/A 👻|
@@ -303,13 +310,13 @@
 |[`node/prefer-global/url-search-params`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-global/url-search-params.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`node/prefer-promises/dns`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-promises/dns.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`node/prefer-promises/fs`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/prefer-promises/fs.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|[`node/process-exit-as-throw`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/process-exit-as-throw.md)|off|N/A 👻|N/A 👻|error 🚨|
+|[`node/process-exit-as-throw`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/process-exit-as-throw.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`node/shebang`](https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/shebang.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`nonblock-statement-body-position`](https://eslint.org/docs/rules/nonblock-statement-body-position)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`object-curly-newline`](https://eslint.org/docs/rules/object-curly-newline)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`object-curly-spacing`](https://eslint.org/docs/rules/object-curly-spacing)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`object-property-newline`](https://eslint.org/docs/rules/object-property-newline)|error 🚨|error 🚨|N/A 👻|error 🚨|
-|[`object-shorthand`](https://eslint.org/docs/rules/object-shorthand)|error 🚨|error 🚨|N/A 👻|N/A 👻|
+|[`object-shorthand`](https://eslint.org/docs/rules/object-shorthand)|error 🚨|error 🚨|N/A 👻|warn ⚠️|
 |[`one-var`](https://eslint.org/docs/rules/one-var)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`one-var-declaration-per-line`](https://eslint.org/docs/rules/one-var-declaration-per-line)|off|error 🚨|N/A 👻|N/A 👻|
 |[`operator-assignment`](https://eslint.org/docs/rules/operator-assignment)|error 🚨|error 🚨|N/A 👻|N/A 👻|

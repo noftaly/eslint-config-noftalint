@@ -236,6 +236,9 @@ module.exports = {
     // Requires expressions of type void to appear in statement position
     '@typescript-eslint/no-confusing-void-expression': 'error',
 
+    // Disallow duplicate enum member values
+    '@typescript-eslint/no-duplicate-enum-values': 'error',
+
     // Disallow the delete operator with computed key expressions
     '@typescript-eslint/no-dynamic-delete': 'error',
 

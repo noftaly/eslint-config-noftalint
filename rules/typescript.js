@@ -139,10 +139,6 @@ module.exports = {
         'protected-static-method',
         'private-static-method',
 
-        'public-decorated-method',
-        'protected-decorated-method',
-        'private-decorated-method',
-
         'public-instance-method',
         'protected-instance-method',
         'private-instance-method',
@@ -158,8 +154,6 @@ module.exports = {
         'static-method',
         'instance-method',
         'abstract-method',
-
-        'decorated-method',
 
         'method',
       ],

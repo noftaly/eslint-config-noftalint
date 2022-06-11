@@ -103,10 +103,6 @@ module.exports = {
     'no-dupe-class-members': 'off',
     '@typescript-eslint/no-dupe-class-members': es6['no-dupe-class-members'],
 
-    // Disallow duplicate imports
-    'no-duplicate-imports': 'off',
-    '@typescript-eslint/no-duplicate-imports': es6['no-duplicate-imports'],
-
     // Disallow empty functions
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': buildOptionsFromOriginal(

@@ -29,6 +29,9 @@ module.exports = {
     // Ensures that literals on classes are exposed in a consistent style
     '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
 
+    // Enforces specifying generic type arguments on type annotation or constructor name of a constructor call
+    '@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
+
     // Enforce or disallow the use of the record type
     '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
 

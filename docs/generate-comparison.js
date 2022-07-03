@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs').promises;
+const path = require('node:path');
 const { ESLint } = require('eslint');
 
 async function getRules(configuration) {
@@ -84,11 +84,6 @@ function getRuleConfiguration(ruleset, ruleName) {
       + '|\n';
   }
 
-  // As fs.promises was added in nodejs v11 and ESLint supports node down to v10.12, we can't use promises... :/
-  // eslint-disable-next-line node/prefer-promises/fs
-  fs.writeFile(path.join(__dirname, 'comparison.md'), docsContent, (err) => {
-    if (err)
-      throw err;
-  });
+  await fs.writeFile(path.join(__dirname, 'comparison.md'), docsContent);
   console.log('Comparison table updated!');
 })();

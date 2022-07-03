@@ -36,9 +36,6 @@ module.exports = {
     // TODO: Enable. Choose between camelCase and hyphen-case.
     'unicorn/filename-case': 'off',
 
-    // Enforce importing index files with ..
-    'unicorn/import-index': 'off',
-
     // Enforce specific import styles per module.
     'unicorn/import-style': 'off',
 
@@ -194,14 +191,17 @@ module.exports = {
     // Prefer Node#append() over Node#appendChild().
     'unicorn/prefer-dom-node-append': 'error',
 
+    // Prefer using .dataset on DOM elements over .setAttribute(…).
+    'unicorn/prefer-dom-node-dataset': 'error',
+
     // Prefer node.remove() over parentNode.removeChild(node) and parentElement.removeChild(node).
     'unicorn/prefer-dom-node-remove': 'error',
 
     // Prefer .textContent over .innerText.
     'unicorn/prefer-dom-node-text-content': 'error',
 
-    // Prefer using .dataset on DOM elements over .setAttribute(…).
-    'unicorn/prefer-dom-node-dataset': 'error',
+    // Prefer EventTarget over EventEmitter
+    'unicorn/prefer-event-target': 'off',
 
     // Prefer export…from when re-exporting
     'unicorn/prefer-export-from': 'error',
@@ -214,6 +214,9 @@ module.exports = {
 
     // Prefer KeyboardEvent#key over KeyboardEvent#keyCode.
     'unicorn/prefer-keyboard-event-key': 'error',
+
+    // Prefer using a logical operator over a ternary
+    'unicorn/prefer-logical-operator-over-ternary': 'error',
 
     // Enforce the use of Math.trunc instead of bitwise operators
     'unicorn/prefer-math-trunc': 'error',

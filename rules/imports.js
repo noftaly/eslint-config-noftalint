@@ -185,7 +185,7 @@ module.exports = {
     }],
 
     // Require modules with a single export to use a default export
-    'import/prefer-default-export': 'warn',
+    'import/prefer-default-export': 'off',
 
     // Warn if a module could be mistakenly parsed as a script by a consumer leveraging Unambiguous JavaScript Grammar.
     // This should not be enabled until this proposal has at least been *presented* to TC39.

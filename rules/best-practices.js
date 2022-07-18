@@ -13,7 +13,7 @@ module.exports = {
     complexity: ['error', 25],
 
     // Enforce that class methods use "this"
-    'class-methods-use-this': 'error',
+    'class-methods-use-this': 'off',
 
     // Require return statements to either always or never specify values
     'consistent-return': 'off',

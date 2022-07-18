@@ -14,7 +14,7 @@
 |[`callback-return`](https://eslint.org/docs/rules/callback-return)|N/A 👻|off|N/A 👻|N/A 👻|
 |[`camelcase`](https://eslint.org/docs/rules/camelcase)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`capitalized-comments`](https://eslint.org/docs/rules/capitalized-comments)|warn ⚠️|off|N/A 👻|N/A 👻|
-|[`class-methods-use-this`](https://eslint.org/docs/rules/class-methods-use-this)|error 🚨|error 🚨|N/A 👻|N/A 👻|
+|[`class-methods-use-this`](https://eslint.org/docs/rules/class-methods-use-this)|off|error 🚨|N/A 👻|N/A 👻|
 |[`comma-dangle`](https://eslint.org/docs/rules/comma-dangle)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`comma-spacing`](https://eslint.org/docs/rules/comma-spacing)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`comma-style`](https://eslint.org/docs/rules/comma-style)|error 🚨|error 🚨|error 🚨|error 🚨|
@@ -89,7 +89,7 @@
 |[`import/no-useless-path-segments`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`import/no-webpack-loader-syntax`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`import/order`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md)|error 🚨|error 🚨|N/A 👻|N/A 👻|
-|[`import/prefer-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md)|warn ⚠️|error 🚨|N/A 👻|N/A 👻|
+|[`import/prefer-default-export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md)|off|error 🚨|N/A 👻|N/A 👻|
 |[`import/unambiguous`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/unambiguous.md)|off|off|N/A 👻|N/A 👻|
 |[`indent`](https://eslint.org/docs/rules/indent)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`init-declarations`](https://eslint.org/docs/rules/init-declarations)|off|off|N/A 👻|N/A 👻|

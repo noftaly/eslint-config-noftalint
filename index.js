@@ -11,11 +11,11 @@ module.exports = {
   ].map(require.resolve),
   reportUnusedDisableDirectives: true,
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 'latest',
     sourceType: 'module',
   },
   env: {
-    es6: true,
+    es2022: true,
     node: true,
   },
   overrides: [

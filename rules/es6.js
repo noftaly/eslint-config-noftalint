@@ -31,6 +31,12 @@ module.exports = {
     // Enforce the spacing around the * in generator functions
     'generator-star-spacing': ['error', { before: true, after: true }],
 
+    // Require or disallow logical assignment logical operator shorthand
+    'logical-assignment-operators': ['error', 'always', {
+      // TODO: enable?
+      enforceForIfStatements: false,
+    }],
+
     // Disallow modifying variables of class declarations
     'no-class-assign': 'error',
 

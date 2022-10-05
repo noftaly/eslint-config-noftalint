@@ -101,6 +101,7 @@
 |[`lines-around-comment`](https://eslint.org/docs/rules/lines-around-comment)|off|off|N/A 👻|N/A 👻|
 |[`lines-around-directive`](https://eslint.org/docs/rules/lines-around-directive)|N/A 👻|error 🚨|N/A 👻|N/A 👻|
 |[`lines-between-class-members`](https://eslint.org/docs/rules/lines-between-class-members)|error 🚨|error 🚨|N/A 👻|error 🚨|
+|[`logical-assignment-operators`](https://eslint.org/docs/rules/logical-assignment-operators)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`max-classes-per-file`](https://eslint.org/docs/rules/max-classes-per-file)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`max-depth`](https://eslint.org/docs/rules/max-depth)|off|off|N/A 👻|N/A 👻|
 |[`max-len`](https://eslint.org/docs/rules/max-len)|error 🚨|error 🚨|error 🚨|N/A 👻|
@@ -403,6 +404,7 @@
 |[`unicorn/no-static-only-class`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-static-only-class.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-thenable`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-thenable.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-this-assignment`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/no-unnecessary-await`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-unreadable-array-destructuring`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-array-destructuring.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-unreadable-iife`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-unsafe-regex`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unsafe-regex.md)|off|N/A 👻|N/A 👻|N/A 👻|
@@ -466,6 +468,7 @@
 |[`unicorn/require-number-to-fixed-digits-argument`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/require-post-message-target-origin`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-post-message-target-origin.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/string-content`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/string-content.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/switch-case-braces`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-braces.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/template-indent`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/template-indent.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/text-encoding-identifier-case`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/text-encoding-identifier-case.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/throw-new-error`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|

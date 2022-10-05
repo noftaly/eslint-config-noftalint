@@ -118,6 +118,9 @@ module.exports = {
     // Disallow assigning this to a variable
     'unicorn/no-this-assignment': 'error',
 
+    // Disallow awaiting non-promise values
+    'unicorn/no-unnecessary-await': 'error',
+
     // Disallow unreadable array destructuring.
     'unicorn/no-unreadable-array-destructuring': 'warn',
 
@@ -310,6 +313,9 @@ module.exports = {
 
     // Enforce better string content (replace "\'" by "’")
     'unicorn/string-content': 'off',
+
+    // Enforce consistent brace style for case clauses
+    'unicorn/switch-case-braces': ['error', 'avoid'],
 
     // Fix whitespace-insensitive template indentation
     'unicorn/template-indent': ['error', {

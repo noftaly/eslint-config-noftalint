@@ -159,6 +159,7 @@
 |[`no-empty-character-class`](https://eslint.org/docs/rules/no-empty-character-class)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-empty-function`](https://eslint.org/docs/rules/no-empty-function)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-empty-pattern`](https://eslint.org/docs/rules/no-empty-pattern)|error 🚨|error 🚨|N/A 👻|error 🚨|
+|[`no-empty-static-block`](https://eslint.org/docs/rules/no-empty-static-block)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`no-eq-null`](https://eslint.org/docs/rules/no-eq-null)|off|off|N/A 👻|N/A 👻|
 |[`no-eval`](https://eslint.org/docs/rules/no-eval)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-ex-assign`](https://eslint.org/docs/rules/no-ex-assign)|error 🚨|error 🚨|N/A 👻|error 🚨|
@@ -203,6 +204,7 @@
 |[`no-nested-ternary`](https://eslint.org/docs/rules/no-nested-ternary)|off|error 🚨|N/A 👻|N/A 👻|
 |[`no-new`](https://eslint.org/docs/rules/no-new)|off|error 🚨|N/A 👻|error 🚨|
 |[`no-new-func`](https://eslint.org/docs/rules/no-new-func)|error 🚨|error 🚨|N/A 👻|error 🚨|
+|[`no-new-native-nonconstructor`](https://eslint.org/docs/rules/no-new-native-nonconstructor)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`no-new-object`](https://eslint.org/docs/rules/no-new-object)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`no-new-require`](https://eslint.org/docs/rules/no-new-require)|N/A 👻|error 🚨|N/A 👻|N/A 👻|
 |[`no-new-symbol`](https://eslint.org/docs/rules/no-new-symbol)|error 🚨|error 🚨|error 🚨|error 🚨|

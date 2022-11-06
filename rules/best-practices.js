@@ -72,6 +72,9 @@ module.exports = {
     // Disallow empty destructuring patterns
     'no-empty-pattern': 'error',
 
+    // Disallow empty static blocks
+    'no-empty-static-block': 'error',
+
     // Disallow comparisons to null without a type-checking operator
     'no-eq-null': 'off',
 

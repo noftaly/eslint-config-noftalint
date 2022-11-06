@@ -87,6 +87,9 @@ module.exports = {
     // Disallow characters which are made with multiple code points in character class syntax
     'no-misleading-character-class': 'off',
 
+    // Disallow new operators with global non-constructor functions
+    'no-new-native-nonconstructor': 'error',
+
     // Disallow calling global object properties as functions
     'no-obj-calls': 'error',
 

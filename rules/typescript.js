@@ -355,6 +355,9 @@ module.exports = {
     // TODO: Change?
     '@typescript-eslint/no-unsafe-call': 'off',
 
+    // Disallow unsafe declaration merging
+    '@typescript-eslint/no-unsafe-declaration-merging': 'error',
+
     // Disallows member access on any typed variables
     // TODO: Change?
     '@typescript-eslint/no-unsafe-member-access': 'off',
@@ -437,8 +440,8 @@ module.exports = {
     // Enforce template literal expressions to be of string type
     '@typescript-eslint/restrict-template-expressions': 'off',
 
-    // Enforces that members of a type union/intersection are sorted alphabetically
-    '@typescript-eslint/sort-type-union-intersection-members': 'error',
+    // Enforce constituents of a type union/intersection to be sorted alphabetically
+    '@typescript-eslint/sort-type-constituents': 'error',
 
     // Restricts the types allowed in boolean expressions
     // Requires `strictNullChecks` to work.

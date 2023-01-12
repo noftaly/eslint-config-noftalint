@@ -48,6 +48,7 @@
 |[`id-length`](https://eslint.org/docs/rules/id-length)|off|off|N/A 👻|N/A 👻|
 |[`id-match`](https://eslint.org/docs/rules/id-match)|off|off|N/A 👻|N/A 👻|
 |[`implicit-arrow-linebreak`](https://eslint.org/docs/rules/implicit-arrow-linebreak)|off|error 🚨|N/A 👻|N/A 👻|
+|[`import/consistent-type-specifier-style`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/consistent-type-specifier-style.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`import/default`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md)|off|off|N/A 👻|N/A 👻|
 |[`import/dynamic-import-chunkname`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md)|off|off|N/A 👻|N/A 👻|
 |[`import/export`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md)|error 🚨|error 🚨|N/A 👻|error 🚨|
@@ -69,6 +70,7 @@
 |[`import/no-deprecated`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md)|warn ⚠️|off|N/A 👻|N/A 👻|
 |[`import/no-duplicates`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`import/no-dynamic-require`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md)|off|error 🚨|N/A 👻|N/A 👻|
+|[`import/no-empty-named-blocks`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-empty-named-blocks.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`import/no-extraneous-dependencies`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`import/no-import-module-exports`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-import-module-exports.md)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`import/no-internal-modules`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md)|off|off|N/A 👻|N/A 👻|

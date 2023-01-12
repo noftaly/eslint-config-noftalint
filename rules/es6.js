@@ -24,8 +24,7 @@ module.exports = {
 
     // Require or disallow logical assignment logical operator shorthand
     'logical-assignment-operators': ['error', 'always', {
-      // TODO: enable?
-      enforceForIfStatements: false,
+      enforceForIfStatements: true,
     }],
 
     // Disallow modifying variables of class declarations

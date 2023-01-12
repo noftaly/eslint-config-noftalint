@@ -1,5 +1,3 @@
-// NOTE: We have to keep eslint-plugin-imports @2.23.4 because of https://github.com/import-js/eslint-plugin-import/issues/2249
-
 module.exports = {
   env: {
     es6: true,
@@ -25,6 +23,9 @@ module.exports = {
   },
 
   rules: {
+    // Enforces or bans the use of inline type-only markers for named imports.
+    'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
+
     // Ensure default import coupled with default export
     'import/default': 'off',
 
@@ -89,6 +90,9 @@ module.exports = {
 
     // Forbid require() calls with expressions
     'import/no-dynamic-require': 'off',
+
+    // Reports the use of empty named import blocks.
+    'import/no-empty-named-blocks': 'error',
 
     // Forbid the use of extraneous packages
     // Paths are treated both as absolute paths, and relative to process.cwd()
@@ -176,8 +180,6 @@ module.exports = {
 
     // Ensure absolute imports are above relative imports and that unassigned imports are ignored
     'import/order': ['error', {
-      // TODO(eslint-plugin-import): Uncomment when https://github.com/import-js/eslint-plugin-import/issues/2249 is fixed
-      // groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'type'],
       groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
       alphabetize: {
         order: 'asc',

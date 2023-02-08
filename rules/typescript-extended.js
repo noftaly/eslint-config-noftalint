@@ -81,6 +81,9 @@ module.exports = {
     'init-declarations': 'off',
     '@typescript-eslint/init-declarations': variables['init-declarations'],
 
+    'key-spacing': 'off',
+    '@typescript-eslint/key-spacing': style['key-spacing'],
+
     // Enforce consistent spacing before and after keywords
     'keyword-spacing': 'off',
     '@typescript-eslint/keyword-spacing': style['keyword-spacing'],

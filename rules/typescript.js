@@ -279,6 +279,9 @@ module.exports = {
     'no-implied-eval': 'off',
     '@typescript-eslint/no-implied-eval': 'error',
 
+    // Enforce the use of top-level import type qualifier when an import only has specifiers with inline type qualifiers
+    '@typescript-eslint/no-import-type-side-effects': 'error',
+
     // Disallows explicit type declarations for variables or parameters initialized to a number, string, or boolean
     '@typescript-eslint/no-inferrable-types': 'error',
 

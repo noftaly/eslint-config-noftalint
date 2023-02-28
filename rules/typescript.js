@@ -303,6 +303,9 @@ module.exports = {
       checksVoidReturn: false,
     }],
 
+    // Disallow enums from having both number and string members.
+    '@typescript-eslint/no-mixed-enums': 'error',
+
     // Disallow the use of custom TypeScript modules and namespaces
     '@typescript-eslint/no-namespace': ['error', {
       allowDeclarations: false,

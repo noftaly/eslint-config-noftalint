@@ -35,6 +35,10 @@ module.exports = {
       },
     ],
 
+    // Disallow or enforce spaces inside of blocks after opening block and before closing block.
+    'block-spacing': 'off',
+    '@typescript-eslint/block-spacing': style['block-spacing'],
+
     // Enforce consistent brace style for blocks
     'brace-style': 'off',
     '@typescript-eslint/brace-style': style['brace-style'],

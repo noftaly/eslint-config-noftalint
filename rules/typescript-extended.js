@@ -92,6 +92,10 @@ module.exports = {
     'keyword-spacing': 'off',
     '@typescript-eslint/keyword-spacing': style['keyword-spacing'],
 
+    // Require empty lines around comments.
+    'lines-around-comment': 'off',
+    '@typescript-eslint/lines-around-comment': style['lines-around-comment'],
+
     // Require or disallow an empty line between class members
     'lines-between-class-members': 'off',
     '@typescript-eslint/lines-between-class-members': buildOptionsFromOriginal(

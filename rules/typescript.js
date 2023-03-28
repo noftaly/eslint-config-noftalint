@@ -246,6 +246,9 @@ module.exports = {
     // Disallow duplicate enum member values
     '@typescript-eslint/no-duplicate-enum-values': 'error',
 
+    // Disallow duplicate constituents of union or intersection types.
+    '@typescript-eslint/no-duplicate-type-constituents': 'error',
+
     // Disallow the delete operator with computed key expressions
     '@typescript-eslint/no-dynamic-delete': 'error',
 

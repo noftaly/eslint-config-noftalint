@@ -80,7 +80,7 @@ module.exports = {
     'import/no-cycle': 'error',
 
     // Forbid default exports
-    'import/no-default-export': 'off',
+    'import/no-default-export': 'error',
 
     // Disallow use of jsdoc-marked-deprecated imports
     'import/no-deprecated': 'warn',

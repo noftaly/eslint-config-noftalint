@@ -377,6 +377,9 @@ module.exports = {
     // Disallow unsafe declaration merging
     '@typescript-eslint/no-unsafe-declaration-merging': 'error',
 
+    // Disallow comparing an enum value with a non-enum value.
+    '@typescript-eslint/no-unsafe-enum-comparison': 'error',
+
     // Disallows member access on any typed variables
     // TODO: Change?
     '@typescript-eslint/no-unsafe-member-access': 'off',

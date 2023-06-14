@@ -188,6 +188,9 @@ module.exports = {
     // TODO(node>=18): Enable.
     'unicorn/prefer-at': 'off',
 
+    // Prefer Blob#arrayBuffer() over FileReader#readAsArrayBuffer(…) and Blob#text() over FileReader#readAsText(…)
+    'unicorn/prefer-blob-reading-methods': 'error',
+
     // Prefer String#codePointAt(…) over String#charCodeAt(…) and String.fromCodePoint(…) over String.fromCharCode(…)
     'unicorn/prefer-code-point': 'error',
 

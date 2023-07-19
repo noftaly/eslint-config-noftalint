@@ -182,8 +182,7 @@ module.exports = {
     'unicorn/prefer-array-some': 'error',
 
     // Prefer .at() method for index access and String#charAt()
-    // TODO(node>=18): Enable.
-    'unicorn/prefer-at': 'off',
+    'unicorn/prefer-at': 'error',
 
     // Prefer Blob#arrayBuffer() over FileReader#readAsArrayBuffer(…) and Blob#text() over FileReader#readAsText(…)
     'unicorn/prefer-blob-reading-methods': 'error',
@@ -299,8 +298,7 @@ module.exports = {
     'unicorn/prefer-ternary': ['error', 'only-single-line'],
 
     // Prefer top-level await over top-level promises and async function calls
-    // TODO(node>=18): Enable.
-    'unicorn/prefer-top-level-await': 'off',
+    'unicorn/prefer-top-level-await': 'error',
 
     // Enforce throwing TypeError in type checking conditions.
     'unicorn/prefer-type-error': 'error',

@@ -341,9 +341,6 @@ module.exports = {
     'no-throw-literal': 'off',
     '@typescript-eslint/no-throw-literal': 'error',
 
-    // Disallow the use of type aliases
-    '@typescript-eslint/no-type-alias': 'off',
-
     // Flags unnecessary equality comparisons against boolean literals
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
 

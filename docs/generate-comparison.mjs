@@ -1,6 +1,5 @@
-const fs = require('node:fs').promises;
-const path = require('node:path');
-const { ESLint } = require('eslint');
+import fs from 'node:fs/promises';
+import { ESLint } from 'eslint';
 
 async function getRules(configuration) {
   const engine = new ESLint({
@@ -14,7 +13,10 @@ async function getRules(configuration) {
 
 function getRuleLink(ruleName) {
   if (!ruleName.includes('/'))
-    return `[\`${ruleName}\`](https://eslint.org/docs/rules/${ruleName})`;
+    return `[\`${ruleName}\`](https://eslint.org/docs/latest/rules/${ruleName})`;
+
+  if (ruleName.startsWith('@typescript-eslint/'))
+    return `[\`${ruleName}\`](https://typescript-eslint.io/rules/${ruleName.replace(/^@typescript-eslint\//, '')}.md)`;
 
   if (ruleName.startsWith('unicorn/'))
     return `[\`${ruleName}\`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/${ruleName.replace(/^unicorn\//, '')}.md)`;
@@ -55,35 +57,33 @@ function getRuleConfiguration(ruleset, ruleName) {
   return describeRuleValue(Array.isArray(rule) ? rule[0] : rule);
 }
 
-(async () => {
-  const noftalintRules = await getRules({ extends: ['../index.js'] });
-  const airbnbRules = await getRules({ extends: ['airbnb-base'] });
-  const googleRules = await getRules({ extends: ['google'] });
-  const standardRules = await getRules({ extends: ['standard'] });
+const noftalintRules = await getRules({ extends: ['../typescript.js'] });
+const airbnbRules = await getRules({ extends: ['airbnb-base'] });
+const googleRules = await getRules({ extends: ['google'] });
+const standardRules = await getRules({ extends: ['standard'] });
 
-  const ruleNames = [
-    ...new Set([
-      ...Object.keys(noftalintRules),
-      ...Object.keys(airbnbRules),
-      ...Object.keys(googleRules),
-      ...Object.keys(standardRules),
-    ]),
-  ].sort((a, b) => {
-    const valueA = a[0] === '@' ? a.slice(1) : a;
-    const valueB = b[0] === '@' ? b.slice(1) : b;
-    return valueA.localeCompare(valueB);
-  });
+const ruleNames = [
+  ...new Set([
+    ...Object.keys(noftalintRules),
+    ...Object.keys(airbnbRules),
+    ...Object.keys(googleRules),
+    ...Object.keys(standardRules),
+  ]),
+].sort((a, b) => {
+  const valueA = a[0] === '@' ? a.slice(1) : a;
+  const valueB = b[0] === '@' ? b.slice(1) : b;
+  return valueA.localeCompare(valueB);
+});
 
-  let docsContent = '| Rule | noftalint | Airbnb | Google | Standard |\n| ---- | --------- | ------ | ------ | -------- |\n';
-  for (const ruleName of ruleNames) {
-    docsContent += `|${getRuleLink(ruleName)}`
-      + `|${getRuleConfiguration(noftalintRules, ruleName)}`
-      + `|${getRuleConfiguration(airbnbRules, ruleName)}`
-      + `|${getRuleConfiguration(googleRules, ruleName)}`
-      + `|${getRuleConfiguration(standardRules, ruleName)}`
-      + '|\n';
-  }
+let docsContent = '| Rule | noftalint | Airbnb | Google | Standard |\n| ---- | --------- | ------ | ------ | -------- |\n';
+for (const ruleName of ruleNames) {
+  docsContent += `|${getRuleLink(ruleName)}`
+    + `|${getRuleConfiguration(noftalintRules, ruleName)}`
+    + `|${getRuleConfiguration(airbnbRules, ruleName)}`
+    + `|${getRuleConfiguration(googleRules, ruleName)}`
+    + `|${getRuleConfiguration(standardRules, ruleName)}`
+    + '|\n';
+}
 
-  await fs.writeFile(path.join(__dirname, 'comparison.md'), docsContent);
-  console.log('Comparison table updated!');
-})();
+await fs.writeFile('./comparison.md', docsContent);
+console.log('Comparison table updated!');

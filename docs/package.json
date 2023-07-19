@@ -1,11 +1,11 @@
 {
   "scripts": {
-    "generate-comparison": "node ./generate-comparison"
+    "generate-comparison": "node ./generate-comparison.mjs"
   },
   "dependencies": {
-    "eslint": "^8.28.0",
+    "eslint": "^8.45.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-config-standard": "^17.0.0"
+    "eslint-config-standard": "^17.1.0"
   }
 }

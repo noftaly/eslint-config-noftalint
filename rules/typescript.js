@@ -364,11 +364,9 @@ module.exports = {
     '@typescript-eslint/no-unsafe-argument': 'error',
 
     // Disallows assigning any to variables and properties
-    // TODO: Change?
     '@typescript-eslint/no-unsafe-assignment': 'off',
 
     // Disallows calling an any type value
-    // TODO: Change?
     '@typescript-eslint/no-unsafe-call': 'off',
 
     // Disallow unsafe declaration merging
@@ -378,11 +376,9 @@ module.exports = {
     '@typescript-eslint/no-unsafe-enum-comparison': 'error',
 
     // Disallows member access on any typed variables
-    // TODO: Change?
     '@typescript-eslint/no-unsafe-member-access': 'off',
 
     // Disallows returning any from a function
-    // TODO: Change?
     '@typescript-eslint/no-unsafe-return': 'off',
 
     // Disallow empty exports that don't change anything in a module file.

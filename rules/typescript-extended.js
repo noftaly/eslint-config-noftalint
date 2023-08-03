@@ -43,6 +43,10 @@ module.exports = {
     'brace-style': 'off',
     '@typescript-eslint/brace-style': style['brace-style'],
 
+    // Enforce that class methods use "this"
+    'class-methods-use-this': 'off',
+    '@typescript-eslint/class-methods-use-this': bestPractices['class-methods-use-this'],
+
     // Require or disallow trailing comma
     'comma-dangle': 'off',
     '@typescript-eslint/comma-dangle': buildOptionsFromOriginal(

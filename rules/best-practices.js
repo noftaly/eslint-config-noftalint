@@ -206,9 +206,6 @@ module.exports = {
     // Disallow use of assignment in return statement
     'no-return-assign': ['error', 'always'],
 
-    // Disallow redundant `return await`
-    'no-return-await': 'off',
-
     // Disallow use of `javascript:` urls.
     'no-script-url': 'error',
 

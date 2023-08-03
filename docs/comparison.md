@@ -232,7 +232,7 @@
 |[`no-restricted-properties`](https://eslint.org/docs/latest/rules/no-restricted-properties)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-restricted-syntax`](https://eslint.org/docs/latest/rules/no-restricted-syntax)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-return-assign`](https://eslint.org/docs/latest/rules/no-return-assign)|error 🚨|error 🚨|N/A 👻|error 🚨|
-|[`no-return-await`](https://eslint.org/docs/latest/rules/no-return-await)|off|error 🚨|N/A 👻|N/A 👻|
+|[`no-return-await`](https://eslint.org/docs/latest/rules/no-return-await)|N/A 👻|error 🚨|N/A 👻|N/A 👻|
 |[`no-script-url`](https://eslint.org/docs/latest/rules/no-script-url)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-self-assign`](https://eslint.org/docs/latest/rules/no-self-assign)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-self-compare`](https://eslint.org/docs/latest/rules/no-self-compare)|error 🚨|error 🚨|N/A 👻|error 🚨|
@@ -378,6 +378,7 @@
 |[`@typescript-eslint/block-spacing`](https://typescript-eslint.io/rules/block-spacing.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/brace-style`](https://typescript-eslint.io/rules/brace-style.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/class-literal-property-style`](https://typescript-eslint.io/rules/class-literal-property-style.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/class-methods-use-this`](https://typescript-eslint.io/rules/class-methods-use-this.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/comma-dangle`](https://typescript-eslint.io/rules/comma-dangle.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/comma-spacing`](https://typescript-eslint.io/rules/comma-spacing.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/consistent-generic-constructors`](https://typescript-eslint.io/rules/consistent-generic-constructors.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|

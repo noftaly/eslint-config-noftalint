@@ -416,7 +416,7 @@ module.exports = {
     '@typescript-eslint/prefer-namespace-keyword': 'error',
 
     // Enforce the usage of the nullish coalescing operator instead of logical chaining
-    '@typescript-eslint/prefer-nullish-coalescing': 'error',
+    '@typescript-eslint/prefer-nullish-coalescing': ['error', { ignoreConditionalTests: true }],
 
     // Prefer using concise optional chain expressions instead of chained logical ands
     '@typescript-eslint/prefer-optional-chain': 'error',

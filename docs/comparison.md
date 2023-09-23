@@ -207,12 +207,13 @@
 |[`no-new`](https://eslint.org/docs/latest/rules/no-new)|off|error 🚨|N/A 👻|error 🚨|
 |[`no-new-func`](https://eslint.org/docs/latest/rules/no-new-func)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-new-native-nonconstructor`](https://eslint.org/docs/latest/rules/no-new-native-nonconstructor)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
-|[`no-new-object`](https://eslint.org/docs/latest/rules/no-new-object)|error 🚨|error 🚨|error 🚨|error 🚨|
+|[`no-new-object`](https://eslint.org/docs/latest/rules/no-new-object)|N/A 👻|error 🚨|error 🚨|error 🚨|
 |[`no-new-require`](https://eslint.org/docs/latest/rules/no-new-require)|N/A 👻|error 🚨|N/A 👻|N/A 👻|
 |[`no-new-symbol`](https://eslint.org/docs/latest/rules/no-new-symbol)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`no-new-wrappers`](https://eslint.org/docs/latest/rules/no-new-wrappers)|error 🚨|error 🚨|error 🚨|error 🚨|
 |[`no-nonoctal-decimal-escape`](https://eslint.org/docs/latest/rules/no-nonoctal-decimal-escape)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`no-obj-calls`](https://eslint.org/docs/latest/rules/no-obj-calls)|error 🚨|error 🚨|N/A 👻|error 🚨|
+|[`no-object-constructor`](https://eslint.org/docs/latest/rules/no-object-constructor)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`no-octal`](https://eslint.org/docs/latest/rules/no-octal)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-octal-escape`](https://eslint.org/docs/latest/rules/no-octal-escape)|error 🚨|error 🚨|N/A 👻|error 🚨|
 |[`no-param-reassign`](https://eslint.org/docs/latest/rules/no-param-reassign)|off|error 🚨|N/A 👻|N/A 👻|

@@ -240,7 +240,7 @@ module.exports = {
     'no-nested-ternary': 'off',
 
     // Disallow use of the Object constructor
-    'no-new-object': 'error',
+    'no-object-constructor': 'error',
 
     // Disallow use of unary operators, ++ and --
     'no-plusplus': 'off',

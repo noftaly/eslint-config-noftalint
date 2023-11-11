@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noftalint",
-  "version": "2.19.2",
+  "version": "2.19.3",
   "description": "Noftaly's eslint configuration",
   "main": "index.js",
   "repository": "https://github.com/noftaly/eslint-config-noftalint",

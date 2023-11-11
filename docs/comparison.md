@@ -110,7 +110,7 @@
 |[`max-lines`](https://eslint.org/docs/latest/rules/max-lines)|warn ⚠️|off|N/A 👻|N/A 👻|
 |[`max-lines-per-function`](https://eslint.org/docs/latest/rules/max-lines-per-function)|off|off|N/A 👻|N/A 👻|
 |[`max-nested-callbacks`](https://eslint.org/docs/latest/rules/max-nested-callbacks)|error 🚨|off|N/A 👻|N/A 👻|
-|[`max-params`](https://eslint.org/docs/latest/rules/max-params)|warn ⚠️|off|N/A 👻|N/A 👻|
+|[`max-params`](https://eslint.org/docs/latest/rules/max-params)|off|off|N/A 👻|N/A 👻|
 |[`max-statements`](https://eslint.org/docs/latest/rules/max-statements)|off|off|N/A 👻|N/A 👻|
 |[`max-statements-per-line`](https://eslint.org/docs/latest/rules/max-statements-per-line)|error 🚨|off|N/A 👻|N/A 👻|
 |[`multiline-comment-style`](https://eslint.org/docs/latest/rules/multiline-comment-style)|off|off|N/A 👻|N/A 👻|
@@ -331,7 +331,7 @@
 |[`padding-line-between-statements`](https://eslint.org/docs/latest/rules/padding-line-between-statements)|off|off|N/A 👻|N/A 👻|
 |[`prefer-arrow-callback`](https://eslint.org/docs/latest/rules/prefer-arrow-callback)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`prefer-const`](https://eslint.org/docs/latest/rules/prefer-const)|error 🚨|error 🚨|error 🚨|error 🚨|
-|[`prefer-destructuring`](https://eslint.org/docs/latest/rules/prefer-destructuring)|error 🚨|error 🚨|N/A 👻|N/A 👻|
+|[`prefer-destructuring`](https://eslint.org/docs/latest/rules/prefer-destructuring)|off|error 🚨|N/A 👻|N/A 👻|
 |[`prefer-exponentiation-operator`](https://eslint.org/docs/latest/rules/prefer-exponentiation-operator)|error 🚨|error 🚨|N/A 👻|N/A 👻|
 |[`prefer-named-capture-group`](https://eslint.org/docs/latest/rules/prefer-named-capture-group)|error 🚨|off|N/A 👻|N/A 👻|
 |[`prefer-numeric-literals`](https://eslint.org/docs/latest/rules/prefer-numeric-literals)|error 🚨|error 🚨|N/A 👻|N/A 👻|
@@ -400,6 +400,7 @@
 |[`@typescript-eslint/keyword-spacing`](https://typescript-eslint.io/rules/keyword-spacing.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/lines-around-comment`](https://typescript-eslint.io/rules/lines-around-comment.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/lines-between-class-members`](https://typescript-eslint.io/rules/lines-between-class-members.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/max-params`](https://typescript-eslint.io/rules/max-params.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/member-delimiter-style`](https://typescript-eslint.io/rules/member-delimiter-style.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/member-ordering`](https://typescript-eslint.io/rules/member-ordering.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/method-signature-style`](https://typescript-eslint.io/rules/method-signature-style.md)|off|N/A 👻|N/A 👻|N/A 👻|
@@ -468,6 +469,7 @@
 |[`@typescript-eslint/padding-line-between-statements`](https://typescript-eslint.io/rules/padding-line-between-statements.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/parameter-properties`](https://typescript-eslint.io/rules/parameter-properties.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-as-const`](https://typescript-eslint.io/rules/prefer-as-const.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-destructuring`](https://typescript-eslint.io/rules/prefer-destructuring.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-enum-initializers`](https://typescript-eslint.io/rules/prefer-enum-initializers.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-for-of`](https://typescript-eslint.io/rules/prefer-for-of.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-function-type`](https://typescript-eslint.io/rules/prefer-function-type.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|

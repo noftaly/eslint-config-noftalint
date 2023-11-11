@@ -57,7 +57,8 @@ function getRuleConfiguration(ruleset, ruleName) {
   return describeRuleValue(Array.isArray(rule) ? rule[0] : rule);
 }
 
-const noftalintRules = await getRules({ extends: ['../typescript.js'] });
+// Re-add `index.js` after to re-enable rules that typescript-eslint extends and disables
+const noftalintRules = await getRules({ extends: ['../typescript.js', '../index.js'] });
 const airbnbRules = await getRules({ extends: ['airbnb-base'] });
 const googleRules = await getRules({ extends: ['google'] });
 const standardRules = await getRules({ extends: ['standard'] });

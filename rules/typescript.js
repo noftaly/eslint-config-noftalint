@@ -227,6 +227,8 @@ module.exports = {
       {
         selector: 'import',
         format: ['camelCase', 'PascalCase'],
+        leadingUnderscore: 'allow',
+        trailingUnderscore: 'allow',
       },
       {
         selector: 'typeLike',

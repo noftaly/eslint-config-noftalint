@@ -225,6 +225,10 @@ module.exports = {
         },
       },
       {
+        selector: 'import',
+        format: ['camelCase', 'PascalCase'],
+      },
+      {
         selector: 'typeLike',
         format: ['PascalCase'],
         leadingUnderscore: 'forbid',

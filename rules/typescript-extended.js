@@ -110,6 +110,9 @@ module.exports = {
       },
     ),
 
+    'max-params': 'off',
+    '@typescript-eslint/max-params': style['max-params'],
+
     // Disallow generic Array constructors
     'no-array-constructor': 'off',
     '@typescript-eslint/no-array-constructor': style['no-array-constructor'],
@@ -200,6 +203,9 @@ module.exports = {
     // Require or disallow padding lines between statements
     'padding-line-between-statements': 'off',
     '@typescript-eslint/padding-line-between-statements': style['padding-line-between-statements'],
+
+    'prefer-destructuring': 'off',
+    '@typescript-eslint/prefer-destructuring': es6['prefer-destructuring'],
 
     // Enforce the consistent use of either backticks, double, or single quotes
     quotes: 'off',

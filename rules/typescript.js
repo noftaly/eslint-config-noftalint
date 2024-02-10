@@ -238,6 +238,9 @@ module.exports = {
       },
     ],
 
+    // Disallow using the `delete` operator on array values.
+    '@typescript-eslint/no-array-delete': 'error',
+
     // Requires that .toString() is only called on objects which provide useful information when stringified
     '@typescript-eslint/no-base-to-string': ['error', {
       ignoredTypeNames: ['RegExp'],
@@ -387,8 +390,14 @@ module.exports = {
     // Disallows returning any from a function
     '@typescript-eslint/no-unsafe-return': 'off',
 
+    // Require unary negation to take a number.
+    '@typescript-eslint/no-unsafe-unary-minus': 'error',
+
     // Disallow empty exports that don't change anything in a module file.
     '@typescript-eslint/no-useless-empty-export': 'error',
+
+    // Disallow unnecessary template literals.
+    '@typescript-eslint/no-useless-template-literals': 'error',
 
     // Disallows the use of require statements except in import statements
     // Already set with import/no-commonjs + We don't want `import x = require()`
@@ -405,6 +414,10 @@ module.exports = {
 
     // Prefer initializing each enums member value
     '@typescript-eslint/prefer-enum-initializers': 'off',
+
+    // Enforce the use of Array.prototype.find() over Array.prototype.filter()[0] when looking for a single result.
+    '@typescript-eslint/prefer-find': 'error',
+    'unicorn/prefer-array-find': 'off',
 
     // Prefer a ‘for-of’ loop over a standard ‘for’ loop if the index is only used to access the array being iterated
     '@typescript-eslint/prefer-for-of': 'off',
@@ -426,6 +439,9 @@ module.exports = {
 
     // Prefer using concise optional chain expressions instead of chained logical ands
     '@typescript-eslint/prefer-optional-chain': 'error',
+
+    // Require using Error objects as Promise rejection reasons.
+    '@typescript-eslint/prefer-promise-reject-errors': 'error',
 
     // Requires that private members are marked as readonly if they're never modified outside of the constructor
     '@typescript-eslint/prefer-readonly': 'error',

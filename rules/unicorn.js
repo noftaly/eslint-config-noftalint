@@ -133,6 +133,9 @@ module.exports = {
     // Disallow unreadable IIFEs
     'unicorn/no-unreadable-iife': 'error',
 
+    // Enforce the use of built-in methods instead of unnecessary polyfills
+    'unicorn/no-unnecessary-polyfills': 'error',
+
     // Disallow unused object properties.
     'unicorn/no-unused-properties': 'error',
 

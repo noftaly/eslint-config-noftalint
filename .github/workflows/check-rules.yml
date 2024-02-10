@@ -20,5 +20,7 @@ jobs:
       - name: Find new rules
         run: npm run find-new-rules
 
-      - name: Find deprecated rules
-        run: npm run find-dep-rules
+      # Disabled until I find a long-term solution for the deprecation of ESLint and
+      # typescript-eslint's formatting rules.
+      # - name: Find deprecated rules
+      #   run: npm run find-dep-rules

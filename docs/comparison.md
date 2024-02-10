@@ -406,6 +406,7 @@
 |[`@typescript-eslint/method-signature-style`](https://typescript-eslint.io/rules/method-signature-style.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/naming-convention`](https://typescript-eslint.io/rules/naming-convention.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-array-constructor`](https://typescript-eslint.io/rules/no-array-constructor.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-array-delete`](https://typescript-eslint.io/rules/no-array-delete.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-base-to-string`](https://typescript-eslint.io/rules/no-base-to-string.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-confusing-non-null-assertion`](https://typescript-eslint.io/rules/no-confusing-non-null-assertion.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-confusing-void-expression`](https://typescript-eslint.io/rules/no-confusing-void-expression.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
@@ -458,11 +459,13 @@
 |[`@typescript-eslint/no-unsafe-enum-comparison`](https://typescript-eslint.io/rules/no-unsafe-enum-comparison.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-unsafe-member-access`](https://typescript-eslint.io/rules/no-unsafe-member-access.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-unsafe-return`](https://typescript-eslint.io/rules/no-unsafe-return.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-unsafe-unary-minus`](https://typescript-eslint.io/rules/no-unsafe-unary-minus.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-unused-expressions`](https://typescript-eslint.io/rules/no-unused-expressions.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-unused-vars`](https://typescript-eslint.io/rules/no-unused-vars.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-use-before-define`](https://typescript-eslint.io/rules/no-use-before-define.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-useless-constructor`](https://typescript-eslint.io/rules/no-useless-constructor.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-useless-empty-export`](https://typescript-eslint.io/rules/no-useless-empty-export.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/no-useless-template-literals`](https://typescript-eslint.io/rules/no-useless-template-literals.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/no-var-requires`](https://typescript-eslint.io/rules/no-var-requires.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/non-nullable-type-assertion-style`](https://typescript-eslint.io/rules/non-nullable-type-assertion-style.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/object-curly-spacing`](https://typescript-eslint.io/rules/object-curly-spacing.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
@@ -471,6 +474,7 @@
 |[`@typescript-eslint/prefer-as-const`](https://typescript-eslint.io/rules/prefer-as-const.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-destructuring`](https://typescript-eslint.io/rules/prefer-destructuring.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-enum-initializers`](https://typescript-eslint.io/rules/prefer-enum-initializers.md)|off|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-find`](https://typescript-eslint.io/rules/prefer-find.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-for-of`](https://typescript-eslint.io/rules/prefer-for-of.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-function-type`](https://typescript-eslint.io/rules/prefer-function-type.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-includes`](https://typescript-eslint.io/rules/prefer-includes.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
@@ -478,6 +482,7 @@
 |[`@typescript-eslint/prefer-namespace-keyword`](https://typescript-eslint.io/rules/prefer-namespace-keyword.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-nullish-coalescing`](https://typescript-eslint.io/rules/prefer-nullish-coalescing.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-optional-chain`](https://typescript-eslint.io/rules/prefer-optional-chain.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`@typescript-eslint/prefer-promise-reject-errors`](https://typescript-eslint.io/rules/prefer-promise-reject-errors.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-readonly`](https://typescript-eslint.io/rules/prefer-readonly.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-readonly-parameter-types`](https://typescript-eslint.io/rules/prefer-readonly-parameter-types.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`@typescript-eslint/prefer-reduce-type-parameter`](https://typescript-eslint.io/rules/prefer-reduce-type-parameter.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
@@ -546,6 +551,7 @@
 |[`unicorn/no-this-assignment`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-typeof-undefined`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-typeof-undefined.md)|off|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-unnecessary-await`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
+|[`unicorn/no-unnecessary-polyfills`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-unreadable-array-destructuring`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-array-destructuring.md)|warn ⚠️|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-unreadable-iife`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|
 |[`unicorn/no-unused-properties`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unused-properties.md)|error 🚨|N/A 👻|N/A 👻|N/A 👻|

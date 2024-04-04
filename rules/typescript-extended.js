@@ -62,6 +62,10 @@ module.exports = {
     'comma-spacing': 'off',
     '@typescript-eslint/comma-spacing': style['comma-spacing'],
 
+    // Require `return` statements to either always or never specify values.
+    'consistent-return': 'off',
+    '@typescript-eslint/consistent-return': bestPractices['consistent-return'],
+
     // Enforce default parameters to be last
     'default-param-last': 'off',
     '@typescript-eslint/default-param-last': bestPractices['default-param-last'],

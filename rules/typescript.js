@@ -348,7 +348,7 @@ module.exports = {
 
     // Disallow throwing literals as exceptions
     'no-throw-literal': 'off',
-    '@typescript-eslint/no-throw-literal': 'error',
+    '@typescript-eslint/only-throw-error': 'error',
 
     // Flags unnecessary equality comparisons against boolean literals
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
@@ -501,5 +501,8 @@ module.exports = {
 
     // Warns for any two overloads that could be unified into one by using a union or an optional/rest parameter
     '@typescript-eslint/unified-signatures': 'error',
+
+    // Enforce typing arguments in `.catch()` callbacks as `unknown`.
+    '@typescript-eslint/use-unknown-in-catch-callback-variable': 'error',
   },
 };

@@ -45,6 +45,9 @@ module.exports = {
     // Enforce specifying rules to disable in eslint-disable comments.
     'unicorn/no-abusive-eslint-disable': 'error',
 
+    // Disallow anonymous functions and classes as the default export
+    'unicorn/no-anonymous-default-export': 'error',
+
     // Prevent passing a function reference directly to iterator methods.
     'unicorn/no-array-callback-reference': 'off',
 
@@ -62,6 +65,9 @@ module.exports = {
 
     // Forbid member access from await expression
     'unicorn/no-await-expression-member': 'error',
+
+    // Disallow using await in Promise method parameters
+    'unicorn/no-await-in-promise-methods': 'error',
 
     // Do not use leading/trailing space between console.log parameters.
     'unicorn/no-console-spaces': 'warn',
@@ -111,6 +117,9 @@ module.exports = {
 
     // Disallow process.exit().
     'unicorn/no-process-exit': 'off',
+
+    // Disallow passing single-element arrays to Promise methods
+    'unicorn/no-single-promise-in-promise-methods': 'error',
 
     // Forbid classes that only have static members
     'unicorn/no-static-only-class': 'error',
